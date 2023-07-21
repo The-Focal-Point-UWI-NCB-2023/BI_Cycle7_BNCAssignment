@@ -4,7 +4,8 @@ summary(data)
 data$temp = as.factor(data$age)
 data$temp <- NULL
 
-# Data seems clean
+# Remove age 0s
+data <- data[data$age>20,]
 
 # ageSum <- as.vector(summary(data$age))
 # ageMin <- ageSum[1]
@@ -43,6 +44,6 @@ data$age <- as.factor(ifelse(
 
 # Visualization (Before|After)
 hist(data$temp, main = "Age Before Discritization")
-hist(data$temp, main = "Age Before Discritization")
+hist(data$age, main = "Age After Discritization")
 
 data$temp <- NULL
