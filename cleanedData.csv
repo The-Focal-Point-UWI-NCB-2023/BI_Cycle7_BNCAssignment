@@ -1,0 +1,1124 @@
+"RefNum","agerange","age","job","marital","education","balance","housing","loan","month","duration","deposit","lead","product","qualified","contacted","won","loanvalue","NPS","day","duration_temp","duration_before","date","last_deposit"
+"10023467","41-60",58,"management","married","tertiary",-71,"yes","yes","january",4,5,1,"auto ",1,1,1,2453,10,31,4,261,2019-01-31,1632
+"10023468","41-60",44,"technician","single","secondary",-99,"yes","no","february",3,0,1,"auto ",1,1,1,2586,10,28,3,151,2019-02-28,1604
+"10023469","31-40",33,"entrepreneur","married","secondary",-99,"yes","no","march",1,1,1,"auto ",1,1,0,6530,0,31,1,76,2019-03-31,1573
+"10023470","41-60",47,"blue-collar","married","tertiary",-79,"yes","yes","april",2,0,1,"auto ",1,1,0,2476,0,30,2,92,2019-04-30,1543
+"10023471","31-40",33,"","single","primary",-99,"no","no","may",3,0,1,"auto ",1,1,0,4384,0,31,3,198,2019-05-31,1512
+"10023472","31-40",35,"management","married","tertiary",-96,"yes","yes","june",2,7,1,"auto ",1,1,0,4080,0,30,2,139,2019-06-30,1482
+"10023473","18-30",28,"management","single","tertiary",-93,"yes","no","july",4,0,1,"auto ",1,1,0,2127,0,31,4,217,2019-07-31,1451
+"10023474","41-60",42,"entrepreneur","divorced","tertiary",-99,"yes","yes","august",6,0,1,"auto ",1,1,0,5699,0,31,6,380,2019-08-31,1420
+"10023475","41-60",58,"retired","married","primary",-98,"yes","yes","september",1,6,1,"auto ",1,1,0,3237,0,30,1,50,2019-09-30,1390
+"10023476","41-60",43,"technician","single","secondary",-91,"yes","no","october",1,9,1,"auto ",1,1,0,2558,0,31,1,55,2019-10-31,1359
+"10023477","41-60",41,"admin","divorced","secondary",-96,"yes","no","november",4,7,1,"auto ",1,1,0,2298,0,30,4,222,2019-11-30,1329
+"10023478","18-30",29,"admin","single","secondary",-94,"yes","no","december",2,1,1,"auto ",1,1,0,3397,0,31,2,137,2019-12-31,1298
+"10023479","41-60",53,"technician","married","secondary",-99,"yes","yes","january",9,0,1,"auto ",1,1,0,2106,0,31,9,517,2019-01-31,1632
+"10023480","41-60",58,"technician","married","primary",-98,"yes","yes","february",1,2,0,"no product",0,0,0,2877,0,28,1,71,2019-02-28,1604
+"10023481","41-60",57,"services","married","secondary",-97,"yes","yes","march",3,4,0,"no product",0,0,0,2226,0,31,3,174,2019-03-31,1573
+"10023482","41-60",51,"retired","married","primary",-96,"yes","yes","april",6,1,0,"no product",0,0,0,2880,0,30,6,353,2019-04-30,1543
+"10023483","41-60",45,"admin","single","primary",-99,"yes","no","may",2,0,0,"no product",0,0,0,2434,0,31,2,98,2019-05-31,1512
+"10023484","41-60",57,"blue-collar","married","primary",-99,"yes","yes","june",1,1,0,"no product",0,0,0,4246,0,30,1,38,2019-06-30,1482
+"10023485","41-60",60,"retired","married","primary",-98,"yes","yes","july",4,0,0,"no product",0,0,0,3047,0,31,4,219,2019-07-31,1451
+"10023486","31-40",33,"services","married","secondary",-99,"yes","no","august",1,0,0,"no product",0,0,0,2303,0,31,1,54,2019-08-31,1420
+"10023487","18-30",28,"blue-collar","married","secondary",-90,"yes","no","september",4,17,0,"no product",0,0,0,3659,0,30,4,262,2019-09-30,1390
+"10023488","41-60",56,"management","married","tertiary",-89,"yes","yes","october",3,3,0,"no product",0,0,0,2100,0,31,3,164,2019-10-31,1359
+"10023489","31-40",32,"blue-collar","single","primary",-99,"yes","no","november",3,0,1,"mortgage",1,1,0,7624,0,30,3,160,2019-11-30,1329
+"10023490","18-30",25,"services","married","secondary",-99,"yes","no","december",6,0,1,"mortgage",1,1,0,8694,0,31,6,342,2019-12-31,1298
+"10023491","31-40",40,"retired","married","primary",-99,"yes","no","january",3,0,0,"no product",0,0,0,0,0,31,3,181,2019-01-31,1632
+"10023492","41-60",44,"admin","married","secondary",-104,"yes","yes","february",3,7,0,"no product",0,0,0,0,0,28,3,172,2019-02-28,1604
+"10023493","31-40",39,"management","single","tertiary",-96,"yes","no","march",5,3,0,"no product",0,0,0,0,0,31,5,296,2019-03-31,1573
+"10023494","41-60",52,"entrepreneur","married","secondary",-98,"yes","yes","april",2,6,0,"no product",0,0,0,0,0,30,2,127,2019-04-30,1543
+"10023495","41-60",46,"management","single","secondary",-102,"yes","no","may",4,8,0,"no product",0,0,0,0,0,31,4,255,2019-05-31,1512
+"10023496","31-40",36,"technician","single","secondary",-96,"yes","no","june",6,11,1,"mortgage",1,0,0,4357,0,30,6,348,2019-06-30,1482
+"10023497","41-60",57,"technician","married","secondary",-88,"no","yes","july",4,13,1,"mortgage",1,0,0,6895,0,31,4,225,2019-07-31,1451
+"10023498","41-60",49,"management","married","tertiary",-94,"yes","yes","august",4,2,1,"mortgage",1,0,0,7632,0,31,4,230,2019-08-31,1420
+"10023499","41-60",60,"admin","married","secondary",-99,"yes","yes","september",3,0,1,"mortgage",1,0,0,9753,0,30,3,208,2019-09-30,1390
+"10023500","41-60",59,"blue-collar","married","secondary",-99,"yes","yes","october",4,0,1,"mortgage",1,0,0,2257,0,31,4,226,2019-10-31,1359
+"10023501","41-60",51,"management","married","tertiary",39,"yes","yes","november",6,19,1,"mortgage",1,1,0,12353,0,30,6,336,2019-11-30,1329
+"10023502","41-60",57,"technician","divorced","secondary",-98,"yes","no","december",4,7,1,"mortgage",1,1,0,2356,0,31,4,242,2019-12-31,1298
+"10023503","18-30",25,"blue-collar","married","secondary",-99,"yes","no","january",6,7,1,"mortgage",1,1,0,7654,0,31,6,365,2019-01-31,1632
+"10023504","41-60",53,"technician","married","secondary",-99,"no","yes","february",4.50311665182547,7,1,"mortgage",1,1,0,7854,0,28,28,1666,2019-02-28,1604
+"10023505","31-40",36,"admin","divorced","secondary",-93,"yes","no","march",10,0,1,"unsecured ",1,1,0,2458,0,31,10,577,2019-03-31,1573
+"10023506","31-40",37,"admin","single","secondary",-99,"yes","no","april",2,0,1,"unsecured ",1,1,0,2893,0,30,2,137,2019-04-30,1543
+"10023507","41-60",44,"services","divorced","secondary",-65,"yes","no","may",3,8,1,"unsecured ",1,1,0,2476,0,31,3,160,2019-05-31,1512
+"10023508","41-60",50,"management","married","secondary",-99,"yes","yes","june",3,1,1,"unsecured ",1,1,0,4384,0,30,3,180,2019-06-30,1482
+"10023509","41-60",60,"blue-collar","married","primary",-98,"yes","yes","july",0,5,1,"unsecured ",1,1,0,4080,0,31,0,22,2019-07-31,1451
+"10023510","41-60",54,"retired","married","secondary",-92,"yes","yes","august",4.50311665182547,5,1,"unsecured ",0,1,0,2127,0,31,25,1492,2019-08-31,1420
+"10023511","41-60",58,"retired","married","primary",-98,"yes","yes","september",10,7,1,"unsecured ",0,1,0,2586,0,30,10,616,2019-09-30,1390
+"10023512","31-40",36,"admin","single","primary",-102,"yes","no","october",4,7,1,"unsecured ",0,1,0,6530,0,31,4,242,2019-10-31,1359
+"10023513","41-60",58,"self-employed","married","tertiary",-104,"yes","yes","november",6,4,1,"unsecured ",0,1,0,2476,0,30,6,355,2019-11-30,1329
+"10023514","41-60",44,"technician","married","secondary",-99,"yes","yes","december",4,0,1,"unsecured ",0,1,0,4384,0,31,4,225,2019-12-31,1298
+"10023515","41-60",55,"technician","divorced","secondary",-99,"no","no","january",3,0,1,"unsecured ",0,1,0,4080,0,31,3,160,2019-01-31,1632
+"10023516","18-30",29,"management","single","tertiary",-99,"yes","no","february",6,0,1,"unsecured ",0,1,0,2127,0,28,6,363,2019-02-28,1604
+"10023517","41-60",54,"blue-collar","married","secondary",-82,"yes","yes","march",4,7,1,"unsecured ",0,1,0,5699,0,31,4,266,2019-03-31,1573
+"10023518","41-60",48,"management","divorced","tertiary",-102,"yes","yes","april",4,8,1,"auto ",1,1,0,3237,0,30,4,253,2019-04-30,1543
+"10023519","31-40",32,"management","married","tertiary",-99,"yes","yes","may",3,0,1,"auto ",1,1,0,2558,0,31,3,179,2019-05-31,1512
+"10023520","41-60",42,"admin","single","secondary",-100,"yes","no","june",4.50311665182547,7,1,"auto ",1,1,0,2298,0,30,13,787,2019-06-30,1482
+"10023521","18-30",24,"technician","single","secondary",-101,"yes","no","july",2,7,1,"auto ",1,1,0,3397,0,31,2,145,2019-07-31,1451
+"10023522","31-40",38,"entrepreneur","single","tertiary",-96,"no","no","august",3,7,1,"auto ",1,1,0,2106,0,31,3,174,2019-08-31,1420
+"10023523","31-40",38,"management","single","tertiary",-94,"yes","no","september",2,8,1,"auto ",1,1,0,2586,0,30,2,104,2019-09-30,1390
+"10023524","41-60",47,"blue-collar","married","primary",-95,"yes","yes","october",0,1,1,"auto ",0,0,0,6530,0,31,0,13,2019-10-31,1359
+"10023525","31-40",40,"blue-collar","single","primary",-99,"yes","no","november",3,1,1,"auto ",1,0,0,2476,0,30,3,185,2019-11-30,1329
+"10023526","41-60",46,"services","married","primary",-97,"yes","yes","december",4.50311665182547,0,1,"auto ",1,0,0,4384,0,31,30,1778,2019-12-31,1298
+"10023527","31-40",32,"admin","married","tertiary",-99,"yes","yes","january",2,0,1,"auto ",0,0,0,4080,0,31,2,138,2019-01-31,1632
+"10023528","41-60",53,"technician","divorced","secondary",-86,"yes","no","february",4.50311665182547,11,1,"auto ",1,0,0,2127,0,28,14,812,2019-02-28,1604
+"10023529","41-60",57,"blue-collar","married","primary",-96,"yes","yes","march",3,10,1,"auto ",1,0,0,5699,0,31,3,164,2019-03-31,1573
+"10023530","31-40",33,"services","married","secondary",-89,"yes","no","april",7,8,1,"auto ",1,0,0,3237,0,30,7,391,2019-04-30,1543
+"10023531","41-60",49,"blue-collar","married","primary",-97,"yes","yes","may",6,23,1,"auto ",1,0,0,2558,0,31,6,357,2019-05-31,1512
+"10023532","41-60",51,"management","married","tertiary",-14,"yes","yes","june",2,18,1,"auto ",0,0,0,2298,0,30,2,91,2019-06-30,1482
+"10023533","41-60",60,"retired","married","tertiary",-98,"no","yes","july",9,1,0,"no product",0,0,0,3397,0,31,9,528,2019-07-31,1451
+"10023534","41-60",59,"management","divorced","tertiary",-98,"yes","yes","august",5,6,1,"auto ",1,0,0,2106,0,31,5,273,2019-08-31,1420
+"10023535","41-60",55,"technician","married","secondary",-83,"yes","yes","september",3,89,1,"auto ",1,0,0,4080,0,30,3,158,2019-09-30,1390
+"10023536","31-40",35,"blue-collar","single","secondary",60,"yes","no","october",3,199,0,"no product",0,0,0,2127,0,31,3,177,2019-10-31,1359
+"10023537","41-60",57,"blue-collar","married","secondary",-21,"yes","yes","november",4,8,1,"mortgage",1,0,0,5699,0,30,4,258,2019-11-30,1329
+"10023538","31-40",31,"services","married","secondary",-99,"yes","no","december",3,1,1,"mortgage",1,0,0,3237,0,31,3,172,2019-12-31,1298
+"10023539","41-60",54,"management","married","secondary",-96,"yes","yes","january",3,1,1,"mortgage",1,0,0,2558,0,31,3,154,2019-01-31,1632
+"10023540","41-60",55,"blue-collar","married","primary",-99,"yes","yes","february",5,4,1,"mortgage",1,0,0,2298,0,28,5,291,2019-02-28,1604
+"10023541","41-60",43,"technician","married","secondary",-74,"yes","yes","march",3,20,0,"no product",0,0,0,3397,0,31,3,181,2019-03-31,1573
+"10023542","41-60",53,"technician","married","secondary",-94,"yes","yes","april",3,11,0,"no product",0,0,0,2106,0,30,3,176,2019-04-30,1543
+"10023543","41-60",44,"blue-collar","married","secondary",-92,"no","yes","may",4,5,1,"mortgage",1,0,0,8954,0,31,4,211,2019-05-31,1512
+"10023544","41-60",55,"services","divorced","secondary",-98,"no","no","june",6,0,1,"mortgage",1,0,0,3678,0,30,6,349,2019-06-30,1482
+"10023545","41-60",49,"services","divorced","secondary",-99,"yes","no","july",5,0,1,"mortgage",0,0,0,4853,0,31,5,272,2019-07-31,1451
+"10023546","41-60",55,"services","divorced","secondary",-99,"yes","no","august",3,0,1,"mortgage",0,0,0,8675,0,31,3,208,2019-08-31,1420
+"10023547","41-60",45,"admin","single","secondary",-97,"yes","no","september",3,4,1,"mortgage",0,0,0,9764,0,30,3,193,2019-09-30,1390
+"10023548","41-60",47,"services","divorced","secondary",-97,"no","no","october",4,7,1,"mortgage",0,0,0,2457,0,31,4,212,2019-10-31,1359
+"10023549","41-60",42,"technician","single","secondary",-90,"yes","no","november",0,29,1,"mortgage",0,0,0,3678,0,30,0,20,2019-11-30,1329
+"10023550","41-60",59,"admin","married","secondary",-68,"yes","yes","december",4.50311665182547,13,1,"mortgage",1,0,0,9765,0,31,17,1042,2019-12-31,1298
+"10023551","41-60",46,"self-employed","married","tertiary",-97,"yes","yes","january",4,3,1,"unsecured ",1,0,0,4080,0,31,4,246,2019-01-31,1632
+"10023552","41-60",51,"blue-collar","married","primary",-97,"yes","yes","february",9,2,1,"unsecured ",1,0,0,2127,0,28,9,529,2019-02-28,1604
+"10023553","41-60",56,"admin","married","secondary",-99,"no","yes","march",4.50311665182547,5,1,"unsecured ",1,1,0,5699,0,31,24,1467,2019-03-31,1573
+"10023554","41-60",41,"technician","married","secondary",-83,"yes","yes","april",4.50311665182547,3,0,"no product",0,0,0,3237,0,30,23,1389,2019-04-30,1543
+"10023555","41-60",46,"management","divorced","secondary",-99,"yes","no","may",3,2,0,"no product",0,0,0,2558,0,31,3,188,2019-05-31,1512
+"10023556","41-60",57,"retired","married","secondary",-93,"yes","yes","june",3,3,0,"no product",0,0,0,0,0,30,3,180,2019-06-30,1482
+"10023557","41-60",42,"management","single","secondary",-99,"no","no","july",1,2,0,"no product",0,0,0,0,0,31,1,48,2019-07-31,1451
+"10023558","18-30",30,"technician","married","secondary",-97,"yes","no","august",4,4,0,"no product",0,0,0,0,0,31,4,213,2019-08-31,1420
+"10023559","41-60",60,"admin","married","secondary",-95,"yes","yes","september",10,2,0,"no product",0,0,0,0,0,30,10,583,2019-09-30,1390
+"10023560","41-60",60,"blue-collar","married","primary",-99,"yes","yes","october",4,7,0,"no product",0,0,0,0,0,31,4,221,2019-10-31,1359
+"10023561","41-60",57,"entrepreneur","divorced","secondary",-100,"no","no","november",3,6,0,"no product",0,0,0,0,0,30,3,173,2019-11-30,1329
+"10023562","31-40",36,"management","married","tertiary",-98,"yes","yes","december",7,4,0,"no product",0,0,0,0,0,31,7,426,2019-12-31,1298
+"10023563","41-60",55,"blue-collar","married","secondary",-94,"no","yes","january",5,4,0,"no product",0,0,0,0,0,31,5,287,2019-01-31,1632
+"10023564","41-60",60,"retired","married","tertiary",-98,"yes","yes","february",2,0,1,"mortgage",1,1,0,7543,0,28,2,101,2019-02-28,1604
+"10023565","31-40",39,"technician","married","secondary",-99,"yes","no","march",3,0,1,"mortgage",0,1,0,6689,0,31,3,203,2019-03-31,1573
+"10023566","41-60",46,"management","married","tertiary",-96,"yes","yes","april",3,8,1,"mortgage",1,1,0,4376,0,30,3,197,2019-04-30,1543
+"10023567","41-60",44,"blue-collar","married","secondary",-108,"yes","yes","may",4,7,1,"mortgage",0,1,0,6895,0,31,4,257,2019-05-31,1512
+"10023568","41-60",53,"blue-collar","married","primary",-98,"no","yes","june",2,2,1,"mortgage",1,1,0,7632,0,30,2,124,2019-06-30,1482
+"10023569","41-60",52,"blue-collar","married","primary",-98,"yes","yes","july",4,3,1,"mortgage",1,1,0,9753,0,31,4,229,2019-07-31,1451
+"10023570","41-60",59,"blue-collar","married","primary",-97,"yes","yes","august",1,0,1,"mortgage",1,1,0,2257,0,31,1,55,2019-08-31,1420
+"10023571","18-30",27,"technician","single","tertiary",-99,"yes","no","september",7,0,0,"no product",0,0,0,12353,0,30,7,400,2019-09-30,1390
+"10023572","41-60",44,"blue-collar","married","secondary",-99,"yes","yes","october",3,2,1,"auto ",1,1,0,2356,0,31,3,197,2019-10-31,1359
+"10023573","41-60",47,"technician","married","tertiary",-97,"yes","yes","november",3,2,0,"no product",0,0,0,7654,0,30,3,190,2019-11-30,1329
+"10023574","31-40",34,"admin","married","secondary",-98,"no","no","december",0,0,1,"auto ",1,1,0,7854,0,31,0,21,2019-12-31,1298
+"10023575","41-60",59,"retired","single","secondary",-99,"yes","no","january",9,2,0,"no product",0,0,0,8954,0,31,9,514,2019-01-31,1632
+"10023576","41-60",45,"management","married","tertiary",-92,"yes","yes","february",4.50311665182547,2,1,"auto ",1,0,0,3678,0,28,14,849,2019-02-28,1604
+"10023577","18-30",29,"services","divorced","secondary",-99,"yes","no","march",3,1,0,"no product",0,0,0,4853,0,31,3,194,2019-03-31,1573
+"10023578","41-60",46,"technician","divorced","secondary",-98,"no","no","april",2,7,1,"auto ",1,0,0,8675,0,30,2,144,2019-04-30,1543
+"10023579","41-60",56,"self-employed","married","primary",-100,"yes","yes","may",4,4,0,"no product",0,0,0,9764,0,31,4,212,2019-05-31,1512
+"10023580","31-40",36,"blue-collar","married","primary",-93,"yes","no","june",5,4,1,"auto ",1,0,0,2457,0,30,5,286,2019-06-30,1482
+"10023581","41-60",59,"retired","divorced","primary",-98,"yes","no","july",2,2,0,"no product",0,0,0,3678,0,31,2,107,2019-07-31,1451
+"10023582","41-60",44,"blue-collar","married","secondary",-97,"yes","yes","august",4,5,1,"auto ",1,0,0,9765,0,31,4,247,2019-08-31,1420
+"10023583","41-60",41,"admin","married","secondary",-95,"yes","yes","september",9,7,1,"auto ",1,0,0,7543,0,30,9,518,2019-09-30,1390
+"10023584","31-40",33,"management","single","tertiary",-100,"yes","no","october",6,8,1,"auto ",1,0,0,4080,0,31,6,364,2019-10-31,1359
+"10023585","41-60",59,"management","divorced","tertiary",-96,"no","yes","november",3,0,1,"mortgage",0,0,0,2127,0,30,3,178,2019-11-30,1329
+"10023586","41-60",57,"technician","married","primary",-99,"no","yes","december",2,0,1,"mortgage",1,0,0,5699,0,31,2,98,2019-12-31,1298
+"10023587","41-60",56,"technician","divorced","primary",-99,"yes","no","january",7,0,1,"mortgage",1,0,0,3237,0,31,7,439,2019-01-31,1632
+"10023588","41-60",51,"blue-collar","married","secondary",-99,"yes","yes","february",1,0,1,"mortgage",0,0,0,2558,0,28,1,79,2019-02-28,1604
+"10023589","31-40",34,"admin","married","primary",-99,"yes","no","march",2,0,1,"mortgage",1,0,0,2298,0,31,2,120,2019-03-31,1573
+"10023590","41-60",43,"services","married","secondary",-99,"yes","yes","april",2,0,1,"mortgage",1,0,0,3397,0,30,2,127,2019-04-30,1543
+"10023591","41-60",52,"technician","married","tertiary",-99,"no","yes","may",3,0,1,"mortgage",1,0,0,2106,0,31,3,175,2019-05-31,1512
+"10023592","31-40",33,"technician","single","secondary",-98,"yes","no","june",4,6,1,"mortgage",1,0,0,6895,0,30,4,262,2019-06-30,1482
+"10023593","18-30",29,"admin","single","secondary",-89,"yes","no","july",1,7,1,"business",0,0,0,7632,0,31,1,61,2019-07-31,1451
+"10023594","31-40",34,"services","married","secondary",-99,"yes","no","august",1,7,1,"business",0,0,0,9753,0,31,1,78,2019-08-31,1420
+"10023595","31-40",31,"blue-collar","married","secondary",-99,"yes","no","september",2,0,1,"business",1,0,0,2257,0,30,2,143,2019-09-30,1390
+"10023596","41-60",55,"services","married","secondary",-67,"yes","yes","october",10,39,1,"business",1,0,0,12353,0,31,10,579,2019-10-31,1359
+"10023597","41-60",55,"management","married","tertiary",-84,"no","yes","november",11,11,1,"business",1,0,0,2356,0,30,11,677,2019-11-30,1329
+"10023598","31-40",32,"admin","single","secondary",-96,"yes","no","december",6,14,1,"unsecured ",1,0,0,7654,0,31,6,345,2019-12-31,1298
+"10023599","31-40",38,"technician","single","secondary",-77,"yes","no","january",3,27,1,"unsecured ",1,0,0,7854,0,31,3,185,2019-01-31,1632
+"10023600","41-60",55,"admin","single","secondary",-89,"yes","no","february",2,0,1,"unsecured ",1,0,0,8954,0,28,2,100,2019-02-28,1604
+"10023601","18-30",28,"unemployed","single","tertiary",-99,"yes","no","march",2,0,1,"unsecured ",1,0,0,3678,0,31,2,125,2019-03-31,1573
+"10023602","18-30",23,"blue-collar","married","secondary",-98,"yes","no","april",3,0,1,"unsecured ",1,0,0,4853,0,30,3,193,2019-04-30,1543
+"10023603","31-40",32,"technician","single","secondary",-99,"yes","no","may",2,0,1,"unsecured ",1,0,0,8675,0,31,2,136,2019-05-31,1512
+"10023604","41-60",43,"services","single","primary",-99,"no","no","june",1,0,1,"unsecured ",1,0,0,9764,0,30,1,73,2019-06-30,1482
+"10023605","31-40",32,"blue-collar","married","secondary",-92,"yes","no","july",9,8,1,"unsecured ",1,0,0,2457,0,31,9,528,2019-07-31,1451
+"10023606","41-60",46,"blue-collar","married","secondary",-96,"yes","yes","august",9,11,1,"unsecured ",0,0,0,3678,0,31,9,541,2019-08-31,1420
+"10023607","41-60",53,"housemaid","divorced","primary",-87,"yes","no","september",3,1,1,"unsecured ",0,0,0,9765,0,30,3,163,2019-09-30,1390
+"10023608","31-40",34,"self-employed","single","secondary",-99,"yes","no","october",5,0,1,"unsecured ",0,0,0,7543,0,31,5,301,2019-10-31,1359
+"10023609","41-60",57,"unemployed","married","tertiary",-99,"no","yes","november",1,0,1,"unsecured ",0,0,0,3521,0,30,1,46,2019-11-30,1329
+"10023610","31-40",37,"blue-collar","married","secondary",-99,"yes","no","december",3,1,1,"auto ",0,0,0,2790,0,31,3,204,2019-12-31,1298
+"10023611","41-60",59,"blue-collar","married","secondary",-99,"yes","yes","january",2,0,1,"auto ",0,0,0,2476,0,31,2,98,2019-01-31,1632
+"10023612","31-40",33,"services","married","secondary",-99,"yes","no","february",1,0,1,"auto ",0,0,0,4384,0,28,1,71,2019-02-28,1604
+"10023613","41-60",56,"blue-collar","divorced","primary",-99,"yes","no","march",3,1,1,"auto ",0,0,0,4080,0,31,3,157,2019-03-31,1573
+"10023614","41-60",48,"unemployed","married","secondary",-95,"yes","yes","april",4,0,1,"mortgage",0,0,0,2127,0,30,4,243,2019-04-30,1543
+"10023615","41-60",43,"services","married","primary",-99,"yes","yes","may",3,0,1,"mortgage",0,0,0,5699,0,31,3,186,2019-05-31,1512
+"10023616","41-60",54,"blue-collar","married","primary",-95,"yes","yes","june",10,7,1,"mortgage",1,0,0,3237,0,30,10,579,2019-06-30,1482
+"10023617","41-60",51,"blue-collar","married","primary",-100,"yes","yes","july",3,7,1,"mortgage",1,0,0,2558,0,31,3,163,2019-07-31,1451
+"10023618","18-30",26,"student","single","secondary",-99,"yes","no","august",10,0,1,"mortgage",1,0,0,6895,0,31,10,610,2019-08-31,1420
+"10023619","31-40",40,"management","married","tertiary",-99,"yes","yes","september",4.50311665182547,8,1,"mortgage",1,0,0,7632,0,30,34,2033,2019-09-30,1390
+"10023620","31-40",39,"management","married","secondary",-99,"yes","no","october",1,1,1,"auto ",1,0,0,9753,0,31,1,85,2019-10-31,1359
+"10023621","41-60",50,"technician","married","primary",-97,"no","yes","november",2,0,1,"auto ",1,0,0,2257,0,30,2,114,2019-11-30,1329
+"10023622","41-60",41,"services","married","secondary",-99,"yes","yes","december",2,0,1,"auto ",1,0,0,12353,0,31,2,114,2019-12-31,1298
+"10023623","41-60",51,"blue-collar","married","tertiary",-75,"yes","yes","january",1,14,1,"auto ",0,0,0,2356,0,31,1,57,2019-01-31,1632
+"10023624","41-60",60,"retired","divorced","secondary",-96,"yes","no","february",4,9,1,"auto ",1,0,0,7654,0,28,4,238,2019-02-28,1604
+"10023625","41-60",52,"blue-collar","married","secondary",-89,"yes","yes","march",2,19,1,"auto ",0,0,0,7854,0,31,2,93,2019-03-31,1573
+"10023626","41-60",48,"blue-collar","married","secondary",-87,"yes","yes","april",2,28,1,"auto ",1,0,0,8954,0,30,2,128,2019-04-30,1543
+"10023627","41-60",48,"services","married","tertiary",-77,"yes","yes","may",2,6,1,"auto ",0,0,0,3678,0,31,2,107,2019-05-31,1512
+"10023628","31-40",39,"technician","single","tertiary",-99,"yes","no","june",3,2,1,"unsecured ",1,0,0,4853,0,30,3,181,2019-06-30,1482
+"10023629","41-60",47,"services","single","secondary",-97,"yes","no","july",5,10,1,"unsecured ",0,0,0,8675,0,31,5,303,2019-07-31,1451
+"10023630","31-40",40,"blue-collar","married","secondary",-83,"yes","no","august",9,7,1,"unsecured ",1,0,0,9764,0,31,9,558,2019-08-31,1420
+"10023631","41-60",45,"technician","married","secondary",-98,"yes","yes","september",4,1,1,"unsecured ",0,0,0,2457,0,30,4,270,2019-09-30,1390
+"10023632","18-30",26,"admin","single","secondary",-98,"yes","no","october",4,3,1,"unsecured ",1,0,0,3678,0,31,4,228,2019-10-31,1359
+"10023633","41-60",52,"management","married","tertiary",-96,"yes","yes","november",2,14,1,"mortgage",0,0,0,9765,0,30,2,99,2019-11-30,1329
+"10023634","41-60",54,"technician","married","secondary",-81,"yes","yes","december",4,11,1,"mortgage",1,0,0,7543,0,31,4,240,2019-12-31,1298
+"10023635","41-60",54,"admin","married","tertiary",-97,"no","yes","january",11,0,1,"mortgage",1,0,0,2106,0,31,11,673,2019-01-31,1632
+"10023636","41-60",50,"blue-collar","married","primary",-99,"no","yes","february",4,0,1,"mortgage",1,0,0,6895,0,28,4,233,2019-02-28,1604
+"10023637","31-40",35,"blue-collar","married","secondary",-99,"yes","no","march",4.50311665182547,0,1,"mortgage",1,0,0,7632,0,31,18,1056,2019-03-31,1573
+"10023638","41-60",44,"services","married","secondary",-81,"yes","yes","april",4,3,1,"mortgage",1,0,0,9753,0,30,4,250,2019-04-30,1543
+"10023639","41-60",53,"entrepreneur","married","primary",-99,"yes","yes","may",4,2,1,"unsecured ",1,0,0,2257,0,31,4,252,2019-05-31,1512
+"10023640","31-40",35,"retired","single","primary",-94,"no","no","june",2,4,1,"unsecured ",1,0,0,12353,0,30,2,138,2019-06-30,1482
+"10023641","41-60",60,"admin","divorced","secondary",-98,"yes","no","july",2,7,1,"unsecured ",1,0,0,2356,0,31,2,130,2019-07-31,1451
+"10023642","41-60",53,"admin","divorced","secondary",-84,"yes","no","august",7,5,1,"unsecured ",1,0,0,7654,0,31,7,412,2019-08-31,1420
+"10023643","41-60",48,"unemployed","married","secondary",-99,"yes","yes","september",3,1,1,"unsecured ",1,0,0,7854,0,30,3,179,2019-09-30,1390
+"10023644","31-40",34,"technician","married","secondary",-99,"yes","no","october",0,2,1,"unsecured ",1,0,0,8954,0,31,0,19,2019-10-31,1359
+"10023645","41-60",54,"services","married","secondary",-96,"yes","yes","november",8,11,1,"unsecured ",1,0,0,3678,0,30,8,458,2019-11-30,1329
+"10023646","41-60",51,"management","married","secondary",-84,"yes","yes","december",12,4,1,"mortgage",1,0,0,4853,0,31,12,717,2019-12-31,1298
+"10023647","31-40",31,"services","married","tertiary",-99,"yes","yes","january",5,3,1,"mortgage",1,0,0,8675,0,31,5,313,2019-01-31,1632
+"10023648","31-40",35,"technician","divorced","secondary",-89,"yes","no","february",11,5,1,"mortgage",1,0,0,9764,0,28,11,683,2019-02-28,1604
+"10023649","31-40",35,"services","married","secondary",-98,"yes","no","march",4.50311665182547,2,1,"mortgage",1,1,1,2457,10,31,18,1077,2019-03-31,1573
+"10023650","31-40",38,"technician","married","secondary",-96,"yes","no","april",7,5,1,"mortgage",1,1,1,3678,10,30,7,416,2019-04-30,1543
+"10023651","31-40",36,"admin","married","tertiary",-96,"yes","yes","may",2,5,1,"mortgage",1,1,1,9765,10,31,2,146,2019-05-31,1512
+"10023652","41-60",58,"retired","married","primary",-96,"yes","yes","june",3,23,1,"auto ",1,1,1,7543,10,30,3,167,2019-06-30,1482
+"10023653","31-40",40,"services","divorced","tertiary",-42,"yes","no","july",5,98,1,"unsecured ",1,1,1,4384,10,31,5,315,2019-07-31,1451
+"10023654","41-60",54,"management","married","secondary",-46,"no","yes","august",2,10,1,"auto ",1,1,1,4080,10,31,2,140,2019-08-31,1420
+"10023655","31-40",34,"blue-collar","single","secondary",-99,"yes","no","september",6,0,1,"unsecured ",1,1,1,4384,10,30,6,346,2019-09-30,1390
+"10023656","31-40",31,"management","single","tertiary",-99,"yes","no","october",9,0,1,"auto ",1,1,1,4080,10,31,9,562,2019-10-31,1359
+"10023657","41-60",51,"retired","married","secondary",-71,"yes","yes","november",3,20,1,"unsecured ",1,1,1,2127,10,30,3,172,2019-11-30,1329
+"10023658","31-40",33,"management","married","tertiary",-94,"yes","yes","december",4,3,1,"unsecured ",1,1,1,5699,10,31,4,217,2019-12-31,1298
+"10023659","41-60",55,"management","married","tertiary",-98,"yes","yes","january",2,4,1,"unsecured ",1,1,1,3237,10,31,2,142,2019-01-31,1632
+"10023660","41-60",42,"admin","married","secondary",-93,"yes","yes","february",1,7,1,"unsecured ",1,1,1,2558,10,28,1,67,2019-02-28,1604
+"10023661","31-40",34,"blue-collar","married","secondary",-96,"yes","no","march",5,6,1,"unsecured ",1,1,1,2298,10,31,5,291,2019-03-31,1573
+"10023662","31-40",33,"blue-collar","single","secondary",-95,"yes","no","april",5,5,1,"unsecured ",1,1,1,3397,10,30,5,309,2019-04-30,1543
+"10023663","31-40",38,"services","married","secondary",-97,"yes","no","may",4,3,1,"unsecured ",1,1,1,2106,10,31,4,248,2019-05-31,1512
+"10023664","41-60",50,"technician","divorced","tertiary",-97,"no","yes","june",2,6,1,"unsecured ",1,1,1,1526,10,30,2,98,2019-06-30,1482
+"10023665","41-60",43,"management","married","tertiary",-94,"yes","yes","july",4,17,1,"unsecured ",1,1,1,2586,10,31,4,256,2019-07-31,1451
+"10023666","over 60",60,"blue-collar","divorced","primary",-81,"yes","no","august",1,13,1,"unsecured ",1,1,1,6530,10,31,1,82,2019-08-31,1420
+"10023667","41-60",47,"admin","married","secondary",-96,"yes","yes","september",10,0,1,"unsecured ",1,1,1,2476,10,30,10,577,2019-09-30,1390
+"10023668","41-60",48,"self-employed","married","tertiary",-99,"yes","yes","october",5,1,1,"unsecured ",1,1,1,4384,10,31,5,286,2019-10-31,1359
+"10023669","41-60",44,"blue-collar","married","secondary",-92,"yes","yes","november",8,9,1,"auto ",1,1,1,4080,10,30,8,477,2019-11-30,1329
+"10023670","31-40",35,"student","single","primary",-95,"yes","no","december",10,0,1,"business",1,1,1,2127,10,31,10,611,2019-12-31,1298
+"10023671","31-40",35,"services","married","secondary",-99,"yes","no","january",8,0,1,"business",1,1,1,5699,10,31,8,471,2019-01-31,1632
+"10023672","41-60",50,"services","married","secondary",-24,"yes","yes","february",6,23,1,"business",1,1,1,3237,10,28,6,381,2019-02-28,1604
+"10023673","41-60",41,"management","married","tertiary",-97,"yes","yes","march",1,7,1,"business",1,1,1,2558,10,31,1,42,2019-03-31,1573
+"10023674","41-60",41,"management","married","tertiary",-92,"yes","yes","april",4,8,1,"auto ",1,1,1,2298,10,30,4,251,2019-04-30,1543
+"10023675","31-40",39,"services","single","primary",-96,"yes","no","may",7,2,1,"auto ",1,1,1,3397,10,31,7,408,2019-05-31,1512
+"10023676","41-60",42,"retired","married","secondary",-99,"yes","yes","june",4,7,1,"auto ",1,1,1,2106,10,30,4,215,2019-06-30,1482
+"10023677","31-40",38,"blue-collar","married","secondary",-104,"yes","no","july",5,7,1,"auto ",1,1,1,4384,10,31,5,287,2019-07-31,1451
+"10023678","41-60",53,"retired","married","secondary",-95,"yes","yes","august",4,5,1,"auto ",1,1,1,4080,10,31,4,216,2019-08-31,1420
+"10023679","41-60",59,"housemaid","divorced","primary",-97,"no","no","september",6,5,1,"auto ",1,1,1,2127,10,30,6,366,2019-09-30,1390
+"10023680","31-40",36,"services","married","secondary",-95,"yes","no","october",4,7,1,"auto ",1,1,1,5699,10,31,4,210,2019-10-31,1359
+"10023681","41-60",54,"blue-collar","married","primary",-100,"yes","yes","november",5,7,1,"auto ",1,1,1,3237,10,30,5,288,2019-11-30,1329
+"10023682","31-40",40,"technician","married","tertiary",-93,"yes","yes","december",3,2,1,"auto ",1,1,1,2558,10,31,3,168,2019-12-31,1298
+"10023683","41-60",47,"","married","primary",-99,"no","yes","january",6,0,1,"auto ",1,1,1,2298,10,31,6,338,2019-01-31,1632
+"10023684","41-60",53,"unemployed","married","primary",-99,"no","yes","february",7,2,1,"unsecured ",1,1,1,3397,10,28,7,410,2019-02-28,1604
+"10023685","41-60",46,"housemaid","married","primary",-87,"no","yes","march",3,14,1,"unsecured ",1,1,1,2106,10,31,3,177,2019-03-31,1573
+"10023686","31-40",39,"management","married","tertiary",-94,"yes","yes","april",2,6,1,"unsecured ",1,1,1,2458,10,30,2,127,2019-04-30,1543
+"10023687","31-40",40,"unemployed","married","secondary",-96,"yes","no","may",6,6,1,"unsecured ",1,1,1,2893,10,31,6,357,2019-05-31,1512
+"10023688","18-30",28,"blue-collar","married","primary",-95,"yes","no","june",3,7,1,"unsecured ",1,1,1,4384,10,30,3,175,2019-06-30,1482
+"10023689","31-40",35,"entrepreneur","divorced","secondary",-100,"yes","no","july",5,6,1,"mortgage",1,1,1,4080,10,31,5,300,2019-07-31,1451
+"10023690","41-60",55,"retired","married","secondary",-99,"no","yes","august",2,0,1,"mortgage",1,1,1,2127,10,31,2,136,2019-08-31,1420
+"10023691","41-60",43,"technician","divorced","primary",-97,"yes","no","september",4.50311665182547,5,1,"mortgage",1,1,1,5699,10,30,24,1419,2019-09-30,1390
+"10023692","41-60",48,"blue-collar","married","primary",-96,"yes","yes","october",2,12,1,"mortgage",1,1,1,3237,10,31,2,125,2019-10-31,1359
+"10023693","41-60",58,"management","married","tertiary",-85,"yes","yes","november",4,4,1,"mortgage",1,1,1,2558,10,30,4,213,2019-11-30,1329
+"10023694","31-40",33,"management","single","tertiary",-99,"yes","no","december",0,4,1,"mortgage",1,1,1,2298,10,31,0,27,2019-12-31,1298
+"10023695","31-40",36,"blue-collar","married","tertiary",-86,"no","no","january",4,28,1,"mortgage",1,1,1,3397,10,31,4,238,2019-01-31,1632
+"10023696","41-60",53,"services","divorced","secondary",-80,"yes","no","february",2,7,1,"mortgage",1,1,1,2106,10,28,2,124,2019-02-28,1604
+"10023697","41-60",47,"blue-collar","married","primary",-99,"yes","yes","march",0,7,1,"mortgage",1,1,1,6895,10,31,0,18,2019-03-31,1573
+"10023698","31-40",31,"services","married","secondary",-94,"yes","no","april",12,7,1,"mortgage",1,1,1,7632,10,30,12,730,2019-04-30,1543
+"10023699","41-60",57,"entrepreneur","married","secondary",-95,"yes","yes","may",12,17,1,"mortgage",1,1,1,9753,10,31,12,746,2019-05-31,1512
+"10023700","41-60",53,"blue-collar","married","tertiary",-75,"no","yes","june",2,25,1,"mortgage",1,1,1,2257,10,30,2,121,2019-06-30,1482
+"10023701","41-60",55,"blue-collar","married","primary",-91,"yes","yes","july",4,2,1,"mortgage",1,1,1,12353,10,31,4,247,2019-07-31,1451
+"10023702","41-60",45,"blue-collar","married","primary",-99,"yes","yes","august",1,2,1,"unsecured ",1,1,1,2356,10,31,1,40,2019-08-31,1420
+"10023703","41-60",53,"admin","divorced","secondary",-95,"yes","no","september",3,0,1,"unsecured ",1,1,1,7654,10,30,3,181,2019-09-30,1390
+"10023704","31-40",37,"blue-collar","married","primary",-99,"yes","no","october",1,0,1,"unsecured ",1,1,1,7854,10,31,1,79,2019-10-31,1359
+"10023705","41-60",44,"admin","divorced","secondary",-98,"yes","no","november",3,7,1,"unsecured ",1,1,1,8954,10,30,3,206,2019-11-30,1329
+"10023706","41-60",49,"blue-collar","divorced","primary",-99,"yes","no","december",6,7,1,"unsecured ",1,1,1,3678,10,31,6,389,2019-12-31,1298
+"10023707","41-60",46,"technician","married","secondary",-95,"yes","yes","january",2,4,1,"unsecured ",1,1,1,4853,10,31,2,127,2019-01-31,1632
+"10023708","41-60",43,"entrepreneur","married","primary",-98,"yes","yes","february",12,0,1,"unsecured ",1,1,1,8675,10,28,12,702,2019-02-28,1604
+"10023709","31-40",38,"admin","married","secondary",-99,"no","no","march",3,0,1,"unsecured ",1,1,1,9764,10,31,3,151,2019-03-31,1573
+"10023710","41-60",43,"technician","married","secondary",-94,"yes","yes","april",2,27,1,"unsecured ",1,1,1,2457,10,30,2,117,2019-04-30,1543
+"10023711","41-60",49,"management","married","tertiary",-57,"yes","yes","may",4,22,1,"unsecured ",1,1,1,3678,10,31,4,232,2019-05-31,1512
+"10023712","41-60",42,"management","married","primary",-96,"no","yes","june",7,0,1,"unsecured ",1,1,1,9765,10,30,7,408,2019-06-30,1482
+"10023713","18-30",22,"blue-collar","single","secondary",-99,"yes","no","july",3,0,1,"unsecured ",1,1,1,7543,10,31,3,179,2019-07-31,1451
+"10023714","31-40",40,"management","married","tertiary",-97,"yes","yes","august",1,7,1,"unsecured ",1,1,1,4080,10,31,1,39,2019-08-31,1420
+"10023715","31-40",39,"blue-collar","married","secondary",-93,"yes","no","september",5,24,1,"unsecured ",1,1,1,2127,10,30,5,282,2019-09-30,1390
+"10023716","41-60",51,"services","married","secondary",-70,"yes","yes","october",12,22,1,"mortgage",1,1,1,5699,10,31,12,714,2019-10-31,1359
+"10023717","41-60",49,"admin","married","secondary",-94,"yes","yes","november",1,0,1,"mortgage",1,1,1,3237,10,30,1,50,2019-11-30,1329
+"10023718","41-60",53,"blue-collar","married","secondary",-99,"yes","yes","december",3,0,1,"mortgage",1,1,1,2558,10,31,3,181,2019-12-31,1298
+"10023719","31-40",34,"services","single","secondary",-99,"yes","no","january",2,0,1,"mortgage",1,1,1,2298,10,31,2,142,2019-01-31,1632
+"10023720","31-40",33,"technician","divorced","secondary",-97,"yes","no","february",4,4,1,"mortgage",1,1,1,3397,10,28,4,227,2019-02-28,1604
+"10023721","41-60",50,"management","single","tertiary",-95,"yes","yes","march",2,6,1,"mortgage",1,1,1,2106,10,31,2,119,2019-03-31,1573
+"10023722","31-40",39,"blue-collar","married","primary",-96,"yes","no","april",6,11,1,"mortgage",1,1,1,6895,10,30,6,361,2019-04-30,1543
+"10023723","41-60",59,"entrepreneur","divorced","secondary",-87,"yes","no","may",1,35,1,"mortgage",1,1,1,7632,10,31,1,73,2019-05-31,1512
+"10023724","18-30",30,"technician","single","secondary",-65,"yes","no","june",1,14,1,"mortgage",1,1,1,9753,10,30,1,67,2019-06-30,1482
+"10023725","31-40",36,"services","married","secondary",-97,"yes","no","july",6,6,1,"mortgage",1,1,1,2257,10,31,6,350,2019-07-31,1451
+"10023726","31-40",40,"blue-collar","married","secondary",-93,"yes","no","august",6,4,1,"mortgage",1,1,1,12353,10,31,6,332,2019-08-31,1420
+"10023727","41-60",53,"blue-collar","married","secondary",-98,"yes","yes","september",10,3,1,"mortgage",1,1,1,2356,10,30,10,611,2019-09-30,1390
+"10023728","31-40",34,"management","single","tertiary",-95,"yes","no","october",2,6,1,"mortgage",1,1,1,7654,10,31,2,113,2019-10-31,1359
+"10023729","31-40",37,"technician","married","secondary",-96,"yes","no","november",2,10,1,"mortgage",1,1,1,7854,10,30,2,132,2019-11-30,1329
+"10023730","41-60",42,"management","divorced","tertiary",-90,"yes","yes","december",1,9,1,"auto ",1,1,1,8954,10,31,1,58,2019-12-31,1298
+"10023731","41-60",41,"entrepreneur","married","primary",-96,"yes","yes","january",3,1,1,"auto ",1,1,1,3678,10,31,3,151,2019-01-31,1632
+"10023732","18-30",30,"student","single","tertiary",-99,"yes","no","february",1,2,1,"auto ",1,1,1,4853,10,28,1,89,2019-02-28,1604
+"10023733","31-40",37,"management","single","tertiary",-91,"yes","no","march",3,8,1,"auto ",1,1,1,8675,10,31,3,152,2019-03-31,1573
+"10023734","31-40",39,"admin","divorced","secondary",-104,"yes","no","april",10,7,1,"auto ",1,1,1,9764,10,30,10,611,2019-04-30,1543
+"10023735","41-60",41,"blue-collar","married","primary",-97,"yes","yes","may",2,0,1,"auto ",1,1,1,2457,10,31,2,110,2019-05-31,1512
+"10023736","31-40",40,"blue-collar","married","primary",-99,"yes","no","june",8,0,1,"auto ",1,1,1,3678,10,30,8,463,2019-06-30,1482
+"10023737","41-60",42,"management","single","tertiary",-99,"yes","yes","july",9,0,1,"auto ",1,1,1,9765,10,31,9,562,2019-07-31,1451
+"10023738","31-40",40,"blue-collar","divorced","primary",-99,"yes","no","august",4.50311665182547,0,1,"auto ",1,1,1,7543,10,31,16,962,2019-08-31,1420
+"10023739","41-60",57,"technician","married","secondary",-85,"yes","yes","september",0,9,1,"auto ",1,1,1,4384,10,30,0,10,2019-09-30,1390
+"10023740","41-60",56,"entrepreneur","divorced","secondary",-97,"no","no","october",2,3,1,"auto ",1,1,1,4080,10,31,2,118,2019-10-31,1359
+"10023741","31-40",37,"admin","married","secondary",-97,"yes","no","november",2,5,1,"auto ",1,1,1,2127,10,30,2,92,2019-11-30,1329
+"10023742","41-60",59,"retired","married","secondary",-95,"yes","yes","december",2,7,1,"auto ",1,1,1,5699,10,31,2,143,2019-12-31,1298
+"10023743","31-40",39,"services","divorced","secondary",-102,"yes","no","january",3,7,1,"auto ",1,1,1,3237,10,31,3,189,2019-01-31,1632
+"10023744","41-60",49,"services","married","secondary",-99,"no","yes","february",4,3,1,"auto ",1,1,1,2558,10,28,4,234,2019-02-28,1604
+"10023745","31-40",38,"services","single","secondary",-92,"yes","no","march",1,2,1,"mortgage",1,1,1,2298,10,31,1,75,2019-03-31,1573
+"10023746","31-40",36,"self-employed","married","tertiary",-99,"no","yes","april",3,0,1,"mortgage",1,1,1,3397,10,30,3,189,2019-04-30,1543
+"10023747","41-60",50,"blue-collar","married","primary",-98,"yes","yes","may",10,7,1,"mortgage",1,1,1,2106,10,31,10,621,2019-05-31,1512
+"10023748","41-60",41,"admin","married","secondary",-100,"yes","yes","june",1,7,1,"mortgage",1,1,1,6895,10,30,1,55,2019-06-30,1482
+"10023749","41-60",54,"technician","married","tertiary",-96,"no","yes","july",5,3,1,"mortgage",1,1,1,7632,10,31,5,310,2019-07-31,1451
+"10023750","41-60",58,"blue-collar","married","primary",-98,"yes","yes","august",3,0,1,"mortgage",1,1,1,9753,10,31,3,156,2019-08-31,1420
+"10023751","18-30",30,"blue-collar","single","secondary",-99,"yes","no","september",0,0,1,"mortgage",1,1,1,2257,10,30,0,5,2019-09-30,1390
+"10023752","31-40",33,"admin","single","secondary",-95,"yes","no","october",4,8,1,"mortgage",1,1,1,12353,10,31,4,225,2019-10-31,1359
+"10023753","41-60",47,"admin","married","secondary",-94,"yes","yes","november",2,8,1,"mortgage",1,1,1,2356,10,30,2,125,2019-11-30,1329
+"10023754","41-60",50,"technician","single","tertiary",-95,"yes","yes","december",0,15,1,"mortgage",0,0,0,7654,0,31,0,2,2019-12-31,1298
+"10023755","31-40",32,"blue-collar","married","secondary",-82,"yes","no","january",5,22,1,"mortgage",0,0,0,7854,0,31,5,286,2019-01-31,1632
+"10023756","31-40",40,"self-employed","married","secondary",-90,"yes","no","february",3,4,1,"mortgage",0,0,0,8954,0,28,3,164,2019-02-28,1604
+"10023757","31-40",37,"management","married","tertiary",-98,"yes","yes","march",2,3,1,"mortgage",0,0,0,3678,0,31,2,98,2019-03-31,1573
+"10023758","41-60",54,"technician","single","secondary",-93,"yes","no","april",12,10,1,"mortgage",0,0,0,4853,0,30,12,742,2019-04-30,1543
+"10023759","18-30",24,"student","single","secondary",-94,"yes","no","may",4,0,1,"mortgage",0,0,0,8675,0,31,4,226,2019-05-31,1512
+"10023760","41-60",54,"management","married","tertiary",-99,"no","yes","june",2,0,1,"mortgage",1,0,0,9764,0,30,2,120,2019-06-30,1482
+"10023761","31-40",34,"technician","married","secondary",-99,"yes","no","july",6,0,1,"mortgage",1,0,0,2457,0,31,6,362,2019-07-31,1451
+"10023762","41-60",56,"technician","divorced","primary",-99,"yes","no","august",6,0,1,"mortgage",1,0,0,3678,0,31,6,357,2019-08-31,1420
+"10023763","31-40",31,"blue-collar","single","secondary",-99,"yes","no","september",3,0,1,"mortgage",1,0,0,9765,0,30,3,200,2019-09-30,1390
+"10023764","18-30",24,"student","single","secondary",-98,"yes","no","october",3,1,1,"mortgage",1,0,0,7543,0,31,3,204,2019-10-31,1359
+"10023765","41-60",42,"blue-collar","divorced","primary",-99,"yes","no","november",2,3,1,"mortgage",1,0,0,6895,0,30,2,126,2019-11-30,1329
+"10023766","41-60",57,"technician","married","secondary",-89,"yes","yes","december",1,13,1,"mortgage",1,0,0,7632,0,31,1,65,2019-12-31,1298
+"10023767","41-60",42,"blue-collar","married","primary",-94,"yes","yes","january",2,10,1,"mortgage",0,0,0,9753,0,31,2,107,2019-01-31,1632
+"10023768","41-60",51,"admin","married","secondary",-92,"yes","yes","february",4,7,1,"unsecured ",1,0,0,2257,0,28,4,267,2019-02-28,1604
+"10023769","41-60",57,"retired","married","secondary",-96,"yes","yes","march",4,2,1,"unsecured ",0,0,0,12353,0,31,4,248,2019-03-31,1573
+"10023770","31-40",36,"services","single","secondary",-98,"yes","no","april",4,2,1,"unsecured ",1,0,0,2356,0,30,4,215,2019-04-30,1543
+"10023771","41-60",53,"services","married","primary",-96,"yes","yes","may",3,13,1,"unsecured ",0,0,0,7654,0,31,3,209,2019-05-31,1512
+"10023772","41-60",50,"technician","married","secondary",-83,"yes","yes","june",3,14,1,"unsecured ",1,0,0,7854,0,30,3,205,2019-06-30,1482
+"10023773","41-60",54,"management","married","tertiary",-95,"yes","yes","july",1,3,1,"unsecured ",0,0,0,8954,0,31,1,83,2019-07-31,1451
+"10023774","41-60",55,"blue-collar","married","secondary",-98,"yes","yes","august",2,2,1,"unsecured ",1,0,0,3678,0,31,2,106,2019-08-31,1420
+"10023775","41-60",44,"blue-collar","married","secondary",-98,"yes","yes","september",3,0,1,"unsecured ",0,0,0,4853,0,30,3,189,2019-09-30,1390
+"10023776","41-60",43,"management","married","primary",-99,"yes","yes","october",2,0,1,"unsecured ",1,0,0,8675,0,31,2,105,2019-10-31,1359
+"10023777","41-60",56,"admin","married","secondary",-95,"yes","yes","november",2,12,1,"unsecured ",0,0,0,9764,0,30,2,106,2019-11-30,1329
+"10023778","41-60",54,"technician","married","tertiary",-88,"yes","yes","december",2,6,1,"unsecured ",1,0,0,2457,0,31,2,108,2019-12-31,1298
+"10023779","41-60",55,"services","divorced","primary",-98,"yes","no","january",5,4,1,"unsecured ",1,0,0,3678,0,31,5,311,2019-01-31,1632
+"10023780","31-40",37,"services","divorced","secondary",-94,"yes","no","february",4,6,1,"unsecured ",1,0,0,9765,0,28,4,214,2019-02-28,1604
+"10023781","31-40",33,"admin","single","tertiary",-97,"no","no","march",2,7,1,"auto ",1,0,0,7543,0,31,2,132,2019-03-31,1573
+"10023782","41-60",46,"admin","married","secondary",-104,"yes","yes","april",6,7,1,"auto ",1,0,0,4384,0,30,6,358,2019-04-30,1543
+"10023783","31-40",36,"blue-collar","married","secondary",-92,"yes","no","may",8,0,1,"auto ",1,1,1,4080,10,31,8,453,2019-05-31,1512
+"10023784","41-60",51,"technician","single","secondary",-99,"yes","no","june",6,0,1,"auto ",1,1,1,2127,10,30,6,364,2019-06-30,1482
+"10023785","31-40",40,"retired","single","primary",-99,"no","no","july",2,0,1,"auto ",1,1,1,5699,10,31,2,136,2019-07-31,1451
+"10023786","41-60",42,"blue-collar","married","secondary",-93,"yes","yes","august",6,0,1,"auto ",1,1,1,3237,10,31,6,386,2019-08-31,1420
+"10023787","41-60",51,"blue-collar","married","secondary",-99,"yes","yes","september",3,0,1,"auto ",1,1,1,2558,10,30,3,173,2019-09-30,1390
+"10023788","41-60",49,"blue-collar","married","primary",-94,"yes","yes","october",4,5,1,"auto ",1,1,1,2298,10,31,4,241,2019-10-31,1359
+"10023789","41-60",48,"management","married","secondary",-97,"yes","yes","november",4,14,1,"auto ",1,1,1,3397,10,30,4,224,2019-11-30,1329
+"10023790","31-40",32,"technician","divorced","tertiary",-66,"no","no","december",2,11,1,"auto ",1,1,1,2106,10,31,2,148,2019-12-31,1298
+"10023791","31-40",31,"admin","single","secondary",-98,"yes","no","january",3,2,1,"auto ",1,1,1,4080,10,31,3,196,2019-01-31,1632
+"10023792","41-60",55,"management","single","tertiary",-98,"no","yes","february",2,5,1,"auto ",1,1,1,2127,10,28,2,111,2019-02-28,1604
+"10023793","31-40",40,"blue-collar","single","secondary",-94,"yes","no","march",4,14,1,"auto ",1,1,1,5699,10,31,4,231,2019-03-31,1573
+"10023794","41-60",47,"technician","married","tertiary",-88,"yes","yes","april",5,9,1,"auto ",1,1,1,3237,10,30,5,316,2019-04-30,1543
+"10023795","41-60",57,"technician","married","primary",-97,"yes","yes","may",4,5,1,"auto ",1,1,1,2558,10,31,4,216,2019-05-31,1512
+"10023796","41-60",41,"blue-collar","married","secondary",-95,"yes","yes","june",4,0,1,"auto ",1,1,1,2298,10,30,4,240,2019-06-30,1482
+"10023797","41-60",48,"blue-collar","married","secondary",-99,"no","yes","july",11,0,1,"auto ",1,1,1,2586,10,31,11,669,2019-07-31,1451
+"10023798","41-60",42,"blue-collar","married","primary",-99,"yes","yes","august",7,7,1,"auto ",1,1,1,6530,10,31,7,425,2019-08-31,1420
+"10023799","18-30",30,"blue-collar","single","secondary",-105,"yes","no","september",2,7,1,"mortgage",1,1,1,2476,10,30,2,143,2019-09-30,1390
+"10023800","41-60",58,"management","single","tertiary",-81,"yes","yes","october",3,136,1,"mortgage",1,1,1,4384,10,31,3,174,2019-10-31,1359
+"10023801","41-60",45,"management","divorced","tertiary",223,"yes","yes","november",5,20,1,"mortgage",1,1,1,4080,10,30,5,313,2019-11-30,1329
+"10023802","41-60",49,"blue-collar","married","secondary",-99,"yes","yes","december",2,4,1,"mortgage",1,1,1,2127,10,31,2,135,2019-12-31,1298
+"10023803","41-60",42,"admin","single","secondary",-86,"yes","no","january",2,5,1,"mortgage",1,1,1,5699,10,31,2,146,2019-01-31,1632
+"10023804","41-60",53,"technician","married","secondary",-99,"yes","yes","february",3,7,1,"mortgage",1,1,1,3237,10,28,3,152,2019-02-28,1604
+"10023805","41-60",51,"admin","single","secondary",-99,"no","no","march",7,7,1,"mortgage",1,1,1,2558,10,31,7,402,2019-03-31,1573
+"10023806","31-40",32,"services","single","secondary",-98,"yes","no","april",4,7,1,"mortgage",1,1,1,2298,10,30,4,213,2019-04-30,1543
+"10023807","41-60",41,"blue-collar","single","secondary",-88,"yes","no","may",2,17,1,"mortgage",1,1,1,3397,10,31,2,144,2019-05-31,1512
+"10023808","41-60",43,"management","divorced","secondary",-90,"yes","no","june",2,8,1,"mortgage",1,1,1,2106,10,30,2,124,2019-06-30,1482
+"10023809","31-40",40,"blue-collar","divorced","secondary",-104,"yes","no","july",3,7,1,"mortgage",1,1,1,6895,10,31,3,183,2019-07-31,1451
+"10023810","41-60",50,"blue-collar","married","primary",-79,"yes","yes","august",5,6,1,"mortgage",1,1,1,7632,10,31,5,325,2019-08-31,1420
+"10023811","31-40",34,"management","married","tertiary",-99,"yes","yes","september",1,0,1,"mortgage",1,1,1,9753,10,30,1,39,2019-09-30,1390
+"10023812","41-60",53,"services","married","primary",-99,"no","yes","october",8,0,1,"mortgage",1,1,1,2257,10,31,8,503,2019-10-31,1359
+"10023813","41-60",45,"technician","married","secondary",-99,"yes","yes","november",2,7,1,"mortgage",1,1,1,12353,10,30,2,95,2019-11-30,1329
+"10023814","31-40",39,"blue-collar","married","primary",-101,"yes","no","december",11,7,1,"unsecured ",1,1,1,2356,10,31,11,680,2019-12-31,1298
+"10023815","41-60",44,"services","married","tertiary",-93,"yes","yes","january",7,13,1,"unsecured ",1,1,1,7654,10,31,7,421,2019-01-31,1632
+"10023816","41-60",55,"management","married","tertiary",-90,"yes","yes","february",3,8,1,"unsecured ",1,1,1,7854,10,28,3,174,2019-02-28,1604
+"10023817","41-60",46,"management","single","tertiary",-97,"yes","yes","march",2,2,1,"unsecured ",1,1,1,8954,10,31,2,113,2019-03-31,1573
+"10023818","41-60",45,"blue-collar","married","secondary",-98,"yes","yes","april",4.50311665182547,4,1,"unsecured ",1,1,1,3678,10,30,13,808,2019-04-30,1543
+"10023819","31-40",34,"admin","married","secondary",-92,"yes","no","may",3,0,1,"unsecured ",1,1,1,4853,10,31,3,198,2019-05-31,1512
+"10023820","31-40",36,"blue-collar","married","secondary",-99,"yes","no","june",3,0,1,"unsecured ",1,1,1,8675,10,30,3,195,2019-06-30,1482
+"10023821","41-60",59,"","divorced","primary",-99,"no","no","july",6,0,1,"unsecured ",1,1,1,9764,10,31,6,347,2019-07-31,1451
+"10023822","31-40",31,"admin","single","secondary",-99,"yes","no","august",3,0,1,"unsecured ",1,1,1,2457,10,31,3,208,2019-08-31,1420
+"10023823","41-60",44,"blue-collar","single","secondary",-99,"yes","no","september",7,4,1,"unsecured ",1,1,1,3678,10,30,7,404,2019-09-30,1390
+"10023824","31-40",33,"entrepreneur","single","tertiary",-85,"yes","no","october",7,11,1,"unsecured ",1,1,1,9765,10,31,7,396,2019-10-31,1359
+"10023825","31-40",40,"blue-collar","married","secondary",-96,"yes","no","november",4,6,1,"business",1,1,1,7543,10,30,4,216,2019-11-30,1329
+"10023826","41-60",46,"admin","single","tertiary",-94,"yes","yes","december",2,7,1,"mortgage",1,1,1,3397,10,31,2,98,2019-12-31,1298
+"10023827","41-60",48,"management","married","tertiary",-96,"yes","yes","january",6,13,1,"mortgage",1,1,1,2106,10,31,6,350,2019-01-31,1632
+"10023828","41-60",42,"services","married","secondary",-83,"yes","yes","february",2,2,1,"mortgage",1,1,1,2558,10,28,2,114,2019-02-28,1604
+"10023829","18-30",27,"services","married","secondary",-99,"yes","no","march",1,0,1,"mortgage",1,1,1,2298,10,31,1,88,2019-03-31,1573
+"10023830","41-60",48,"admin","married","secondary",-98,"yes","yes","april",6,3,1,"mortgage",1,1,1,3397,10,30,6,379,2019-04-30,1543
+"10023831","41-60",59,"admin","married","secondary",-96,"yes","yes","may",3,10,1,"mortgage",1,1,1,2106,10,31,3,190,2019-05-31,1512
+"10023832","41-60",46,"technician","married","tertiary",-88,"yes","yes","june",3,11,1,"mortgage",1,1,1,4853,10,30,3,158,2019-06-30,1482
+"10023833","31-40",38,"admin","divorced","secondary",-95,"yes","no","july",2,0,1,"mortgage",1,0,0,8675,0,31,2,102,2019-07-31,1451
+"10023834","41-60",43,"management","divorced","tertiary",-99,"yes","yes","august",5,0,1,"auto ",1,0,0,9764,0,31,5,306,2019-08-31,1420
+"10023835","31-40",38,"admin","divorced","tertiary",-98,"yes","no","september",4,2,1,"auto ",1,0,0,2457,0,30,4,218,2019-09-30,1390
+"10023836","18-30",23,"student","single","secondary",-97,"yes","no","october",1,1,1,"auto ",1,0,0,3678,0,31,1,54,2019-10-31,1359
+"10023837","31-40",34,"services","married","secondary",-99,"yes","no","november",6,0,1,"auto ",1,0,0,9765,0,30,6,344,2019-11-30,1329
+"10023838","31-40",38,"admin","married","secondary",-99,"yes","no","december",3,5,1,"auto ",1,0,0,7543,0,31,3,195,2019-12-31,1298
+"10023839","31-40",37,"blue-collar","married","secondary",-82,"no","no","january",11,9,0,"no product",0,0,0,6689,0,31,11,652,2019-01-31,1632
+"10023840","18-30",25,"admin","single","secondary",-98,"yes","no","february",5,2,0,"no product",0,0,0,4376,0,28,5,286,2019-02-28,1604
+"10023841","41-60",48,"blue-collar","married","primary",-98,"yes","yes","march",3,3,0,"no product",0,0,0,6895,0,31,3,189,2019-03-31,1573
+"10023842","41-60",49,"blue-collar","single","secondary",-97,"yes","no","april",1,5,0,"no product",0,0,0,7632,0,30,1,83,2019-04-30,1543
+"10023843","31-40",38,"admin","single","secondary",-94,"no","no","may",3,4,0,"no product",0,0,0,9753,0,31,3,184,2019-05-31,1512
+"10023844","41-60",43,"blue-collar","married","primary",-98,"yes","yes","june",4,0,0,"no product",0,0,0,2257,0,30,4,235,2019-06-30,1482
+"10023845","31-40",33,"management","married","tertiary",-99,"yes","yes","july",5,0,0,"no product",0,0,0,6895,0,31,5,290,2019-07-31,1451
+"10023846","41-60",55,"blue-collar","married","secondary",-96,"yes","yes","august",4,9,0,"no product",0,0,0,6895,0,31,4,232,2019-08-31,1420
+"10023847","31-40",38,"blue-collar","married","secondary",-89,"yes","no","september",2,10,0,"no product",0,0,0,7632,0,30,2,133,2019-09-30,1390
+"10023848","41-60",49,"services","married","secondary",-96,"yes","yes","october",5,33,0,"no product",0,0,0,6895,0,31,5,318,2019-10-31,1359
+"10023849","31-40",40,"management","married","secondary",11,"no","no","november",4,40,0,"no product",0,0,0,7632,0,30,4,260,2019-11-30,1329
+"10023850","41-60",43,"admin","married","primary",-95,"no","yes","december",7,1,0,"no product",0,0,0,9753,0,31,7,437,2019-12-31,1298
+"10023851","31-40",38,"blue-collar","married","secondary",-99,"yes","no","january",7,4,1,"mortgage",1,0,0,8675,0,31,7,402,2019-01-31,1632
+"10023852","41-60",58,"services","married","secondary",-77,"yes","yes","february",1,17,1,"mortgage",1,0,0,9764,0,28,1,85,2019-02-28,1604
+"10023853","41-60",57,"technician","married","primary",-95,"yes","yes","march",2,1,1,"mortgage",1,1,1,2457,10,31,2,125,2019-03-31,1573
+"10023854","31-40",32,"unemployed","married","secondary",-99,"yes","no","april",8,2,1,"mortgage",1,1,1,3678,10,30,8,501,2019-04-30,1543
+"10023855","41-60",56,"management","married","tertiary",-88,"yes","yes","may",4.50311665182547,3,1,"mortgage",1,1,1,9765,10,31,20,1201,2019-05-31,1512
+"10023856","41-60",58,"blue-collar","divorced","primary",-99,"yes","no","june",4,2,1,"business",1,1,1,6895,10,30,4,253,2019-06-30,1482
+"10023857","41-60",60,"retired","divorced","secondary",-92,"yes","no","july",4.50311665182547,50,0,"no product",0,0,0,7632,0,31,17,1030,2019-07-31,1451
+"10023858","31-40",37,"technician","married","tertiary",14,"yes","yes","august",2,47,0,"no product",0,0,0,9753,0,31,2,149,2019-08-31,1420
+"10023859","41-60",46,"technician","divorced","tertiary",-93,"yes","yes","september",2,0,0,"no product",0,0,0,2257,0,30,2,114,2019-09-30,1390
+"10023860","18-30",27,"admin","married","secondary",-99,"yes","no","october",4,1,0,"no product",0,0,0,12353,0,31,4,243,2019-10-31,1359
+"10023861","41-60",43,"blue-collar","married","secondary",-83,"yes","yes","november",4.50311665182547,0,0,"no product",0,0,0,6895,0,30,13,769,2019-11-30,1329
+"10023862","31-40",32,"technician","single","secondary",-99,"yes","no","december",2,0,0,"no product",0,0,0,7632,0,31,2,135,2019-12-31,1298
+"10023863","31-40",40,"admin","single","secondary",-96,"yes","no","january",4,0,0,"no product",0,0,0,9753,0,31,4,231,2019-01-31,1632
+"10023864","31-40",38,"admin","married","secondary",-99,"no","no","february",1,0,0,"no product",0,0,0,2257,0,28,1,76,2019-02-28,1604
+"10023865","31-40",34,"blue-collar","married","secondary",-96,"no","no","march",3,5,0,"no product",0,0,0,12353,0,31,3,199,2019-03-31,1573
+"10023866","41-60",47,"blue-collar","married","primary",-97,"yes","yes","april",3,1,0,"no product",0,0,0,2356,0,30,3,152,2019-04-30,1543
+"10023867","41-60",42,"housemaid","married","primary",-99,"yes","yes","may",2,1,0,"no product",0,0,0,7654,0,31,2,124,2019-05-31,1512
+"10023868","41-60",48,"technician","married","secondary",-97,"yes","yes","june",7,1,0,"no product",0,0,0,7854,0,30,7,424,2019-06-30,1482
+"10023869","18-30",29,"self-employed","single","tertiary",-99,"yes","no","july",1,1,0,"no product",0,0,0,6895,0,31,1,43,2019-07-31,1451
+"10023870","41-60",50,"services","married","secondary",-97,"yes","yes","august",3,0,0,"no product",0,0,0,7632,0,31,3,154,2019-08-31,1420
+"10023871","41-60",52,"technician","married","primary",-99,"no","yes","september",3,0,0,"no product",0,0,0,9753,0,30,3,203,2019-09-30,1390
+"10023872","41-60",50,"management","married","tertiary",-99,"no","yes","october",5,0,0,"no product",0,0,0,2257,0,31,5,326,2019-10-31,1359
+"10023873","41-60",58,"retired","married","tertiary",-99,"no","yes","november",7,0,0,"no product",0,0,0,12353,0,30,7,393,2019-11-30,1329
+"10023874","41-60",46,"blue-collar","divorced","primary",-74,"yes","no","december",4,17,0,"no product",0,0,0,2356,0,31,4,241,2019-12-31,1298
+"10023875","31-40",38,"technician","married","secondary",-96,"yes","no","january",8,16,0,"no product",0,0,0,7654,0,31,8,483,2019-01-31,1632
+"10023876","41-60",46,"blue-collar","married","secondary",-77,"yes","yes","february",4,19,0,"no product",0,0,0,7854,0,28,4,259,2019-02-28,1604
+"10023877","31-40",32,"services","single","secondary",-94,"yes","no","march",4,7,0,"no product",0,0,0,8954,0,31,4,227,2019-03-31,1573
+"10023878","41-60",51,"blue-collar","married","primary",-96,"yes","yes","april",11,7,0,"no product",0,0,0,3678,0,30,11,673,2019-04-30,1543
+"10023879","31-40",39,"admin","single","secondary",-100,"yes","no","may",10,7,0,"no product",0,0,0,4853,0,31,10,576,2019-05-31,1512
+"10023880","41-60",48,"admin","married","secondary",-97,"yes","yes","june",3,10,0,"no product",0,0,0,8675,0,30,3,180,2019-06-30,1482
+"10023881","31-40",36,"entrepreneur","married","tertiary",-84,"yes","yes","july",3,6,0,"no product",0,0,0,9764,0,31,3,168,2019-07-31,1451
+"10023882","31-40",34,"admin","divorced","secondary",-98,"yes","no","august",2,1,0,"no product",0,0,0,2457,0,31,2,90,2019-08-31,1420
+"10023883","31-40",40,"technician","married","secondary",-98,"no","no","september",8,0,0,"no product",0,0,0,3678,0,30,8,505,2019-09-30,1390
+"10023884","41-60",43,"unemployed","married","secondary",-99,"yes","yes","october",4,0,0,"no product",0,0,0,9765,0,31,4,245,2019-10-31,1359
+"10023885","41-60",52,"blue-collar","divorced","primary",-99,"yes","no","november",3,1,0,"no product",0,0,0,7543,0,30,3,186,2019-11-30,1329
+"10023886","31-40",33,"technician","married","secondary",-98,"yes","no","december",10,2,0,"no product",0,0,0,6895,0,31,10,623,2019-12-31,1298
+"10023887","41-60",49,"management","single","tertiary",-97,"yes","yes","january",8,3,0,"no product",0,0,0,7632,0,31,8,496,2019-01-31,1632
+"10023888","31-40",32,"management","single","tertiary",-97,"yes","no","february",2,2,0,"no product",0,0,0,9753,0,28,2,118,2019-02-28,1604
+"10023889","31-40",39,"admin","single","secondary",-98,"yes","no","march",6,0,0,"no product",0,0,0,6895,0,31,6,342,2019-03-31,1573
+"10023890","31-40",40,"blue-collar","married","secondary",-99,"yes","no","april",4,0,0,"no product",0,0,0,7632,0,30,4,225,2019-04-30,1543
+"10023891","31-40",38,"technician","single","tertiary",-99,"yes","no","may",3,1,0,"no product",0,0,0,9753,0,31,3,185,2019-05-31,1512
+"10023892","41-60",43,"management","married","secondary",-94,"yes","yes","june",3,15,0,"no product",0,0,0,0,0,30,3,196,2019-06-30,1482
+"10023893","31-40",39,"services","married","secondary",-84,"yes","no","july",5,36,0,"no product",0,0,0,0,0,31,5,276,2019-07-31,1451
+"10023894","41-60",54,"blue-collar","married","primary",-72,"yes","yes","august",1,70,0,"no product",0,0,0,0,0,31,1,76,2019-08-31,1420
+"10023895","31-40",38,"technician","single","tertiary",-42,"yes","no","september",1,22,0,"no product",0,0,0,0,0,30,1,87,2019-09-30,1390
+"10023896","31-40",40,"blue-collar","married","secondary",-96,"yes","no","october",3,3,0,"no product",0,0,0,0,0,31,3,195,2019-10-31,1359
+"10023897","41-60",55,"admin","married","secondary",-98,"yes","yes","november",12,10,0,"no product",0,0,0,0,0,30,12,744,2019-11-30,1329
+"10023898","41-60",42,"management","married","tertiary",-77,"yes","yes","december",4.50311665182547,0,0,"no product",0,0,0,0,0,31,13,765,2019-12-31,1298
+"10023899","31-40",39,"blue-collar","married","secondary",-99,"yes","no","january",4,0,0,"no product",0,0,0,0,0,31,4,262,2019-01-31,1632
+"10023900","31-40",40,"blue-collar","married","primary",-99,"yes","no","february",2,2,0,"no product",0,0,0,0,0,28,2,119,2019-02-28,1604
+"10023901","31-40",32,"blue-collar","married","secondary",-95,"yes","no","march",3,5,0,"no product",0,0,0,0,0,31,3,198,2019-03-31,1573
+"10023902","41-60",55,"admin","married","secondary",-97,"yes","yes","april",2,1,0,"no product",0,0,0,0,0,30,2,150,2019-04-30,1543
+"10023903","41-60",45,"blue-collar","married","secondary",-99,"no","yes","may",4,3,0,"no product",0,0,0,0,0,31,4,241,2019-05-31,1512
+"10023904","31-40",35,"management","single","tertiary",-92,"yes","no","june",3,11,0,"no product",0,0,0,0,0,30,3,181,2019-06-30,1482
+"10023905","41-60",58,"technician","divorced","secondary",-93,"no","no","july",3,11,0,"no product",0,0,0,0,0,31,3,196,2019-07-31,1451
+"10023906","31-40",35,"admin","married","secondary",-92,"yes","no","august",2,4,0,"no product",0,0,0,0,0,31,2,149,2019-08-31,1420
+"10023907","41-60",49,"services","married","primary",-98,"yes","yes","september",4,2,0,"no product",0,0,0,0,0,30,4,246,2019-09-30,1390
+"10023908","31-40",34,"technician","single","tertiary",-96,"yes","no","october",2,4,0,"no product",0,0,0,0,0,31,2,112,2019-10-31,1359
+"10023909","31-40",36,"blue-collar","married","secondary",-97,"yes","no","november",5,0,0,"no product",0,0,0,0,0,30,5,309,2019-11-30,1329
+"10023910","18-30",24,"self-employed","single","secondary",-99,"yes","no","december",5,0,0,"no product",0,0,0,0,0,31,5,278,2019-12-31,1298
+"10023911","31-40",34,"technician","married","secondary",-94,"yes","no","january",2,6,0,"no product",0,0,0,0,0,31,2,140,2019-01-31,1632
+"10023912","41-60",51,"admin","divorced","secondary",-96,"yes","no","february",2,75,0,"no product",0,0,0,0,0,28,2,136,2019-02-28,1604
+"10023913","31-40",39,"technician","single","tertiary",494,"yes","no","march",4.50311665182547,7,0,"no product",0,0,0,0,0,31,27,1623,2019-03-31,1573
+"10023914","41-60",50,"self-employed","married","primary",-100,"yes","yes","april",2,4,0,"no product",0,0,0,0,0,30,2,101,2019-04-30,1543
+"10023915","31-40",32,"services","single","secondary",-95,"yes","no","may",2,4,0,"no product",0,0,0,0,0,31,2,144,2019-05-31,1512
+"10023916","41-60",42,"blue-collar","married","primary",-98,"yes","yes","june",4,7,0,"no product",0,0,0,0,0,30,4,238,2019-06-30,1482
+"10023917","41-60",50,"technician","married","secondary",-89,"yes","yes","july",6,5,0,"no product",0,0,0,0,0,31,6,354,2019-07-31,1451
+"10023918","31-40",40,"services","married","secondary",-98,"no","no","august",1,0,0,"no product",0,0,0,0,0,31,1,79,2019-08-31,1420
+"10023919","41-60",46,"management","divorced","primary",-99,"yes","no","september",3,0,0,"no product",0,0,0,0,0,30,3,187,2019-09-30,1390
+"10023920","31-40",37,"management","married","tertiary",-96,"yes","yes","october",8,5,0,"no product",0,0,0,0,0,31,8,451,2019-10-31,1359
+"10023921","31-40",34,"blue-collar","married","secondary",-96,"yes","no","november",3,6,0,"no product",0,0,0,0,0,30,3,159,2019-11-30,1329
+"10023922","41-60",44,"blue-collar","married","secondary",-96,"yes","yes","december",7,7,0,"no product",0,0,0,0,0,31,7,409,2019-12-31,1298
+"10023923","31-40",40,"admin","single","secondary",-101,"yes","no","january",3,7,0,"no product",0,0,0,0,0,31,3,170,2019-01-31,1632
+"10023924","31-40",37,"technician","married","secondary",-99,"yes","no","february",10,7,0,"no product",0,0,0,0,0,28,10,608,2019-02-28,1604
+"10023925","31-40",33,"blue-collar","single","secondary",-100,"no","no","march",4,7,0,"no product",0,0,0,0,0,31,4,243,2019-03-31,1573
+"10023926","31-40",35,"blue-collar","married","secondary",-98,"yes","no","april",2,7,0,"no product",0,0,0,0,0,30,2,145,2019-04-30,1543
+"10023927","41-60",58,"blue-collar","divorced","secondary",-99,"no","no","may",2,7,0,"no product",0,0,0,0,0,31,2,112,2019-05-31,1512
+"10023928","31-40",39,"blue-collar","married","primary",-99,"yes","no","june",4,0,0,"no product",0,0,0,0,0,30,4,262,2019-06-30,1482
+"10023929","41-60",43,"blue-collar","married","secondary",-106,"yes","yes","july",2,7,0,"no product",0,0,0,0,0,31,2,124,2019-07-31,1451
+"10023930","31-40",39,"unemployed","married","primary",-94,"yes","no","august",1,3,0,"no product",0,0,0,0,0,31,1,53,2019-08-31,1420
+"10023931","31-40",36,"services","single","primary",-98,"yes","no","september",2,7,0,"no product",0,0,0,0,0,30,2,134,2019-09-30,1390
+"10023932","41-60",57,"retired","single","secondary",-78,"no","no","october",3,4,0,"no product",0,0,0,0,0,31,3,204,2019-10-31,1359
+"10023933","31-40",36,"admin","single","secondary",-99,"yes","no","november",3,0,0,"no product",0,0,0,0,0,30,3,186,2019-11-30,1329
+"10023934","41-60",50,"blue-collar","married","primary",-98,"yes","yes","december",11,1,0,"no product",0,0,0,0,0,31,11,678,2019-12-31,1298
+"10023935","41-60",55,"blue-collar","married","secondary",-99,"yes","yes","january",3,2,0,"no product",0,0,0,0,0,31,3,182,2019-01-31,1632
+"10023936","41-60",44,"self-employed","married","tertiary",-95,"yes","yes","february",3,8,0,"no product",0,0,0,0,0,28,3,162,2019-02-28,1604
+"10023937","41-60",44,"services","divorced","secondary",-94,"yes","no","march",0,5,0,"no product",0,0,0,0,0,31,0,27,2019-03-31,1573
+"10023938","31-40",39,"housemaid","single","primary",-98,"yes","no","april",12,7,0,"no product",0,0,0,0,0,30,12,699,2019-04-30,1543
+"10023939","41-60",46,"blue-collar","married","tertiary",-86,"yes","yes","may",1,23,0,"no product",0,0,0,0,0,31,1,43,2019-05-31,1512
+"10023940","31-40",39,"blue-collar","married","secondary",-86,"yes","no","june",2,21,0,"no product",0,0,0,0,0,30,2,97,2019-06-30,1482
+"10023941","31-40",34,"admin","married","secondary",-88,"no","no","july",4.50311665182547,17,0,"no product",0,0,0,0,0,31,28,1677,2019-07-31,1451
+"10023942","31-40",40,"blue-collar","married","primary",-90,"yes","no","august",5,18,0,"no product",0,0,0,0,0,31,5,283,2019-08-31,1420
+"10023943","41-60",50,"management","married","tertiary",-87,"yes","yes","september",5,12,0,"no product",0,0,0,0,0,30,5,323,2019-09-30,1390
+"10023944","31-40",31,"management","single","secondary",-95,"yes","no","october",1,4,0,"no product",0,0,0,0,0,31,1,82,2019-10-31,1359
+"10023945","31-40",37,"admin","single","secondary",-97,"yes","no","november",5,11,0,"no product",0,0,0,0,0,30,5,310,2019-11-30,1329
+"10023946","31-40",39,"management","single","secondary",-75,"yes","no","december",3,33,0,"no product",0,0,0,0,0,31,3,185,2019-12-31,1298
+"10023947","41-60",51,"blue-collar","married","primary",-84,"yes","yes","january",1,23,0,"no product",0,0,0,0,0,31,1,47,2019-01-31,1632
+"10023948","41-60",41,"technician","married","secondary",-88,"yes","yes","february",2,19,0,"no product",0,0,0,0,0,28,2,145,2019-02-28,1604
+"10023949","41-60",41,"technician","married","secondary",-89,"yes","yes","march",3,0,0,"no product",0,0,0,0,0,31,3,204,2019-03-31,1573
+"10023950","41-60",43,"blue-collar","married","secondary",-99,"no","yes","april",3,0,0,"no product",0,0,0,0,0,30,3,187,2019-04-30,1543
+"10023951","18-30",30,"services","single","secondary",-97,"yes","no","may",0,0,0,"no product",0,0,0,0,0,31,0,30,2019-05-31,1512
+"10023952","41-60",54,"management","divorced","primary",-99,"no","no","june",8,0,0,"no product",0,0,0,0,0,30,8,472,2019-06-30,1482
+"10023953","41-60",43,"blue-collar","divorced","secondary",-98,"yes","no","july",7,7,0,"no product",0,0,0,0,0,31,7,448,2019-07-31,1451
+"10023954","41-60",59,"management","divorced","tertiary",-100,"yes","yes","august",4,8,0,"no product",0,0,0,0,0,31,4,264,2019-08-31,1420
+"10023955","41-60",47,"technician","married","primary",-97,"yes","yes","september",3,7,0,"no product",0,0,0,0,0,30,3,169,2019-09-30,1390
+"10023956","31-40",40,"blue-collar","married","primary",-100,"yes","no","october",5,7,0,"no product",0,0,0,0,0,31,5,288,2019-10-31,1359
+"10023957","31-40",32,"technician","married","secondary",-99,"yes","no","november",3,0,0,"no product",0,0,0,0,0,30,3,176,2019-11-30,1329
+"10023958","18-30",29,"blue-collar","married","secondary",-99,"yes","no","december",4,0,0,"no product",0,0,0,0,0,31,4,215,2019-12-31,1298
+"10023959","31-40",36,"blue-collar","married","secondary",-99,"yes","no","january",6,0,0,"no product",0,0,0,0,0,31,6,337,2019-01-31,1632
+"10023960","41-60",55,"unemployed","married","tertiary",-29,"no","yes","february",5,5,0,"no product",0,0,0,0,0,28,5,278,2019-02-28,1604
+"10023961","18-30",30,"blue-collar","divorced","secondary",-102,"yes","no","march",3,7,0,"no product",0,0,0,0,0,31,3,188,2019-03-31,1573
+"10023962","31-40",39,"admin","single","secondary",-99,"yes","no","april",3,0,0,"no product",0,0,0,0,0,30,3,174,2019-04-30,1543
+"10023963","31-40",39,"blue-collar","divorced","secondary",-99,"yes","no","may",4,0,0,"no product",0,0,0,0,0,31,4,226,2019-05-31,1512
+"10023964","41-60",50,"blue-collar","divorced","secondary",-99,"yes","no","june",3,7,0,"no product",0,0,0,0,0,30,3,190,2019-06-30,1482
+"10023965","41-60",44,"blue-collar","married","secondary",-101,"yes","yes","july",2,7,0,"no product",0,0,0,0,0,31,2,111,2019-07-31,1451
+"10023966","31-40",37,"technician","single","secondary",-99,"yes","no","august",3,1,0,"no product",0,0,0,0,0,31,3,164,2019-08-31,1420
+"10023967","41-60",46,"admin","married","primary",-96,"yes","yes","september",3,7,0,"no product",0,0,0,0,0,30,3,157,2019-09-30,1390
+"10023968","31-40",32,"technician","single","primary",-101,"no","no","october",1,7,0,"no product",0,0,0,0,0,31,1,46,2019-10-31,1359
+"10023969","31-40",37,"management","single","tertiary",-96,"yes","no","november",6,1,0,"no product",0,0,0,0,0,30,6,374,2019-11-30,1329
+"10023970","18-30",29,"blue-collar","married","secondary",-99,"yes","no","december",6,2,0,"no product",0,0,0,0,0,31,6,349,2019-12-31,1298
+"10023971","41-60",41,"blue-collar","married","secondary",-87,"yes","yes","january",5,25,0,"no product",0,0,0,0,0,31,5,325,2019-01-31,1632
+"10023972","41-60",45,"blue-collar","married","primary",-82,"yes","yes","february",4,7,0,"no product",0,0,0,0,0,28,4,233,2019-02-28,1604
+"10023973","41-60",57,"retired","divorced","secondary",-104,"yes","no","march",9,7,0,"no product",0,0,0,0,0,31,9,531,2019-03-31,1573
+"10023974","41-60",48,"blue-collar","single","secondary",-99,"yes","no","april",3,0,0,"no product",0,0,0,0,0,30,3,153,2019-04-30,1543
+"10023975","41-60",60,"retired","married","secondary",-99,"no","yes","may",1,2,0,"no product",0,0,0,0,0,31,1,80,2019-05-31,1512
+"10023976","18-30",26,"admin","single","secondary",-90,"yes","no","june",4,45,0,"no product",0,0,0,0,0,30,4,232,2019-06-30,1482
+"10023977","41-60",58,"retired","married","secondary",-28,"yes","yes","july",2,38,0,"no product",0,0,0,0,0,31,2,118,2019-07-31,1451
+"10023978","31-40",34,"admin","married","secondary",-93,"yes","no","august",3,10,0,"no product",0,0,0,0,0,31,3,190,2019-08-31,1420
+"10023979","41-60",55,"unemployed","divorced","secondary",-94,"yes","no","september",4.50311665182547,0,0,"no product",0,0,0,0,0,30,15,918,2019-09-30,1390
+"10023980","41-60",41,"blue-collar","married","primary",-99,"yes","yes","october",4,0,0,"no product",0,0,0,0,0,31,4,238,2019-10-31,1359
+"10023981","41-60",50,"management","divorced","secondary",-77,"yes","no","november",1,12,0,"no product",0,0,0,0,0,30,1,82,2019-11-30,1329
+"10023982","41-60",49,"entrepreneur","married","secondary",-97,"yes","yes","december",3,1,0,"no product",0,0,0,0,0,31,3,198,2019-12-31,1298
+"10023983","41-60",44,"admin","married","primary",-99,"no","yes","january",3,1,0,"no product",0,0,0,0,0,31,3,160,2019-01-31,1632
+"10023984","41-60",44,"blue-collar","married","primary",-97,"yes","yes","february",4,1,0,"no product",0,0,0,0,0,28,4,211,2019-02-28,1604
+"10023985","31-40",31,"technician","married","secondary",-99,"yes","no","march",2,2,0,"no product",0,0,0,0,0,31,2,120,2019-03-31,1573
+"10023986","31-40",34,"blue-collar","single","tertiary",-86,"yes","no","april",2,28,0,"no product",0,0,0,0,0,30,2,136,2019-04-30,1543
+"10023987","41-60",46,"management","single","tertiary",-79,"yes","no","may",4,24,0,"no product",0,0,0,0,0,31,4,269,2019-05-31,1512
+"10023988","41-60",42,"management","married","tertiary",-89,"no","yes","june",3,14,0,"no product",0,0,0,0,0,30,3,157,2019-06-30,1482
+"10023989","41-60",52,"admin","married","secondary",-93,"yes","yes","july",2,0,0,"no product",0,0,0,0,0,31,2,128,2019-07-31,1451
+"10023990","18-30",29,"management","single","tertiary",-99,"yes","no","august",4,0,0,"no product",0,0,0,0,0,31,4,211,2019-08-31,1420
+"10023991","41-60",53,"retired","married","primary",-97,"yes","yes","september",4,9,0,"no product",0,0,0,0,0,30,4,267,2019-09-30,1390
+"10023992","41-60",43,"blue-collar","married","secondary",-82,"yes","yes","october",6,19,0,"no product",0,0,0,0,0,31,6,371,2019-10-31,1359
+"10023993","31-40",38,"management","married","secondary",-92,"yes","no","november",5,11,0,"no product",0,0,0,0,0,30,5,288,2019-11-30,1329
+"10023994","41-60",46,"management","married","tertiary",-93,"yes","yes","december",4,11,0,"no product",0,0,0,0,0,31,4,221,2019-12-31,1298
+"10023995","41-60",48,"management","divorced","secondary",-92,"yes","no","january",7,4,0,"no product",0,0,0,0,0,31,7,427,2019-01-31,1632
+"10023996","18-30",30,"admin","divorced","secondary",-98,"yes","no","february",5,3,0,"no product",0,0,0,0,0,28,5,310,2019-02-28,1604
+"10023997","41-60",44,"blue-collar","married","primary",-96,"no","yes","march",3,4,0,"no product",0,0,0,0,0,31,3,158,2019-03-31,1573
+"10023998","31-40",31,"housemaid","married","primary",-97,"yes","no","april",10,7,0,"no product",0,0,0,0,0,30,10,604,2019-04-30,1543
+"10023999","41-60",42,"services","single","secondary",-92,"yes","no","may",3,33,0,"no product",0,0,0,0,0,31,3,198,2019-05-31,1512
+"10024000","31-40",40,"management","single","tertiary",-48,"yes","no","june",2,51,0,"no product",0,0,0,0,0,30,2,145,2019-06-30,1482
+"10024001","41-60",52,"admin","married","secondary",-83,"yes","yes","july",4,22,0,"no product",0,0,0,0,0,31,4,247,2019-07-31,1451
+"10024002","41-60",45,"blue-collar","divorced","secondary",-89,"yes","no","august",3,8,0,"no product",0,0,0,0,0,31,3,179,2019-08-31,1420
+"10024003","41-60",48,"blue-collar","married","secondary",-97,"yes","yes","september",1,7,0,"no product",0,0,0,0,0,30,1,73,2019-09-30,1390
+"10024004","41-60",45,"blue-collar","married","primary",-100,"yes","yes","october",4,7,0,"no product",0,0,0,0,0,31,4,263,2019-10-31,1359
+"10024005","31-40",34,"blue-collar","married","primary",-96,"yes","no","november",0,7,1,"mortgage",1,1,1,4853,10,30,0,13,2019-11-30,1329
+"10024006","31-40",34,"blue-collar","married","primary",-101,"yes","no","december",1,7,1,"mortgage",1,1,1,8675,10,31,1,79,2019-12-31,1298
+"10024007","41-60",46,"blue-collar","married","secondary",-98,"yes","yes","january",7,4,1,"mortgage",1,1,1,9764,10,31,7,416,2019-01-31,1632
+"10024008","41-60",49,"services","divorced","secondary",-93,"yes","no","february",3,8,1,"mortgage",1,1,1,2457,10,28,3,162,2019-02-28,1604
+"10024009","41-60",50,"technician","married","primary",-96,"yes","yes","march",2,0,1,"mortgage",1,1,1,3678,10,31,2,129,2019-03-31,1573
+"10024010","31-40",34,"admin","single","secondary",-99,"yes","no","april",2,0,1,"mortgage",1,1,1,9765,10,30,2,150,2019-04-30,1543
+"10024011","31-40",40,"unemployed","single","secondary",-99,"yes","no","may",1,1,1,"mortgage",1,1,1,7543,10,31,1,43,2019-05-31,1512
+"10024012","31-40",36,"admin","married","secondary",-91,"yes","no","june",3,6,1,"unsecured ",1,1,1,6689,10,30,3,191,2019-06-30,1482
+"10024013","41-60",59,"blue-collar","divorced","primary",-98,"yes","no","july",0,2,1,"unsecured ",1,1,1,4376,10,31,0,26,2019-07-31,1451
+"10024014","41-60",45,"blue-collar","married","secondary",-98,"yes","yes","august",4,2,1,"unsecured ",1,1,1,6895,10,31,4,250,2019-08-31,1420
+"10024015","31-40",36,"self-employed","married","tertiary",-98,"yes","yes","september",2,5,1,"unsecured ",1,1,1,7632,10,30,2,146,2019-09-30,1390
+"10024016","41-60",56,"services","married","secondary",-93,"yes","yes","october",7,9,1,"unsecured ",1,1,1,9753,9,31,7,416,2019-10-31,1359
+"10024017","41-60",42,"services","divorced","secondary",-94,"yes","no","november",2,2,1,"unsecured ",1,1,1,2257,9,30,2,121,2019-11-30,1329
+"10024018","18-30",30,"admin","married","secondary",-99,"yes","no","december",2,0,1,"unsecured ",1,1,1,6895,9,31,2,114,2019-12-31,1298
+"10024019","18-30",30,"student","single","tertiary",-99,"yes","no","january",5,4,1,"unsecured ",1,1,1,6895,9,31,5,289,2019-01-31,1632
+"10024020","41-60",47,"self-employed","married","tertiary",-87,"yes","yes","february",4,4,1,"unsecured ",1,1,1,7632,9,28,4,225,2019-02-28,1604
+"10024021","31-40",33,"blue-collar","married","secondary",-99,"yes","no","march",2,7,1,"unsecured ",1,1,1,6895,9,31,2,123,2019-03-31,1573
+"10024022","31-40",36,"admin","married","secondary",-101,"yes","no","april",2,7,1,"unsecured ",1,1,1,7632,9,30,2,130,2019-04-30,1543
+"10024023","31-40",39,"services","divorced","primary",-93,"yes","no","may",3,14,1,"unsecured ",1,1,1,9753,9,31,3,161,2019-05-31,1512
+"10024024","41-60",56,"admin","divorced","secondary",-89,"yes","no","june",2,8,1,"unsecured ",1,1,1,8675,9,30,2,149,2019-06-30,1482
+"10024025","31-40",39,"blue-collar","divorced","primary",-97,"yes","no","july",4,5,1,"unsecured ",1,1,1,9764,9,31,4,268,2019-07-31,1451
+"10024026","41-60",42,"technician","married","secondary",-95,"yes","yes","august",4,23,1,"mortgage",1,1,1,2457,9,31,4,259,2019-08-31,1420
+"10024027","41-60",52,"blue-collar","married","secondary",-58,"no","yes","september",0,14,1,"mortgage",1,1,1,3678,9,30,0,26,2019-09-30,1390
+"10024028","31-40",36,"admin","divorced","secondary",-98,"yes","no","october",3,3,1,"mortgage",1,1,1,9765,9,31,3,153,2019-10-31,1359
+"10024029","31-40",35,"entrepreneur","married","secondary",-97,"yes","no","november",7,2,1,"mortgage",1,1,1,6895,9,30,7,424,2019-11-30,1329
+"10024030","41-60",47,"technician","married","secondary",-98,"yes","yes","december",3,0,1,"mortgage",1,1,1,7632,9,31,3,179,2019-12-31,1298
+"10024031","41-60",59,"services","divorced","secondary",-99,"yes","no","january",2,0,1,"mortgage",1,1,1,9753,9,31,2,97,2019-01-31,1632
+"10024032","41-60",57,"blue-collar","married","primary",-28,"yes","yes","february",6,72,1,"mortgage",1,1,1,2257,9,28,6,383,2019-02-28,1604
+"10024033","31-40",38,"management","married","tertiary",-76,"yes","no","march",7,8,1,"mortgage",1,1,1,12353,9,31,7,440,2019-03-31,1573
+"10024034","41-60",46,"unemployed","married","secondary",-101,"yes","yes","april",0,5,1,"mortgage",1,1,1,6895,9,30,0,23,2019-04-30,1543
+"10024035","31-40",34,"blue-collar","married","secondary",-99,"no","no","may",3,0,1,"mortgage",1,1,1,7632,9,31,3,195,2019-05-31,1512
+"10024036","18-30",28,"services","single","secondary",-32,"yes","no","june",4.50311665182547,39,1,"mortgage",1,1,1,9753,9,30,22,1297,2019-06-30,1482
+"10024037","31-40",38,"technician","married","secondary",-92,"yes","no","july",1,22,1,"mortgage",1,1,1,2257,9,31,1,87,2019-07-31,1451
+"10024038","41-60",56,"blue-collar","married","secondary",-78,"yes","yes","august",7,7,1,"mortgage",1,1,1,12353,9,31,7,427,2019-08-31,1420
+"10024039","41-60",41,"blue-collar","single","primary",-101,"yes","no","september",3,7,1,"mortgage",1,1,1,2356,9,30,3,189,2019-09-30,1390
+"10024040","41-60",52,"technician","married","primary",-99,"no","yes","october",3,0,1,"auto ",1,1,1,7654,9,31,3,195,2019-10-31,1359
+"10024041","41-60",54,"services","married","secondary",-97,"no","yes","november",3,4,1,"auto ",1,1,1,7854,9,30,3,179,2019-11-30,1329
+"10024042","over 60",60,"retired","married","secondary",-97,"yes","yes","december",3,5,1,"auto ",1,1,1,6895,9,31,3,179,2019-12-31,1298
+"10024043","41-60",53,"entrepreneur","married","secondary",-95,"no","yes","january",1,1,1,"auto ",1,1,1,7632,9,31,1,69,2019-01-31,1632
+"10024044","41-60",47,"technician","married","secondary",-99,"yes","yes","february",2,0,1,"auto ",1,1,1,9753,9,28,2,105,2019-02-28,1604
+"10024045","41-60",53,"blue-collar","married","primary",-99,"yes","yes","march",4,1,1,"auto ",1,1,1,2257,9,31,4,266,2019-03-31,1573
+"10024046","41-60",46,"services","married","secondary",-96,"yes","yes","april",9,4,1,"auto ",1,1,1,12353,9,30,9,524,2019-04-30,1543
+"10024047","31-40",39,"blue-collar","divorced","primary",-97,"yes","no","may",2,3,1,"auto ",1,1,1,2356,9,31,2,96,2019-05-31,1512
+"10024048","41-60",56,"technician","divorced","secondary",-98,"yes","no","june",3,11,1,"auto ",1,1,1,7654,9,30,3,155,2019-06-30,1482
+"10024049","41-60",55,"services","divorced","primary",-69,"yes","no","july",3,4,1,"auto ",1,1,1,7854,9,31,3,162,2019-07-31,1451
+"10024050","41-60",44,"management","married","tertiary",-99,"yes","yes","august",6,0,1,"auto ",1,1,1,8954,9,31,6,352,2019-08-31,1420
+"10024051","31-40",37,"technician","married","primary",-99,"yes","no","september",1,0,1,"auto ",1,1,1,3678,9,30,1,76,2019-09-30,1390
+"10024052","31-40",35,"blue-collar","married","primary",-99,"yes","no","october",3,0,1,"auto ",1,1,1,4853,9,31,3,154,2019-10-31,1359
+"10024053","41-60",55,"blue-collar","married","secondary",-88,"yes","yes","november",5,12,1,"auto ",1,1,1,8675,9,30,5,310,2019-11-30,1329
+"10024054","31-40",37,"services","married","secondary",-95,"yes","no","december",6,0,1,"auto ",1,1,1,9764,9,31,6,390,2019-12-31,1298
+"10024055","18-30",30,"technician","single","secondary",-99,"yes","no","january",6,0,1,"mortgage",1,1,1,2457,9,31,6,369,2019-01-31,1632
+"10024056","31-40",37,"blue-collar","married","primary",-104,"yes","no","february",2,7,1,"mortgage",1,1,1,3678,9,28,2,112,2019-02-28,1604
+"10024057","31-40",36,"technician","single","secondary",-99,"yes","no","march",6,7,1,"mortgage",1,1,1,9765,9,31,6,341,2019-03-31,1573
+"10024058","31-40",38,"technician","married","secondary",-92,"yes","no","april",1,35,1,"mortgage",1,1,1,7543,9,30,1,79,2019-04-30,1543
+"10024059","41-60",41,"admin","divorced","primary",-46,"yes","no","may",2,12,1,"mortgage",1,1,1,6895,9,31,2,140,2019-05-31,1512
+"10024060","41-60",48,"retired","married","secondary",-98,"no","yes","june",5,2,1,"mortgage",1,1,1,7632,9,30,5,315,2019-06-30,1482
+"10024061","41-60",55,"services","divorced","secondary",-97,"yes","no","july",4,2,1,"mortgage",1,1,1,9753,9,31,4,262,2019-07-31,1451
+"10024062","18-30",28,"services","divorced","secondary",-98,"no","no","august",3,0,1,"mortgage",1,1,1,6895,9,31,3,174,2019-08-31,1420
+"10024063","41-60",54,"services","married","secondary",-99,"yes","yes","september",2,0,1,"mortgage",1,1,1,7632,9,30,2,138,2019-09-30,1390
+"10024064","18-30",30,"blue-collar","married","secondary",-93,"no","no","october",9,8,1,"mortgage",1,1,1,9753,9,31,9,526,2019-10-31,1359
+"10024065","41-60",48,"technician","married","tertiary",-95,"no","yes","november",2,0,1,"mortgage",1,1,1,4853,9,30,2,135,2019-11-30,1329
+"10024066","31-40",31,"self-employed","married","secondary",-99,"yes","no","december",1,0,1,"mortgage",1,1,1,8675,9,31,1,36,2019-12-31,1298
+"10024067","31-40",38,"blue-collar","married","secondary",-94,"yes","no","january",4.50311665182547,9,1,"mortgage",1,1,1,9764,9,31,32,1906,2019-01-31,1632
+"10024068","31-40",37,"blue-collar","married","secondary",-94,"yes","no","february",4,7,1,"mortgage",1,1,1,2457,9,28,4,219,2019-02-28,1604
+"10024069","31-40",37,"services","single","primary",-101,"yes","no","march",2,7,1,"mortgage",1,1,1,3678,9,31,2,147,2019-03-31,1573
+"10024070","41-60",56,"blue-collar","married","primary",-99,"yes","yes","april",7,0,1,"mortgage",1,1,1,9765,9,30,7,407,2019-04-30,1543
+"10024071","41-60",51,"blue-collar","married","secondary",-99,"yes","yes","may",2,2,1,"mortgage",1,1,1,7543,9,31,2,121,2019-05-31,1512
+"10024072","31-40",39,"blue-collar","married","secondary",-96,"yes","no","june",3,1,1,"mortgage",0,0,0,6689,0,30,3,209,2019-06-30,1482
+"10024073","41-60",49,"technician","married","primary",-99,"no","yes","july",2,2,1,"mortgage",0,0,0,4376,0,31,2,92,2019-07-31,1451
+"10024074","41-60",51,"blue-collar","married","primary",-91,"yes","yes","august",3,18,1,"mortgage",0,0,0,6895,0,31,3,208,2019-08-31,1420
+"10024075","41-60",43,"self-employed","married","secondary",-87,"yes","yes","september",3,11,1,"mortgage",0,0,0,7632,0,30,3,193,2019-09-30,1390
+"10024076","31-40",32,"services","married","secondary",-96,"yes","no","october",2,7,1,"mortgage",0,0,0,9753,0,31,2,144,2019-10-31,1359
+"10024077","18-30",29,"technician","single","tertiary",-94,"yes","no","november",1,17,1,"mortgage",0,0,0,2257,0,30,1,65,2019-11-30,1329
+"10024078","41-60",48,"management","divorced","tertiary",-82,"yes","yes","december",6,13,1,"unsecured ",0,0,0,6895,0,31,6,339,2019-12-31,1298
+"10024079","41-60",55,"services","married","primary",-96,"yes","yes","january",5,21,1,"unsecured ",0,0,0,6895,0,31,5,285,2019-01-31,1632
+"10024080","41-60",53,"blue-collar","married","secondary",-55,"yes","yes","february",4,62,1,"unsecured ",0,0,0,7632,0,28,4,231,2019-02-28,1604
+"10024081","41-60",47,"technician","married","tertiary",-72,"yes","yes","march",3,57,1,"unsecured ",0,0,0,6895,0,31,3,168,2019-03-31,1573
+"10024082","31-40",39,"management","married","tertiary",-61,"yes","yes","april",5,9,1,"unsecured ",0,0,0,7632,0,30,5,278,2019-04-30,1543
+"10024083","31-40",31,"blue-collar","single","tertiary",-98,"yes","no","may",6,8,1,"unsecured ",0,0,0,9753,0,31,6,389,2019-05-31,1512
+"10024084","31-40",39,"blue-collar","married","primary",-70,"yes","no","june",3,59,1,"unsecured ",0,0,0,8675,0,30,3,158,2019-06-30,1482
+"10024085","31-40",40,"blue-collar","married","primary",-61,"yes","no","july",2,7,1,"unsecured ",0,0,0,9764,0,31,2,145,2019-07-31,1451
+"10024086","31-40",40,"technician","single","primary",-99,"yes","no","august",1,7,1,"unsecured ",0,0,0,2457,0,31,1,78,2019-08-31,1420
+"10024087","41-60",48,"technician","married","secondary",-97,"no","yes","september",2,0,1,"unsecured ",0,0,0,3678,0,30,2,142,2019-09-30,1390
+"10024088","31-40",33,"technician","divorced","secondary",-99,"yes","no","october",1,0,1,"unsecured ",0,0,0,9765,0,31,1,87,2019-10-31,1359
+"10024089","31-40",40,"technician","married","secondary",-98,"yes","no","november",2,7,1,"unsecured ",0,0,0,6895,0,30,2,147,2019-11-30,1329
+"10024090","41-60",59,"retired","married","primary",-101,"yes","yes","december",5,7,1,"unsecured ",0,0,0,7632,0,31,5,289,2019-12-31,1298
+"10024091","18-30",30,"technician","married","secondary",-93,"yes","no","january",12,22,1,"auto ",0,0,0,9753,0,31,12,703,2019-01-31,1632
+"10024092","31-40",31,"management","single","tertiary",-75,"yes","no","february",3,23,1,"auto ",0,0,0,2257,0,28,3,170,2019-02-28,1604
+"10024093","31-40",35,"unemployed","married","secondary",-92,"yes","no","march",4.50311665182547,2,1,"auto ",0,0,0,12353,0,31,13,802,2019-03-31,1573
+"10024094","41-60",54,"technician","divorced","secondary",-99,"yes","no","april",6,5,1,"auto ",0,0,0,6895,0,30,6,381,2019-04-30,1543
+"10024095","31-40",34,"admin","single","tertiary",-67,"yes","no","may",4,10,1,"auto ",0,0,0,7632,0,31,4,218,2019-05-31,1512
+"10024096","31-40",32,"technician","married","secondary",-98,"yes","no","june",1,14,1,"auto ",1,1,1,9753,9,30,1,57,2019-06-30,1482
+"10024097","41-60",56,"admin","divorced","tertiary",-44,"yes","no","july",5,30,1,"auto ",1,1,1,2257,9,31,5,304,2019-07-31,1451
+"10024098","31-40",32,"admin","single","tertiary",-94,"yes","no","august",4,1,1,"auto ",1,1,1,12353,9,31,4,241,2019-08-31,1420
+"10024099","41-60",42,"blue-collar","married","primary",-99,"yes","yes","september",4,0,1,"auto ",1,1,1,2356,9,30,4,230,2019-09-30,1390
+"10024100","31-40",33,"services","married","tertiary",-98,"no","yes","october",4,7,1,"auto ",1,1,1,7654,9,31,4,262,2019-10-31,1359
+"10024101","41-60",52,"entrepreneur","married","tertiary",-102,"yes","yes","november",7,6,1,"auto ",1,1,1,7854,9,30,7,392,2019-11-30,1329
+"10024102","41-60",52,"services","married","secondary",-91,"no","yes","december",3,7,1,"auto ",1,1,1,6895,9,31,3,201,2019-12-31,1298
+"10024103","41-60",52,"blue-collar","divorced","primary",-102,"yes","no","january",2,7,1,"auto ",1,1,1,7632,9,31,2,145,2019-01-31,1632
+"10024104","18-30",30,"unemployed","divorced","secondary",-84,"yes","no","february",4,0,1,"auto ",1,1,1,9753,9,28,4,252,2019-02-28,1604
+"10024105","41-60",44,"services","divorced","secondary",-99,"yes","no","march",4,0,1,"auto ",1,1,1,2257,9,31,4,235,2019-03-31,1573
+"10024106","31-40",35,"admin","married","secondary",-98,"yes","no","april",4,2,1,"auto ",1,1,1,12353,9,30,4,235,2019-04-30,1543
+"10024107","41-60",55,"management","single","secondary",-96,"yes","no","may",5,6,1,"auto ",1,1,1,2356,9,31,5,328,2019-05-31,1512
+"10024108","31-40",33,"blue-collar","married","primary",-95,"yes","no","june",2,6,1,"auto ",1,1,1,7654,9,30,2,116,2019-06-30,1482
+"10024109","31-40",37,"blue-collar","single","secondary",-96,"yes","no","july",4,0,1,"mortgage",1,1,1,7854,9,31,4,246,2019-07-31,1451
+"10024110","41-60",42,"technician","single","secondary",-99,"yes","no","august",5,0,1,"mortgage",1,1,1,8954,9,31,5,293,2019-08-31,1420
+"10024111","41-60",43,"unemployed","married","secondary",-99,"yes","yes","september",1,0,1,"mortgage",1,1,1,3678,9,30,1,37,2019-09-30,1390
+"10024112","31-40",38,"entrepreneur","married","tertiary",-87,"yes","yes","october",2,7,1,"mortgage",1,1,1,4853,9,31,2,132,2019-10-31,1359
+"10024113","31-40",37,"technician","married","secondary",-98,"yes","no","november",9,4,1,"mortgage",1,1,1,8675,9,30,9,530,2019-11-30,1329
+"10024114","31-40",31,"student","single","secondary",-96,"yes","no","december",3,2,1,"mortgage",1,1,1,9764,9,31,3,175,2019-12-31,1298
+"10024115","41-60",41,"management","married","tertiary",-98,"yes","yes","january",9,8,1,"mortgage",1,1,1,2457,9,31,9,524,2019-01-31,1632
+"10024116","41-60",41,"technician","married","secondary",-104,"yes","yes","february",0,7,1,"mortgage",1,1,1,3678,9,28,0,29,2019-02-28,1604
+"10024117","18-30",29,"student","single","secondary",-97,"yes","no","march",5,5,1,"mortgage",1,1,1,9765,9,31,5,311,2019-03-31,1573
+"10024118","31-40",38,"admin","single","secondary",-96,"yes","no","april",4,0,1,"mortgage",1,1,1,7543,9,30,4,211,2019-04-30,1543
+"10024119","41-60",44,"self-employed","divorced","tertiary",-99,"yes","yes","may",5,0,1,"mortgage",1,1,1,6895,9,31,5,312,2019-05-31,1512
+"10024120","31-40",39,"admin","married","secondary",-98,"yes","no","june",7,4,1,"mortgage",1,1,1,7632,9,30,7,412,2019-06-30,1482
+"10024121","18-30",28,"technician","single","secondary",-95,"yes","no","july",7,7,1,"mortgage",1,1,1,9753,9,31,7,392,2019-07-31,1451
+"10024122","31-40",33,"blue-collar","married","secondary",-104,"yes","no","august",3,7,1,"mortgage",1,1,1,6895,9,31,3,191,2019-08-31,1420
+"10024123","41-60",41,"services","married","primary",-99,"no","yes","september",5,7,1,"mortgage",1,1,1,7632,9,30,5,284,2019-09-30,1390
+"10024124","31-40",40,"blue-collar","married","primary",-103,"yes","no","october",2,7,1,"unsecured ",1,1,1,9753,8,31,2,144,2019-10-31,1359
+"10024125","18-30",29,"admin","married","secondary",-101,"yes","no","november",5,7,1,"unsecured ",1,1,1,3421,8,30,5,328,2019-11-30,1329
+"10024126","31-40",38,"management","married","tertiary",-82,"yes","no","december",2,14,1,"unsecured ",1,1,1,3473,8,31,2,100,2019-12-31,1298
+"10024127","31-40",32,"admin","married","tertiary",-96,"yes","yes","january",4,13,1,"unsecured ",1,1,1,2345,8,31,4,226,2019-01-31,1632
+"10024128","41-60",45,"services","married","secondary",-83,"yes","yes","february",8,8,1,"unsecured ",1,1,1,4324,8,28,8,507,2019-02-28,1604
+"10024129","31-40",33,"admin","single","secondary",-98,"yes","no","march",7,6,1,"unsecured ",1,1,1,3214,8,31,7,392,2019-03-31,1573
+"10024130","31-40",34,"blue-collar","married","secondary",-88,"yes","no","april",11,6,1,"unsecured ",1,0,0,2362,0,30,11,684,2019-04-30,1543
+"10024131","41-60",41,"entrepreneur","married","primary",-98,"yes","yes","may",6,2,1,"unsecured ",1,0,0,2558,0,31,6,333,2019-05-31,1512
+"10024132","41-60",41,"blue-collar","married","secondary",-97,"yes","yes","june",5,3,0,"no product",0,0,0,2298,0,30,5,311,2019-06-30,1482
+"10024133","31-40",35,"admin","single","secondary",-97,"yes","no","july",2,3,0,"no product",0,0,0,3397,0,31,2,128,2019-07-31,1451
+"10024134","31-40",40,"technician","single","secondary",-97,"yes","no","august",5,2,0,"no product",0,0,0,2106,0,31,5,322,2019-08-31,1420
+"10024135","41-60",60,"self-employed","married","primary",-99,"yes","yes","september",3,2,0,"no product",0,0,0,0,0,30,3,202,2019-09-30,1390
+"10024136","41-60",47,"services","divorced","secondary",-97,"yes","no","october",2,7,0,"no product",0,0,0,0,0,31,2,92,2019-10-31,1359
+"10024137","41-60",46,"blue-collar","married","primary",-92,"yes","yes","november",12,0,0,"no product",0,0,0,0,0,30,12,739,2019-11-30,1329
+"10024138","31-40",31,"blue-collar","single","secondary",-99,"yes","no","december",5,0,0,"no product",0,0,0,0,0,31,5,273,2019-12-31,1298
+"10024139","41-60",49,"self-employed","married","secondary",-99,"yes","yes","january",4,0,1,"mortgage",1,0,0,4853,0,31,4,260,2019-01-31,1632
+"10024140","18-30",29,"blue-collar","married","secondary",-99,"yes","no","february",4,7,1,"mortgage",1,0,0,8675,0,28,4,268,2019-02-28,1604
+"10024141","31-40",31,"management","single","tertiary",-102,"yes","no","march",7,8,1,"mortgage",1,0,0,9764,0,31,7,396,2019-03-31,1573
+"10024142","31-40",38,"management","married","tertiary",-94,"yes","yes","april",4,6,1,"mortgage",1,0,0,2457,0,30,4,262,2019-04-30,1543
+"10024143","31-40",37,"blue-collar","married","primary",-96,"yes","no","may",5,7,1,"mortgage",1,0,0,3678,0,31,5,308,2019-05-31,1512
+"10024144","31-40",35,"technician","married","secondary",-101,"yes","no","june",8,7,1,"auto ",1,0,0,9765,0,30,8,467,2019-06-30,1482
+"10024145","31-40",31,"management","single","secondary",-89,"yes","no","july",5,0,1,"auto ",1,0,0,7543,0,31,5,320,2019-07-31,1451
+"10024146","41-60",41,"admin","married","secondary",-99,"yes","yes","august",3,0,1,"auto ",1,0,0,6689,0,31,3,160,2019-08-31,1420
+"10024147","41-60",46,"services","married","primary",-98,"yes","yes","september",4,2,1,"auto ",1,0,0,4376,0,30,4,245,2019-09-30,1390
+"10024148","31-40",40,"services","divorced","secondary",-98,"yes","no","october",3,3,1,"auto ",1,0,0,6895,0,31,3,189,2019-10-31,1359
+"10024149","18-30",29,"admin","married","secondary",-97,"yes","no","november",8,2,1,"auto ",1,0,0,7632,0,30,8,477,2019-11-30,1329
+"10024150","41-60",49,"admin","married","secondary",-98,"yes","yes","december",5,0,1,"auto ",1,0,0,9753,0,31,5,310,2019-12-31,1298
+"10024151","41-60",42,"management","married","tertiary",-99,"yes","yes","january",1,0,0,"no product",0,0,0,2257,0,31,1,65,2019-01-31,1632
+"10024152","41-60",54,"services","married","secondary",-93,"yes","yes","february",3,8,0,"no product",0,0,0,6895,0,28,3,196,2019-02-28,1604
+"10024153","31-40",40,"management","single","tertiary",-96,"yes","no","march",4,5,0,"no product",0,0,0,6895,0,31,4,221,2019-03-31,1573
+"10024154","41-60",53,"admin","married","secondary",-96,"yes","yes","april",3,3,0,"no product",0,0,0,7632,0,30,3,197,2019-04-30,1543
+"10024155","41-60",49,"management","married","tertiary",-98,"yes","yes","may",4,0,0,"no product",0,0,0,6895,0,31,4,221,2019-05-31,1512
+"10024156","31-40",40,"blue-collar","married","primary",-99,"yes","no","june",1,0,0,"no product",0,0,0,7632,0,30,1,64,2019-06-30,1482
+"10024157","18-30",29,"student","single","secondary",-87,"yes","no","july",1,3,0,"no product",0,0,0,9753,0,31,1,75,2019-07-31,1451
+"10024158","31-40",36,"blue-collar","married","primary",-99,"yes","no","august",7,2,0,"no product",0,0,0,8675,0,31,7,400,2019-08-31,1420
+"10024159","31-40",37,"technician","married","secondary",-90,"yes","no","september",6,21,0,"no product",0,0,0,9764,0,30,6,378,2019-09-30,1390
+"10024160","31-40",39,"services","married","secondary",-83,"yes","no","october",2,15,0,"no product",0,0,0,2457,0,31,2,118,2019-10-31,1359
+"10024161","31-40",36,"technician","married","secondary",-94,"yes","no","november",4.50311665182547,18,0,"no product",0,0,0,3678,0,30,27,1597,2019-11-30,1329
+"10024162","41-60",44,"entrepreneur","married","tertiary",-78,"yes","yes","december",6,2,0,"no product",0,0,0,9765,0,31,6,346,2019-12-31,1298
+"10024163","31-40",40,"admin","married","secondary",-99,"yes","no","january",1,0,0,"no product",0,0,0,6895,0,31,1,60,2019-01-31,1632
+"10024164","41-60",49,"blue-collar","married","secondary",-99,"yes","yes","february",5,7,0,"no product",0,0,0,7632,0,28,5,276,2019-02-28,1604
+"10024165","18-30",30,"technician","single","primary",-100,"yes","no","march",3,7,0,"no product",0,0,0,9753,0,31,3,152,2019-03-31,1573
+"10024166","41-60",57,"management","married","tertiary",-71,"yes","yes","april",4,9,0,"no product",0,0,0,2257,0,30,4,251,2019-04-30,1543
+"10024167","18-30",24,"services","single","secondary",-98,"yes","no","may",6,4,0,"no product",0,0,0,12353,0,31,6,390,2019-05-31,1512
+"10024168","41-60",46,"blue-collar","married","primary",-94,"yes","yes","june",5,2,0,"no product",0,0,0,6895,0,30,5,306,2019-06-30,1482
+"10024169","31-40",33,"admin","married","secondary",-99,"no","no","july",3,0,0,"no product",0,0,0,7632,0,31,3,189,2019-07-31,1451
+"10024170","41-60",43,"services","divorced","secondary",-99,"yes","no","august",2,0,0,"no product",0,0,0,9753,0,31,2,125,2019-08-31,1420
+"10024171","41-60",43,"admin","single","secondary",-106,"yes","no","september",4,7,0,"no product",0,0,0,2257,0,30,4,234,2019-09-30,1390
+"10024172","31-40",40,"blue-collar","divorced","primary",-94,"no","no","october",1,3,0,"no product",0,0,0,12353,0,31,1,79,2019-10-31,1359
+"10024173","41-60",44,"technician","single","primary",-98,"yes","no","november",0,3,0,"no product",0,0,0,2356,0,30,0,13,2019-11-30,1329
+"10024174","31-40",35,"technician","single","tertiary",-96,"yes","no","december",5,7,0,"no product",0,0,0,7654,0,31,5,283,2019-12-31,1298
+"10024175","41-60",47,"technician","married","secondary",-93,"yes","yes","january",2,10,0,"no product",0,0,0,7854,0,31,2,109,2019-01-31,1632
+"10024176","31-40",33,"blue-collar","married","secondary",-94,"yes","no","february",2,0,0,"no product",0,0,0,6895,0,28,2,132,2019-02-28,1604
+"10024177","31-40",31,"admin","married","secondary",-99,"yes","no","march",2,0,0,"no product",0,0,0,7632,0,31,2,144,2019-03-31,1573
+"10024178","31-40",40,"blue-collar","divorced","secondary",-99,"yes","no","april",2,0,0,"no product",0,0,0,9753,0,30,2,121,2019-04-30,1543
+"10024179","31-40",36,"entrepreneur","married","tertiary",-98,"yes","yes","may",2,0,0,"no product",0,0,0,2257,0,31,2,95,2019-05-31,1512
+"10024180","41-60",56,"retired","divorced","primary",-99,"yes","no","june",1,0,0,"no product",0,0,0,12353,0,30,1,31,2019-06-30,1482
+"10024181","31-40",40,"admin","single","primary",-94,"yes","no","july",2,8,0,"no product",0,0,0,2356,0,31,2,112,2019-07-31,1451
+"10024182","41-60",41,"admin","divorced","secondary",-95,"yes","no","august",1,7,0,"no product",0,0,0,7654,0,31,1,87,2019-08-31,1420
+"10024183","41-60",53,"retired","married","secondary",-95,"yes","yes","september",10,9,0,"no product",0,0,0,7854,0,30,10,593,2019-09-30,1390
+"10024184","31-40",39,"blue-collar","married","secondary",-91,"yes","no","october",2,13,0,"no product",0,0,0,8954,0,31,2,99,2019-10-31,1359
+"10024185","41-60",44,"blue-collar","divorced","secondary",-92,"yes","no","november",3,31,0,"no product",0,0,0,3678,0,30,3,198,2019-11-30,1329
+"10024186","31-40",38,"admin","married","secondary",-59,"yes","no","december",5,11,1,"auto ",0,0,0,4853,0,31,5,285,2019-12-31,1298
+"10024187","41-60",54,"technician","divorced","secondary",-98,"yes","no","january",3,1,1,"mortgage",0,0,0,8675,0,31,3,190,2019-01-31,1632
+"10024188","41-60",58,"management","married","tertiary",-98,"yes","yes","february",3,1,1,"mortgage",1,0,0,9764,0,28,3,172,2019-02-28,1604
+"10024189","41-60",52,"blue-collar","married","primary",-98,"yes","yes","march",4,2,1,"mortgage",1,0,0,2457,0,31,4,213,2019-03-31,1573
+"10024190","18-30",28,"admin","single","secondary",-96,"yes","no","april",3,9,1,"mortgage",1,0,0,3678,0,30,3,178,2019-04-30,1543
+"10024191","31-40",36,"blue-collar","married","secondary",-90,"yes","no","may",3,11,1,"mortgage",1,0,0,9765,0,31,3,174,2019-05-31,1512
+"10024192","41-60",60,"retired","married","primary",-94,"yes","yes","june",11,3,1,"mortgage",1,1,1,7543,8,30,11,631,2019-06-30,1482
+"10024193","41-60",42,"services","divorced","secondary",-99,"yes","no","july",3,1,1,"auto ",1,1,1,6895,8,31,3,176,2019-07-31,1451
+"10024194","41-60",42,"admin","married","secondary",-98,"yes","yes","august",1,2,1,"auto ",1,1,1,7632,8,31,1,32,2019-08-31,1420
+"10024195","41-60",44,"management","married","tertiary",-98,"yes","yes","september",4.50311665182547,4,1,"auto ",1,1,1,9753,8,30,25,1529,2019-09-30,1390
+"10024196","41-60",51,"blue-collar","divorced","primary",-95,"yes","no","october",4,5,1,"auto ",1,1,1,6895,8,31,4,254,2019-10-31,1359
+"10024197","41-60",49,"blue-collar","married","primary",-97,"yes","yes","november",3,4,1,"auto ",1,1,1,7632,8,30,3,200,2019-11-30,1329
+"10024198","41-60",47,"entrepreneur","married","primary",-97,"yes","yes","december",2,4,1,"auto ",1,1,1,9753,8,31,2,135,2019-12-31,1298
+"10024199","31-40",37,"blue-collar","married","secondary",-97,"yes","no","january",2,3,1,"auto ",1,1,1,2558,8,31,2,112,2019-01-31,1632
+"10024200","31-40",34,"management","married","tertiary",-98,"yes","yes","february",5,2,1,"auto ",1,1,1,2298,8,28,5,314,2019-02-28,1604
+"10024201","31-40",35,"services","married","secondary",-98,"yes","no","march",10,4,1,"unsecured ",1,1,1,3397,8,31,10,597,2019-03-31,1573
+"10024202","31-40",35,"blue-collar","single","secondary",-94,"yes","no","april",3,7,1,"unsecured ",1,1,1,2106,8,30,3,207,2019-04-30,1543
+"10024203","31-40",40,"blue-collar","married","primary",-99,"yes","no","may",7,7,1,"unsecured ",1,1,1,3521,8,31,7,410,2019-05-31,1512
+"10024204","41-60",55,"technician","married","secondary",-99,"no","yes","june",3,0,1,"unsecured ",1,1,1,2689,8,30,3,160,2019-06-30,1482
+"10024205","41-60",55,"retired","married","secondary",-97,"yes","yes","july",1,6,1,"unsecured ",1,1,1,4384,8,31,1,42,2019-07-31,1451
+"10024206","31-40",35,"management","single","tertiary",-92,"yes","no","august",1,6,1,"mortgage",1,1,1,4080,8,31,1,55,2019-08-31,1420
+"10024207","41-60",57,"blue-collar","married","primary",-97,"yes","yes","september",3,3,1,"mortgage",1,1,1,2127,8,30,3,155,2019-09-30,1390
+"10024208","41-60",53,"management","married","tertiary",-98,"yes","yes","october",6,5,1,"mortgage",1,1,1,5699,8,31,6,336,2019-10-31,1359
+"10024209","41-60",41,"blue-collar","married","primary",-93,"yes","yes","november",4,14,1,"mortgage",1,1,1,3237,8,30,4,233,2019-11-30,1329
+"10024210","41-60",57,"blue-collar","married","tertiary",-89,"yes","yes","december",4,10,1,"mortgage",1,1,1,2558,8,31,4,211,2019-12-31,1298
+"10024211","41-60",45,"blue-collar","married","primary",-96,"yes","yes","january",1,12,1,"mortgage",1,1,1,2298,8,31,1,88,2019-01-31,1632
+"10024212","41-60",43,"blue-collar","married","primary",-83,"yes","yes","february",3,2,1,"unsecured ",1,1,1,3397,8,28,3,208,2019-02-28,1604
+"10024213","41-60",56,"self-employed","married","primary",-99,"no","yes","march",5,0,1,"unsecured ",1,1,1,2106,8,31,5,305,2019-03-31,1573
+"10024214","31-40",31,"entrepreneur","married","tertiary",-96,"yes","yes","april",3,3,1,"unsecured ",1,1,1,5699,8,30,3,206,2019-04-30,1543
+"10024215","31-40",37,"blue-collar","single","secondary",-98,"yes","no","may",2,1,1,"unsecured ",1,1,1,3237,8,31,2,128,2019-05-31,1512
+"10024216","18-30",30,"management","married","tertiary",-99,"yes","yes","june",2,1,1,"unsecured ",1,1,1,2558,8,30,2,122,2019-06-30,1482
+"10024217","18-30",30,"admin","single","secondary",-98,"yes","no","july",1,3,1,"unsecured ",1,1,1,2298,8,31,1,66,2019-07-31,1451
+"10024218","41-60",54,"blue-collar","married","secondary",-96,"yes","yes","august",1,4,1,"unsecured ",1,1,1,5699,8,31,1,66,2019-08-31,1420
+"10024219","31-40",36,"management","married","tertiary",-97,"yes","yes","september",3,5,1,"mortgage",1,1,1,3237,8,30,3,164,2019-09-30,1390
+"10024220","41-60",55,"unemployed","married","tertiary",-94,"no","yes","october",6,10,1,"mortgage",1,1,1,2558,8,31,6,343,2019-10-31,1359
+"10024221","31-40",37,"admin","single","secondary",-92,"yes","no","november",2,0,1,"mortgage",1,1,1,2298,8,30,2,126,2019-11-30,1329
+"10024222","31-40",38,"housemaid","married","secondary",-99,"yes","no","december",1,0,1,"mortgage",1,1,1,4853,8,31,1,59,2019-12-31,1298
+"10024223","41-60",48,"admin","married","secondary",-50,"yes","yes","january",4,119,1,"mortgage",1,1,1,8675,8,31,4,249,2019-01-31,1632
+"10024224","41-60",55,"housemaid","divorced","tertiary",-8,"yes","yes","february",7,34,1,"mortgage",1,1,1,9764,8,28,7,406,2019-02-28,1604
+"10024225","41-60",59,"services","married","secondary",-95,"yes","yes","march",4,7,1,"auto ",1,1,1,2457,8,31,4,250,2019-03-31,1573
+"10024226","31-40",37,"technician","married","secondary",-105,"yes","no","april",3,7,1,"unsecured ",1,1,1,3678,8,30,3,183,2019-04-30,1543
+"10024227","31-40",33,"blue-collar","divorced","secondary",-98,"no","no","may",3,1,1,"auto ",1,1,1,9765,8,31,3,190,2019-05-31,1512
+"10024228","41-60",44,"blue-collar","married","primary",-98,"yes","yes","june",4,3,1,"unsecured ",1,1,1,7543,8,30,4,220,2019-06-30,1482
+"10024229","41-60",57,"technician","married","secondary",-94,"yes","yes","july",3,13,1,"auto ",1,1,1,6689,8,31,3,153,2019-07-31,1451
+"10024230","18-30",30,"self-employed","single","tertiary",-89,"no","no","august",2,10,1,"unsecured ",1,1,1,4376,8,31,2,95,2019-08-31,1420
+"10024231","41-60",42,"technician","married","tertiary",-96,"yes","yes","september",3,7,1,"unsecured ",1,1,1,6895,8,30,3,191,2019-09-30,1390
+"10024232","41-60",51,"blue-collar","divorced","secondary",-94,"yes","no","october",4,6,1,"unsecured ",1,1,1,7632,8,31,4,216,2019-10-31,1359
+"10024233","41-60",44,"admin","divorced","secondary",-97,"yes","no","november",1,5,1,"unsecured ",1,1,1,9753,8,30,1,89,2019-11-30,1329
+"10024234","41-60",46,"technician","married","secondary",-95,"no","yes","december",1,4,1,"unsecured ",1,1,1,2257,8,31,1,51,2019-12-31,1298
+"10024235","18-30",29,"student","single","secondary",-98,"yes","no","january",3,3,1,"unsecured ",1,1,1,6895,8,31,3,169,2019-01-31,1632
+"10024236","31-40",39,"blue-collar","married","primary",-96,"yes","no","february",2,0,1,"unsecured ",1,1,1,6895,8,28,2,148,2019-02-28,1604
+"10024237","41-60",42,"services","married","secondary",-99,"yes","yes","march",2,0,1,"unsecured ",1,1,1,7632,8,31,2,132,2019-03-31,1573
+"10024238","41-60",50,"blue-collar","married","primary",-97,"yes","yes","april",2,0,1,"unsecured ",1,1,1,6895,8,30,2,117,2019-04-30,1543
+"10024239","41-60",42,"technician","single","secondary",-99,"yes","no","may",5,0,1,"unsecured ",1,1,1,7632,8,31,5,275,2019-05-31,1512
+"10024240","31-40",39,"admin","married","secondary",-99,"yes","no","june",2,0,1,"unsecured ",1,1,1,9753,8,30,2,124,2019-06-30,1482
+"10024241","41-60",55,"technician","single","tertiary",-98,"yes","yes","july",2,2,1,"unsecured ",1,1,1,8675,8,31,2,118,2019-07-31,1451
+"10024242","41-60",46,"services","married","secondary",-98,"yes","yes","august",8,2,1,"auto ",1,1,1,9764,8,31,8,479,2019-08-31,1420
+"10024243","41-60",42,"blue-collar","married","secondary",-97,"yes","yes","september",5,2,1,"business",1,1,1,2457,8,30,5,285,2019-09-30,1390
+"10024244","41-60",45,"management","married","tertiary",-98,"yes","yes","october",1,8,0,"no product",0,0,0,3678,0,31,1,35,2019-10-31,1359
+"10024245","41-60",43,"blue-collar","married","primary",-105,"yes","yes","november",5,7,0,"no product",0,0,0,9765,0,30,5,322,2019-11-30,1329
+"10024246","41-60",42,"admin","married","secondary",-93,"yes","yes","december",3,0,0,"no product",0,0,0,6895,0,31,3,202,2019-12-31,1298
+"10024247","18-30",30,"admin","married","secondary",-99,"no","no","january",3,1,0,"no product",0,0,0,7632,0,31,3,172,2019-01-31,1632
+"10024248","41-60",47,"blue-collar","married","secondary",-86,"yes","yes","february",3,7,0,"no product",0,0,0,9753,0,28,3,201,2019-02-28,1604
+"10024249","41-60",51,"services","divorced","secondary",-100,"yes","no","march",4,7,0,"no product",0,0,0,2257,0,31,4,216,2019-03-31,1573
+"10024250","31-40",38,"technician","single","secondary",-99,"yes","no","april",3,6,0,"no product",0,0,0,12353,0,30,3,195,2019-04-30,1543
+"10024251","41-60",57,"technician","married","tertiary",-78,"yes","yes","may",2,13,0,"no product",0,0,0,6895,0,31,2,96,2019-05-31,1512
+"10024252","41-60",42,"management","divorced","tertiary",-96,"yes","yes","june",12,5,0,"no product",0,0,0,7632,0,30,12,720,2019-06-30,1482
+"10024253","31-40",32,"technician","divorced","secondary",-97,"yes","no","july",3,0,1,"mortgage",1,1,1,9753,8,31,3,188,2019-07-31,1451
+"10024254","41-60",46,"management","married","tertiary",-99,"no","yes","august",1,0,1,"mortgage",1,1,1,2257,8,31,1,70,2019-08-31,1420
+"10024255","18-30",29,"student","single","tertiary",-97,"yes","no","september",2,9,1,"unsecured ",1,1,1,12353,8,30,2,141,2019-09-30,1390
+"10024256","41-60",59,"retired","married","secondary",-88,"yes","yes","october",2,11,1,"unsecured ",1,1,1,2356,8,31,2,106,2019-10-31,1359
+"10024257","31-40",32,"blue-collar","single","secondary",-95,"yes","no","november",7,9,1,"unsecured ",1,1,1,7654,8,30,7,395,2019-11-30,1329
+"10024258","41-60",44,"blue-collar","married","primary",-93,"yes","yes","december",10,10,1,"unsecured ",1,1,1,7854,8,31,10,629,2019-12-31,1298
+"10024259","31-40",40,"retired","married","primary",-94,"yes","no","january",8,3,1,"unsecured ",1,1,1,6895,8,31,8,502,2019-01-31,1632
+"10024260","31-40",31,"blue-collar","single","secondary",-99,"yes","no","february",7,8,1,"unsecured ",1,1,1,7632,8,28,7,446,2019-02-28,1604
+"10024261","41-60",46,"self-employed","married","tertiary",-69,"yes","yes","march",4,13,1,"unsecured ",1,1,1,9753,8,31,4,241,2019-03-31,1573
+"10024262","41-60",43,"management","married","tertiary",-97,"yes","yes","april",2,3,1,"unsecured ",1,1,1,2257,8,30,2,131,2019-04-30,1543
+"10024263","31-40",34,"services","married","secondary",-97,"yes","no","may",5,5,1,"unsecured ",1,1,1,12353,8,31,5,312,2019-05-31,1512
+"10024264","31-40",39,"management","married","tertiary",-95,"yes","yes","june",5,6,1,"unsecured ",1,1,1,2356,8,30,5,275,2019-06-30,1482
+"10024265","18-30",30,"blue-collar","divorced","secondary",-96,"yes","no","july",2,0,1,"unsecured ",1,1,1,7654,8,31,2,120,2019-07-31,1451
+"10024266","41-60",56,"retired","married","secondary",-99,"yes","yes","august",6,0,1,"unsecured ",1,1,1,7854,8,31,6,333,2019-08-31,1420
+"10024267","18-30",29,"technician","married","secondary",-99,"no","no","september",2,0,1,"unsecured ",1,1,1,8954,8,30,2,113,2019-09-30,1390
+"10024268","31-40",40,"blue-collar","divorced","secondary",-97,"yes","no","october",2,3,1,"unsecured ",1,1,1,3678,8,31,2,91,2019-10-31,1359
+"10024269","31-40",36,"services","married","secondary",-97,"yes","no","november",2,4,1,"mortgage",1,1,1,4853,8,30,2,128,2019-11-30,1329
+"10024270","31-40",37,"blue-collar","single","secondary",-96,"yes","no","december",3,0,1,"mortgage",1,1,1,8675,8,31,3,200,2019-12-31,1298
+"10024271","31-40",35,"admin","married","secondary",-99,"no","no","january",5,0,1,"mortgage",1,1,1,9764,8,31,5,326,2019-01-31,1632
+"10024272","31-40",35,"blue-collar","married","primary",-99,"yes","no","february",5,0,1,"mortgage",1,1,1,2457,8,28,5,292,2019-02-28,1604
+"10024273","41-60",47,"services","married","primary",-96,"yes","yes","march",1,7,1,"mortgage",1,1,1,3678,8,31,1,68,2019-03-31,1573
+"10024274","31-40",31,"services","married","secondary",-94,"yes","no","april",4,7,1,"mortgage",1,1,1,9765,8,30,4,215,2019-04-30,1543
+"10024275","41-60",56,"retired","single","primary",-96,"yes","no","may",2,4,1,"mortgage",1,1,1,7543,8,31,2,97,2019-05-31,1512
+"10024276","41-60",57,"technician","married","secondary",-97,"no","yes","june",1,7,1,"mortgage",1,1,1,6895,8,30,1,32,2019-06-30,1482
+"10024277","31-40",36,"blue-collar","married","secondary",-103,"yes","no","july",3,7,1,"mortgage",1,1,1,7632,8,31,3,162,2019-07-31,1451
+"10024278","41-60",45,"self-employed","divorced","secondary",-101,"yes","no","august",3,4,1,"mortgage",1,1,1,9753,8,31,3,152,2019-08-31,1420
+"10024279","41-60",47,"blue-collar","married","tertiary",-90,"yes","yes","september",4,0,1,"mortgage",1,1,1,6895,8,30,4,268,2019-09-30,1390
+"10024280","18-30",29,"technician","single","tertiary",-99,"yes","no","october",2,0,1,"mortgage",1,1,1,7632,8,31,2,104,2019-10-31,1359
+"10024281","41-60",57,"services","married","secondary",-99,"no","yes","november",4.50311665182547,0,1,"mortgage",1,1,1,9753,8,30,14,852,2019-11-30,1329
+"10024282","41-60",45,"blue-collar","married","primary",-98,"yes","yes","december",4.50311665182547,4,1,"mortgage",1,1,1,4853,8,31,15,923,2019-12-31,1298
+"10024283","31-40",31,"blue-collar","single","primary",-94,"yes","no","january",3,0,1,"auto ",1,1,1,8675,8,31,3,159,2019-01-31,1632
+"10024284","31-40",31,"management","divorced","tertiary",-99,"yes","no","february",4.50311665182547,0,1,"auto ",1,1,1,9764,8,28,16,953,2019-02-28,1604
+"10024285","31-40",37,"technician","single","tertiary",-97,"no","no","march",7,0,1,"auto ",1,1,1,2457,8,31,7,416,2019-03-31,1573
+"10024286","18-30",30,"technician","single","tertiary",-99,"yes","no","april",3,1,1,"auto ",1,1,1,3678,8,30,3,174,2019-04-30,1543
+"10024287","41-60",58,"services","divorced","secondary",-85,"yes","no","may",3,15,1,"auto ",1,1,1,9765,8,31,3,180,2019-05-31,1512
+"10024288","31-40",33,"services","married","secondary",-94,"yes","no","june",2,14,1,"auto ",1,1,1,7543,8,30,2,139,2019-06-30,1482
+"10024289","31-40",39,"blue-collar","married","primary",-86,"yes","no","july",5,7,1,"auto ",1,1,1,6689,5,31,5,294,2019-07-31,1451
+"10024290","31-40",33,"blue-collar","single","primary",-98,"yes","no","august",2,3,1,"auto ",1,1,1,4376,6,31,2,102,2019-08-31,1420
+"10024291","31-40",34,"services","married","secondary",-95,"yes","no","september",2,7,1,"auto ",1,1,1,6895,6,30,2,124,2019-09-30,1390
+"10024292","31-40",36,"services","divorced","secondary",-103,"yes","no","october",2,7,1,"auto ",1,1,1,7632,6,31,2,128,2019-10-31,1359
+"10024293","31-40",37,"services","single","secondary",-96,"yes","no","november",2,8,1,"auto ",1,1,1,9753,6,30,2,130,2019-11-30,1329
+"10024294","31-40",35,"blue-collar","married","secondary",-92,"yes","no","december",2,5,1,"auto ",1,1,1,2257,6,31,2,143,2019-12-31,1298
+"10024295","41-60",55,"retired","married","secondary",-98,"yes","yes","january",1,6,1,"auto ",1,1,1,6895,6,31,1,74,2019-01-31,1632
+"10024296","31-40",34,"management","single","tertiary",-88,"yes","no","february",2,15,1,"auto ",1,1,1,6895,6,28,2,105,2019-02-28,1604
+"10024297","31-40",40,"management","divorced","tertiary",-93,"yes","no","march",8,2,1,"auto ",1,1,1,7632,6,31,8,477,2019-03-31,1573
+"10024298","41-60",42,"blue-collar","single","primary",-99,"yes","no","april",3,0,1,"mortgage",1,1,1,6895,6,30,3,158,2019-04-30,1543
+"10024299","31-40",37,"blue-collar","married","secondary",-99,"yes","no","may",4,1,1,"mortgage",1,1,1,7632,6,31,4,250,2019-05-31,1512
+"10024300","41-60",42,"management","married","tertiary",-94,"yes","yes","june",3,10,1,"mortgage",1,1,1,9753,6,30,3,168,2019-06-30,1482
+"10024301","31-40",35,"technician","single","secondary",-92,"yes","no","july",9,7,1,"mortgage",1,1,1,8675,6,31,9,520,2019-07-31,1451
+"10024302","41-60",44,"technician","divorced","secondary",-104,"yes","no","august",3,7,1,"mortgage",1,1,1,9764,6,31,3,171,2019-08-31,1420
+"10024303","18-30",30,"services","single","secondary",-102,"yes","no","september",2,7,1,"mortgage",1,1,1,2457,6,30,2,113,2019-09-30,1390
+"10024304","41-60",45,"entrepreneur","married","secondary",-98,"yes","yes","october",4,6,1,"mortgage",1,1,1,3678,6,31,4,254,2019-10-31,1359
+"10024305","31-40",35,"blue-collar","single","primary",-106,"yes","no","november",2,7,1,"mortgage",1,1,1,9765,6,30,2,149,2019-11-30,1329
+"10024306","31-40",36,"admin","divorced","secondary",-99,"yes","no","december",2,0,1,"mortgage",1,1,1,6895,6,31,2,133,2019-12-31,1298
+"10024307","41-60",49,"blue-collar","married","secondary",-98,"yes","yes","january",5,6,1,"mortgage",1,1,1,7632,6,31,5,293,2019-01-31,1632
+"10024308","31-40",31,"blue-collar","single","secondary",-81,"yes","no","february",8,10,1,"mortgage",1,1,1,9753,6,28,8,485,2019-02-28,1604
+"10024309","31-40",31,"technician","single","secondary",-97,"yes","no","march",6,2,1,"mortgage",1,1,1,2257,6,31,6,374,2019-03-31,1573
+"10024310","31-40",39,"blue-collar","married","secondary",-98,"yes","no","april",7,7,1,"mortgage",1,1,1,12353,6,30,7,425,2019-04-30,1543
+"10024311","31-40",37,"services","single","secondary",-102,"yes","no","may",3,7,1,"mortgage",1,1,1,6895,6,31,3,207,2019-05-31,1512
+"10024312","31-40",33,"blue-collar","married","primary",-90,"yes","no","june",1,0,1,"mortgage",1,1,1,7632,3,30,1,83,2019-06-30,1482
+"10024313","31-40",37,"management","married","tertiary",-99,"yes","yes","july",4,0,1,"mortgage",1,1,1,9753,3,31,4,228,2019-07-31,1451
+"10024314","41-60",42,"services","married","secondary",-102,"yes","yes","august",2,7,1,"mortgage",1,1,1,2257,3,31,2,149,2019-08-31,1420
+"10024315","41-60",56,"blue-collar","married","secondary",-102,"yes","yes","september",2,7,1,"mortgage",1,1,1,12353,3,30,2,139,2019-09-30,1390
+"10024316","31-40",37,"admin","single","secondary",-96,"yes","no","october",12,6,1,"mortgage",1,1,1,2356,3,31,12,732,2019-10-31,1359
+"10024317","31-40",36,"services","single","secondary",-95,"yes","no","november",2,0,1,"mortgage",1,1,1,7654,3,30,2,142,2019-11-30,1329
+"10024318","18-30",29,"technician","single","tertiary",-99,"yes","no","december",6,7,1,"mortgage",1,1,1,7854,3,31,6,359,2019-12-31,1298
+"10024319","41-60",54,"management","married","tertiary",-103,"yes","yes","january",2,8,1,"mortgage",1,1,1,6895,3,31,2,112,2019-01-31,1632
+"10024320","31-40",38,"blue-collar","married","secondary",-94,"yes","no","february",4.50311665182547,8,1,"mortgage",1,1,1,7632,3,28,25,1521,2019-02-28,1604
+"10024321","41-60",43,"blue-collar","divorced","secondary",-94,"yes","no","march",4,10,1,"unsecured ",1,1,1,9753,3,31,4,216,2019-03-31,1573
+"10024322","41-60",47,"admin","single","secondary",-91,"yes","no","april",3,11,1,"unsecured ",1,1,1,2257,3,30,3,161,2019-04-30,1543
+"10024323","41-60",47,"blue-collar","married","secondary",-94,"yes","yes","may",2,6,1,"unsecured ",1,1,1,12353,10,31,2,122,2019-05-31,1512
+"10024324","31-40",38,"services","married","secondary",-97,"yes","no","june",4.50311665182547,7,1,"unsecured ",1,1,1,2356,10,30,13,800,2019-06-30,1482
+"10024325","31-40",40,"blue-collar","married","secondary",-92,"yes","no","july",10,10,1,"unsecured ",1,1,1,7654,10,31,10,615,2019-07-31,1451
+"10024326","31-40",33,"services","divorced","secondary",-94,"yes","no","august",4,5,1,"unsecured ",1,1,1,7854,10,31,4,254,2019-08-31,1420
+"10024327","31-40",33,"retired","married","secondary",-97,"no","no","september",2,4,1,"unsecured ",1,1,1,8954,10,30,2,111,2019-09-30,1390
+"10024328","41-60",53,"admin","divorced","primary",-96,"yes","no","october",6,2,1,"unsecured ",1,1,1,3678,10,31,6,354,2019-10-31,1359
+"10024329","31-40",37,"services","married","primary",-99,"yes","no","november",6,5,1,"unsecured ",1,1,1,4853,10,30,6,359,2019-11-30,1329
+"10024330","31-40",40,"management","single","tertiary",-83,"yes","no","december",2,21,1,"unsecured ",1,1,1,8675,10,31,2,97,2019-12-31,1298
+"10024331","31-40",37,"blue-collar","married","primary",-90,"yes","no","january",5,6,1,"unsecured ",1,1,1,9764,10,31,5,327,2019-01-31,1632
+"10024332","31-40",35,"technician","married","secondary",-98,"yes","no","february",4,15,1,"unsecured ",1,1,1,2457,10,28,4,236,2019-02-28,1604
+"10024333","41-60",49,"blue-collar","married","primary",-51,"yes","yes","march",3,6,1,"unsecured ",1,1,1,3678,10,31,3,160,2019-03-31,1573
+"10024334","18-30",26,"blue-collar","single","secondary",-99,"yes","no","april",3,2,1,"auto ",1,1,1,9765,10,30,3,180,2019-04-30,1543
+"10024335","31-40",38,"management","single","tertiary",-90,"yes","no","may",3,9,1,"auto ",1,1,1,7543,10,31,3,184,2019-05-31,1512
+"10024336","41-60",52,"self-employed","married","secondary",-96,"no","yes","june",4,6,1,"auto ",1,1,1,6895,10,30,4,227,2019-06-30,1482
+"10024337","31-40",33,"services","divorced","secondary",-95,"yes","no","july",2,7,1,"auto ",1,1,1,7632,10,31,2,109,2019-07-31,1451
+"10024338","31-40",31,"admin","single","secondary",-95,"yes","no","august",8,0,1,"auto ",1,1,1,9753,10,31,8,492,2019-08-31,1420
+"10024339","31-40",32,"blue-collar","married","secondary",-99,"yes","no","september",5,0,1,"auto ",1,1,1,6895,10,30,5,298,2019-09-30,1390
+"10024340","31-40",35,"blue-collar","single","primary",-98,"yes","no","october",1,5,1,"auto ",1,1,1,7632,10,31,1,83,2019-10-31,1359
+"10024341","41-60",55,"management","divorced","tertiary",-92,"no","yes","november",4,11,1,"auto ",1,1,1,9753,10,30,4,241,2019-11-30,1329
+"10024342","31-40",32,"blue-collar","divorced","primary",-93,"yes","no","december",3,10,1,"auto ",1,1,1,2362,10,31,3,204,2019-12-31,1298
+"10024343","31-40",37,"blue-collar","single","primary",-94,"yes","no","january",2,5,1,"auto ",1,1,1,2353,10,31,2,131,2019-01-31,1632
+"10024344","41-60",45,"blue-collar","married","secondary",-97,"yes","yes","february",4.50311665182547,5,1,"auto ",1,1,1,3421,10,28,19,1138,2019-02-28,1604
+"10024345","31-40",31,"technician","married","secondary",-95,"yes","no","march",2,1,1,"auto ",1,1,1,2342,10,31,2,123,2019-03-31,1573
+"10024346","31-40",38,"admin","married","secondary",-99,"yes","no","april",2,0,1,"auto ",1,1,1,2558,10,30,2,125,2019-04-30,1543
+"10024347","31-40",37,"services","married","secondary",-98,"yes","no","may",5,3,1,"auto ",1,1,1,2298,10,31,5,295,2019-05-31,1512
+"10024348","31-40",38,"blue-collar","married","secondary",-96,"yes","no","june",5,3,1,"auto ",1,1,1,3237,10,30,5,287,2019-06-30,1482
+"10024349","31-40",33,"housemaid","married","tertiary",-98,"yes","yes","july",2,2,1,"auto ",1,1,1,2558,10,31,2,109,2019-07-31,1451
+"10024350","31-40",38,"blue-collar","married","primary",-98,"yes","no","august",2,1,1,"auto ",1,1,1,2298,10,31,2,140,2019-08-31,1420
+"10024351","31-40",37,"management","single","tertiary",-99,"yes","no","september",3,0,1,"auto ",1,1,1,3397,10,30,3,204,2019-09-30,1390
+"10024352","18-30",29,"unemployed","married","tertiary",-99,"yes","yes","october",4,1,1,"mortgage",1,1,1,2106,10,31,4,233,2019-10-31,1359
+"10024353","41-60",42,"management","married","tertiary",-96,"yes","yes","november",4,6,1,"mortgage",1,1,1,4853,10,30,4,254,2019-11-30,1329
+"10024354","31-40",40,"blue-collar","married","secondary",-95,"yes","no","december",3,6,1,"mortgage",1,1,1,8675,10,31,3,184,2019-12-31,1298
+"10024355","31-40",32,"management","married","tertiary",-96,"yes","yes","january",3,7,1,"mortgage",1,1,1,9764,10,31,3,193,2019-01-31,1632
+"10024356","41-60",47,"management","divorced","tertiary",-93,"no","yes","february",2,14,1,"mortgage",1,1,1,2457,10,28,2,126,2019-02-28,1604
+"10024357","18-30",29,"student","single","secondary",-88,"yes","no","march",4,4,1,"mortgage",1,1,1,3678,10,31,4,230,2019-03-31,1573
+"10024358","41-60",53,"services","divorced","primary",-103,"yes","no","april",10,7,1,"mortgage",1,1,1,9765,10,30,10,591,2019-04-30,1543
+"10024359","31-40",31,"services","married","tertiary",-95,"yes","yes","may",5,5,1,"mortgage",1,1,1,7543,10,31,5,294,2019-05-31,1512
+"10024360","41-60",59,"blue-collar","married","secondary",-97,"yes","yes","june",3,2,1,"mortgage",1,1,1,6689,10,30,3,173,2019-06-30,1482
+"10024361","18-30",29,"entrepreneur","married","primary",-99,"yes","no","july",6,2,1,"mortgage",1,1,1,4376,10,31,6,336,2019-07-31,1451
+"10024362","41-60",59,"blue-collar","married","primary",-96,"yes","yes","august",0,4,1,"mortgage",1,1,1,6895,10,31,0,19,2019-08-31,1420
+"10024363","41-60",44,"blue-collar","married","primary",-97,"yes","yes","september",3,2,1,"mortgage",1,1,1,7632,10,30,3,153,2019-09-30,1390
+"10024364","31-40",38,"admin","single","secondary",-98,"yes","no","october",4.50311665182547,4,1,"mortgage",1,1,1,9753,10,31,13,786,2019-10-31,1359
+"10024365","41-60",49,"admin","married","secondary",-95,"yes","yes","november",2,5,1,"mortgage",1,1,1,2257,10,30,2,99,2019-11-30,1329
+"10024366","41-60",43,"blue-collar","married","secondary",-97,"yes","yes","december",4,7,1,"mortgage",1,1,1,6895,10,31,4,243,2019-12-31,1298
+"10024367","41-60",52,"admin","single","secondary",-92,"yes","no","january",4,24,1,"unsecured ",1,1,1,6895,10,31,4,260,2019-01-31,1632
+"10024368","31-40",40,"admin","married","secondary",-72,"yes","no","february",3,0,1,"unsecured ",1,1,1,7632,10,28,3,164,2019-02-28,1604
+"10024369","31-40",32,"services","married","secondary",-99,"yes","no","march",4,0,1,"unsecured ",1,1,1,6895,9,31,4,255,2019-03-31,1573
+"10024370","41-60",47,"admin","married","primary",-97,"yes","yes","april",1,6,1,"unsecured ",1,1,1,7632,9,30,1,47,2019-04-30,1543
+"10024371","31-40",33,"management","married","tertiary",-93,"yes","yes","may",8,8,1,"unsecured ",1,1,1,9753,9,31,8,463,2019-05-31,1512
+"10024372","31-40",35,"management","married","tertiary",-96,"yes","yes","june",3,0,1,"unsecured ",1,1,1,8675,9,30,3,192,2019-06-30,1482
+"10024373","18-30",27,"services","single","secondary",-99,"yes","no","july",6,0,1,"unsecured ",1,1,1,9764,9,31,6,388,2019-07-31,1451
+"10024374","41-60",50,"blue-collar","married","primary",-94,"yes","yes","august",4,39,1,"unsecured ",1,1,1,2457,9,31,4,221,2019-08-31,1420
+"10024375","41-60",44,"retired","married","secondary",0,"no","yes","september",2,16,1,"unsecured ",1,1,1,3678,9,30,2,126,2019-09-30,1390
+"10024376","41-60",43,"self-employed","married","primary",-98,"yes","yes","october",3,1,1,"unsecured ",1,1,1,9765,9,31,3,175,2019-10-31,1359
+"10024377","41-60",51,"blue-collar","married","primary",-99,"yes","yes","november",4,1,1,"unsecured ",1,1,1,6895,9,30,4,256,2019-11-30,1329
+"10024378","31-40",32,"admin","single","secondary",-98,"yes","no","december",3,1,1,"business",1,1,1,7632,9,31,3,202,2019-12-31,1298
+"10024379","41-60",47,"management","divorced","tertiary",-99,"yes","yes","january",2,3,1,"mortgage",1,1,1,9753,9,31,2,104,2019-01-31,1632
+"10024380","31-40",34,"admin","divorced","secondary",-91,"yes","no","february",5,18,1,"mortgage",1,1,1,2257,9,28,5,283,2019-02-28,1604
+"10024381","41-60",57,"self-employed","married","primary",-86,"yes","yes","march",7,8,1,"mortgage",1,1,1,12353,9,31,7,448,2019-03-31,1573
+"10024382","41-60",43,"admin","single","secondary",-97,"yes","no","april",2,25,1,"mortgage",1,1,1,6895,9,30,2,127,2019-04-30,1543
+"10024383","31-40",40,"services","single","tertiary",16,"yes","no","may",6,21,1,"mortgage",1,1,1,7632,9,31,6,378,2019-05-31,1512
+"10024384","18-30",28,"blue-collar","single","secondary",-98,"yes","no","june",1,0,1,"mortgage",1,1,1,9753,9,30,1,67,2019-06-30,1482
+"10024385","31-40",38,"blue-collar","married","primary",-99,"yes","no","july",4,0,1,"mortgage",1,1,1,2257,9,31,4,221,2019-07-31,1451
+"10024386","31-40",37,"unemployed","divorced","secondary",-98,"yes","no","august",2,48,1,"mortgage",0,0,0,12353,0,31,2,150,2019-08-31,1420
+"10024387","41-60",44,"admin","married","secondary",669,"yes","yes","september",2,73,1,"auto ",0,0,0,2356,0,30,2,144,2019-09-30,1390
+"10024388","41-60",41,"technician","married","secondary",-97,"yes","yes","october",5,6,1,"auto ",0,0,0,7654,0,31,5,296,2019-10-31,1359
+"10024389","31-40",37,"self-employed","married","tertiary",-93,"yes","yes","november",7,11,1,"auto ",0,0,0,7854,0,30,7,401,2019-11-30,1329
+"10024390","18-30",30,"services","single","tertiary",-92,"yes","no","december",7,7,1,"auto ",0,0,0,6895,0,31,7,435,2019-12-31,1298
+"10024391","31-40",32,"blue-collar","married","secondary",-102,"yes","no","january",6,7,1,"auto ",0,0,0,7632,0,31,6,388,2019-01-31,1632
+"10024392","18-30",30,"management","single","tertiary",-98,"yes","no","february",4,1,1,"auto ",0,0,0,9753,0,28,4,245,2019-02-28,1604
+"10024393","31-40",35,"services","married","secondary",-99,"no","no","march",2,5,1,"auto ",0,0,0,2257,0,31,2,143,2019-03-31,1573
+"10024394","41-60",55,"blue-collar","married","secondary",-83,"yes","yes","april",4,7,1,"auto ",0,0,0,12353,0,30,4,223,2019-04-30,1543
+"10024395","41-60",52,"blue-collar","married","secondary",-101,"yes","yes","may",7,7,1,"business",1,0,0,2356,0,31,7,423,2019-05-31,1512
+"10024396","31-40",33,"admin","married","secondary",-99,"yes","no","june",4,7,1,"auto ",1,0,0,7654,0,30,4,231,2019-06-30,1482
+"10024397","41-60",55,"retired","married","primary",-100,"yes","yes","july",11,7,1,"auto ",1,0,0,7854,0,31,11,634,2019-07-31,1451
+"10024398","31-40",33,"blue-collar","married","secondary",-99,"no","no","august",2,0,1,"auto ",1,0,0,8954,0,31,2,107,2019-08-31,1420
+"10024399","31-40",40,"blue-collar","married","secondary",-100,"yes","no","september",4,7,0,"no product",0,0,0,3678,0,30,4,227,2019-09-30,1390
+"10024400","31-40",39,"blue-collar","married","secondary",-104,"yes","no","october",1,7,0,"no product",0,0,0,4853,0,31,1,69,2019-10-31,1359
+"10024401","41-60",54,"blue-collar","married","secondary",-112,"yes","yes","november",4.50311665182547,7,0,"no product",0,0,0,8675,0,30,13,799,2019-11-30,1329
+"10024402","31-40",39,"blue-collar","married","primary",-99,"yes","no","december",2,0,0,"no product",0,0,0,9764,0,31,2,109,2019-12-31,1298
+"10024403","41-60",49,"blue-collar","married","secondary",-98,"yes","yes","january",2,1,0,"no product",0,0,0,2457,0,31,2,127,2019-01-31,1632
+"10024404","41-60",52,"admin","married","secondary",-99,"yes","yes","february",2,1,0,"no product",0,0,0,3678,0,28,2,120,2019-02-28,1604
+"10024405","18-30",27,"management","single","tertiary",-98,"yes","no","march",1,0,0,"no product",0,0,0,9765,0,31,1,68,2019-03-31,1573
+"10024406","18-30",26,"services","married","secondary",-99,"yes","no","april",3,0,0,"no product",0,0,0,7543,0,30,3,180,2019-04-30,1543
+"10024407","31-40",40,"blue-collar","married","secondary",-98,"yes","no","may",2,7,0,"no product",0,0,0,6895,0,31,2,112,2019-05-31,1512
+"10024408","41-60",47,"blue-collar","married","secondary",-99,"yes","yes","june",7,7,0,"no product",0,0,0,7632,0,30,7,444,2019-06-30,1482
+"10024409","31-40",31,"services","single","secondary",-100,"no","no","july",4,7,0,"no product",0,0,0,9753,0,31,4,246,2019-07-31,1451
+"10024410","41-60",53,"blue-collar","single","secondary",-97,"yes","no","august",4,6,0,"no product",0,0,0,6895,0,31,4,259,2019-08-31,1420
+"10024411","31-40",31,"services","married","secondary",-92,"yes","no","september",4,7,1,"business",0,0,0,7632,0,30,4,223,2019-09-30,1390
+"10024412","31-40",33,"admin","married","secondary",-99,"yes","no","october",9,7,1,"business",0,0,0,9753,0,31,9,566,2019-10-31,1359
+"10024413","31-40",35,"services","married","secondary",-92,"no","no","november",5,20,1,"business",0,0,0,2298,0,30,5,274,2019-11-30,1329
+"10024414","41-60",46,"entrepreneur","married","tertiary",-80,"yes","yes","december",1,40,1,"unsecured ",0,0,0,3397,0,31,1,49,2019-12-31,1298
+"10024415","31-40",31,"management","married","secondary",-73,"no","no","january",6,45,1,"unsecured ",0,0,0,2143,0,31,6,380,2019-01-31,1632
+"10024416","31-40",35,"technician","single","secondary",-75,"yes","no","february",2,12,1,"unsecured ",0,0,0,2298,0,28,2,138,2019-02-28,1604
+"10024417","18-30",29,"management","married","secondary",-97,"yes","no","march",6,4,0,"no product",0,0,0,2106,0,31,6,376,2019-03-31,1573
+"10024418","41-60",51,"technician","married","secondary",-96,"yes","yes","april",7,4,0,"no product",0,0,0,3397,0,30,7,421,2019-04-30,1543
+"10024419","31-40",33,"blue-collar","married","primary",-97,"yes","no","may",2,3,0,"no product",0,0,0,0,0,31,2,121,2019-05-31,1512
+"10024420","31-40",37,"management","married","tertiary",-98,"no","yes","june",1,2,0,"no product",0,0,0,0,0,30,1,36,2019-06-30,1482
+"10024421","41-60",43,"admin","single","primary",-98,"yes","no","july",5,5,0,"no product",0,0,0,0,0,31,5,328,2019-07-31,1451
+"10024422","41-60",42,"technician","married","tertiary",-91,"yes","yes","august",0,8,0,"no product",0,0,0,0,0,31,0,19,2019-08-31,1420
+"10024423","18-30",28,"blue-collar","married","secondary",-96,"yes","no","september",4.50311665182547,7,0,"no product",0,0,0,0,0,30,14,866,2019-09-30,1390
+"10024424","41-60",57,"retired","married","secondary",-93,"yes","yes","october",4,7,0,"no product",0,0,0,0,0,31,4,229,2019-10-31,1359
+"10024425","31-40",38,"services","married","secondary",-100,"yes","no","november",3,7,0,"no product",0,0,0,0,0,30,3,154,2019-11-30,1329
+"10024426","31-40",39,"blue-collar","married","primary",-98,"yes","no","december",1,4,0,"no product",0,0,0,0,0,31,1,56,2019-12-31,1298
+"10024427","31-40",36,"technician","married","tertiary",-95,"yes","yes","january",4.50311665182547,12,1,"auto ",1,0,0,6530,0,31,26,1581,2019-01-31,1632
+"10024428","41-60",57,"retired","married","tertiary",-87,"yes","yes","february",2,9,1,"auto ",1,0,0,2586,0,28,2,117,2019-02-28,1604
+"10024429","41-60",44,"management","married","primary",-97,"yes","yes","march",3,9,1,"auto ",1,0,0,6530,0,31,3,185,2019-03-31,1573
+"10024430","41-60",48,"services","divorced","secondary",-88,"yes","no","april",3,8,1,"mortgage",1,0,0,2476,0,30,3,202,2019-04-30,1543
+"10024431","41-60",46,"blue-collar","married","primary",-97,"yes","yes","may",5,2,1,"mortgage",1,0,0,4384,0,31,5,279,2019-05-31,1512
+"10024432","41-60",43,"admin","married","secondary",-98,"no","yes","june",3,7,1,"mortgage",1,0,0,4080,0,30,3,180,2019-06-30,1482
+"10024433","41-60",49,"services","married","secondary",-80,"yes","yes","july",4,23,1,"mortgage",1,0,0,2127,0,31,4,218,2019-07-31,1451
+"10024434","18-30",29,"services","single","secondary",-90,"yes","no","august",2,16,1,"mortgage",1,0,0,5699,0,31,2,129,2019-08-31,1420
+"10024435","41-60",53,"blue-collar","married","secondary",-90,"yes","yes","september",9,2,1,"mortgage",1,0,0,3237,0,30,9,530,2019-09-30,1390
+"10024436","18-30",30,"services","single","secondary",-99,"yes","no","october",2,1,1,"auto ",1,0,0,2558,0,31,2,104,2019-10-31,1359
+"10024437","41-60",41,"management","divorced","secondary",-96,"yes","no","november",1,0,1,"auto ",1,0,0,2298,0,30,1,60,2019-11-30,1329
+"10024438","31-40",33,"technician","married","secondary",-99,"yes","no","december",7,0,1,"auto ",1,0,0,3397,0,31,7,432,2019-12-31,1298
+"10024439","41-60",47,"blue-collar","married","primary",-92,"yes","yes","january",2,8,1,"auto ",1,0,0,2106,0,31,2,113,2019-01-31,1632
+"10024440","41-60",58,"retired","married","secondary",-96,"yes","yes","february",9,7,1,"auto ",1,0,0,2586,0,28,9,516,2019-02-28,1604
+"10024441","31-40",31,"unemployed","married","secondary",-110,"yes","no","march",3,5,1,"auto ",1,0,0,6530,0,31,3,179,2019-03-31,1573
+"10024442","31-40",38,"admin","single","secondary",-97,"yes","no","april",2,1,1,"auto ",1,0,0,2476,0,30,2,125,2019-04-30,1543
+"10024443","41-60",60,"retired","married","secondary",-99,"yes","yes","may",6,1,1,"auto ",1,0,0,4384,0,31,6,386,2019-05-31,1512
+"10024444","31-40",33,"management","single","tertiary",-99,"no","no","june",4,7,1,"unsecured ",1,0,0,4080,0,30,4,262,2019-06-30,1482
+"10024445","31-40",33,"unemployed","single","tertiary",-77,"yes","no","july",7,15,1,"unsecured ",1,0,0,2127,0,31,7,396,2019-07-31,1451
+"10024446","41-60",52,"admin","married","primary",-96,"yes","yes","august",5,10,1,"unsecured ",1,0,0,5699,0,31,5,294,2019-08-31,1420
+"10024447","41-60",42,"blue-collar","married","primary",-89,"yes","yes","september",3,6,0,"no product",0,0,0,3237,0,30,3,171,2019-09-30,1390
+"10024448","18-30",30,"technician","single","secondary",-98,"yes","no","october",10,3,0,"no product",0,0,0,2558,0,31,10,614,2019-10-31,1359
+"10024449","31-40",33,"entrepreneur","divorced","tertiary",-97,"yes","no","november",2,4,0,"no product",0,0,0,2298,0,30,2,118,2019-11-30,1329
+"10024450","41-60",46,"admin","divorced","secondary",-97,"yes","no","december",8,12,0,"no product",0,0,0,3397,0,31,8,485,2019-12-31,1298
+"10024451","41-60",51,"blue-collar","married","primary",-80,"yes","yes","january",7,16,0,"no product",0,0,0,2106,0,31,7,406,2019-01-31,1632
+"10024452","31-40",40,"unemployed","single","secondary",-95,"yes","no","february",5,5,0,"no product",0,0,0,0,0,28,5,287,2019-02-28,1604
+"10024453","41-60",50,"admin","married","secondary",-97,"yes","yes","march",4,3,0,"no product",0,0,0,0,0,31,4,216,2019-03-31,1573
+"10024454","41-60",42,"entrepreneur","married","tertiary",-97,"yes","yes","april",11,0,0,"no product",0,0,0,0,0,30,11,650,2019-04-30,1543
+"10024455","31-40",38,"technician","married","secondary",-99,"no","no","may",1,0,0,"no product",0,0,0,0,0,31,1,55,2019-05-31,1512
+"10024456","31-40",36,"admin","single","primary",-98,"yes","no","june",6,6,0,"no product",0,0,0,0,0,30,6,371,2019-06-30,1482
+"10024457","31-40",37,"unemployed","divorced","primary",-88,"yes","no","july",3,14,0,"no product",0,0,0,0,0,31,3,166,2019-07-31,1451
+"10024458","31-40",33,"management","married","tertiary",-94,"yes","yes","august",1,8,0,"no product",0,0,0,0,0,31,1,48,2019-08-31,1420
+"10024459","31-40",38,"blue-collar","single","secondary",-99,"yes","no","september",1,7,0,"no product",0,0,0,0,0,30,1,72,2019-09-30,1390
+"10024460","41-60",52,"blue-collar","married","tertiary",-95,"yes","yes","october",1,7,1,"unsecured ",1,0,0,3237,0,31,1,55,2019-10-31,1359
+"10024461","18-30",29,"blue-collar","married","secondary",-95,"yes","no","november",2,7,1,"unsecured ",1,0,0,2558,0,30,2,144,2019-11-30,1329
+"10024462","31-40",37,"blue-collar","married","primary",-95,"yes","no","december",8,8,1,"mortgage",1,0,0,2298,0,31,8,474,2019-12-31,1298
+"10024463","31-40",34,"admin","married","secondary",-93,"yes","no","january",9,3,1,"mortgage",1,0,0,2877,0,31,9,559,2019-01-31,1632
+"10024464","41-60",43,"blue-collar","married","primary",-98,"yes","yes","february",4,6,1,"mortgage",1,0,0,2226,0,28,4,261,2019-02-28,1604
+"10024465","41-60",49,"services","married","secondary",-81,"yes","yes","march",4.50311665182547,6,1,"mortgage",1,0,0,2880,0,31,18,1101,2019-03-31,1573
+"10024466","31-40",33,"technician","single","secondary",-99,"no","no","april",4,0,1,"mortgage",1,1,1,2434,9,30,4,236,2019-04-30,1543
+"10024467","41-60",47,"admin","married","primary",-99,"yes","yes","may",3,0,1,"mortgage",1,1,1,4246,9,31,3,164,2019-05-31,1512
+"10024468","41-60",50,"technician","married","secondary",-98,"no","yes","june",2,5,1,"auto ",1,1,1,5699,9,30,2,93,2019-06-30,1482
+"10024469","18-30",30,"blue-collar","single","primary",-91,"yes","no","july",4.50311665182547,7,1,"unsecured ",1,1,1,5699,9,31,15,912,2019-07-31,1451
+"10024470","41-60",44,"services","married","primary",-100,"yes","yes","august",3,7,0,"no product",0,0,0,3237,0,31,3,179,2019-08-31,1420
+"10024471","41-60",44,"blue-collar","divorced","secondary",-92,"yes","no","september",8,10,0,"no product",0,0,0,2558,0,30,8,485,2019-09-30,1390
+"10024472","18-30",30,"services","single","secondary",-95,"yes","no","october",3,7,0,"no product",0,0,0,2298,0,31,3,206,2019-10-31,1359
+"10024473","31-40",40,"blue-collar","married","primary",-99,"yes","no","november",5,7,0,"no product",0,0,0,0,0,30,5,311,2019-11-30,1329
+"10024474","41-60",41,"blue-collar","married","primary",-96,"yes","yes","december",12,5,0,"no product",0,0,0,0,0,31,12,690,2019-12-31,1298
+"10024475","31-40",34,"blue-collar","married","primary",-96,"yes","no","january",6,2,0,"no product",0,0,0,0,0,31,6,362,2019-01-31,1632
+"10024476","41-60",53,"services","married","primary",-99,"yes","yes","february",5,3,0,"no product",0,0,0,0,0,28,5,274,2019-02-28,1604
+"10024477","31-40",35,"blue-collar","married","primary",-91,"yes","no","march",3,19,0,"no product",0,0,0,0,0,31,3,163,2019-03-31,1573
+"10024478","31-40",34,"technician","divorced","secondary",-85,"yes","no","april",6,18,0,"no product",0,0,0,0,0,30,6,345,2019-04-30,1543
+"10024479","31-40",39,"admin","single","secondary",-92,"yes","no","may",5,11,0,"no product",0,0,0,0,0,31,5,329,2019-05-31,1512
+"10024480","31-40",39,"management","single","tertiary",-94,"yes","no","june",1,6,0,"no product",0,0,0,0,0,30,1,68,2019-06-30,1482
+"10024481","41-60",52,"services","divorced","secondary",-96,"yes","no","july",2,16,0,"no product",0,0,0,0,0,31,2,143,2019-07-31,1451
+"10024482","31-40",34,"blue-collar","married","secondary",-69,"yes","no","august",4.50311665182547,13,0,"no product",0,0,0,0,0,31,18,1062,2019-08-31,1420
+"10024483","31-40",37,"blue-collar","divorced","primary",-97,"yes","no","september",1,5,0,"no product",0,0,0,0,0,30,1,71,2019-09-30,1390
+"10024484","31-40",39,"admin","married","secondary",-94,"yes","no","october",2,7,0,"no product",0,0,0,0,0,31,2,106,2019-10-31,1359
+"10024485","41-60",52,"entrepreneur","divorced","primary",-96,"yes","no","november",11,5,0,"no product",0,0,0,0,0,30,11,688,2019-11-30,1329
+"10024486","31-40",35,"blue-collar","married","primary",-96,"yes","no","december",2,14,0,"no product",0,0,0,0,0,31,2,103,2019-12-31,1298
+"10024487","31-40",36,"entrepreneur","married","tertiary",-77,"yes","yes","january",6,6,1,"business",1,1,1,3251,9,31,6,349,2019-01-31,1632
+"10024488","41-60",48,"technician","married","secondary",-106,"yes","yes","february",1,7,1,"business",1,1,1,4324,9,28,1,78,2019-02-28,1604
+"10024489","31-40",31,"admin","divorced","secondary",-95,"yes","no","march",3,13,1,"business",1,1,1,3214,9,31,3,194,2019-03-31,1573
+"10024490","41-60",43,"technician","divorced","tertiary",-86,"yes","yes","april",4,17,1,"business",1,1,1,2362,9,30,4,224,2019-04-30,1543
+"10024491","41-60",43,"blue-collar","single","primary",-92,"yes","no","may",2,10,1,"business",1,1,1,2353,9,31,2,98,2019-05-31,1512
+"10024492","31-40",39,"blue-collar","married","secondary",-95,"yes","no","june",10,5,1,"business",1,1,1,3421,9,30,10,607,2019-06-30,1482
+"10024493","31-40",40,"technician","married","primary",-97,"yes","no","july",7,4,1,"business",1,1,1,2353,9,31,7,398,2019-07-31,1451
+"10024494","41-60",58,"management","married","tertiary",-96,"no","yes","august",2,1,1,"business",1,1,1,3421,9,31,2,103,2019-08-31,1420
+"10024495","31-40",31,"blue-collar","married","primary",-99,"yes","no","september",4,1,1,"mortgage",1,1,1,3473,9,30,4,241,2019-09-30,1390
+"10024496","41-60",41,"blue-collar","married","secondary",-98,"yes","yes","october",3,4,1,"mortgage",1,1,1,2345,9,31,3,203,2019-10-31,1359
+"10024497","31-40",37,"management","married","tertiary",-95,"yes","yes","november",2,1,1,"mortgage",1,1,1,2362,9,30,2,96,2019-11-30,1329
+"10024498","41-60",44,"services","divorced","secondary",-99,"yes","no","december",4,0,1,"mortgage",1,1,1,2353,9,31,4,238,2019-12-31,1298
+"10024499","31-40",37,"technician","married","tertiary",-99,"yes","yes","january",3,2,1,"mortgage",1,1,1,3421,9,31,3,153,2019-01-31,1632
+"10024500","31-40",39,"blue-collar","married","primary",-88,"yes","no","february",8,11,1,"mortgage",1,1,1,2342,9,28,8,481,2019-02-28,1604
+"10024501","41-60",41,"blue-collar","single","secondary",-96,"yes","no","march",4.50311665182547,5,1,"mortgage",1,1,1,4853,9,31,36,2177,2019-03-31,1573
+"10024502","41-60",52,"blue-collar","divorced","primary",-97,"yes","no","april",2,6,1,"mortgage",1,1,1,8675,9,30,2,119,2019-04-30,1543
+"10024503","18-30",29,"blue-collar","single","primary",-94,"yes","no","may",4,16,1,"unsecured ",1,1,1,9764,9,31,4,245,2019-05-31,1512
+"10024504","41-60",60,"blue-collar","divorced","secondary",-82,"no","no","june",3,11,1,"unsecured ",1,1,1,2457,9,30,3,152,2019-06-30,1482
+"10024505","31-40",32,"technician","married","secondary",-97,"no","no","july",7,3,1,"unsecured ",1,1,1,3678,9,31,7,418,2019-07-31,1451
+"10024506","41-60",50,"services","single","primary",-97,"yes","no","august",3,8,1,"unsecured ",1,1,1,9765,9,31,3,198,2019-08-31,1420
+"10024507","41-60",56,"blue-collar","married","primary",-88,"yes","yes","september",3,12,1,"unsecured ",1,1,1,7543,9,30,3,198,2019-09-30,1390
+"10024508","41-60",48,"admin","married","secondary",-95,"yes","yes","october",6,6,1,"unsecured ",1,1,1,6689,9,31,6,374,2019-10-31,1359
+"10024509","18-30",29,"blue-collar","married","primary",-97,"no","no","november",1,0,1,"unsecured ",1,1,1,4376,9,30,1,51,2019-11-30,1329
+"10024510","31-40",40,"blue-collar","married","secondary",-99,"yes","no","december",4,0,1,"unsecured ",1,1,1,6895,9,31,4,263,2019-12-31,1298
+"10024511","41-60",42,"admin","divorced","secondary",-99,"yes","no","january",4,0,1,"unsecured ",1,1,1,7632,9,31,4,229,2019-01-31,1632
+"10024512","31-40",34,"blue-collar","married","secondary",-99,"yes","no","february",3,7,1,"unsecured ",1,1,1,9753,9,28,3,154,2019-02-28,1604
+"10024513","18-30",23,"management","single","tertiary",-65,"yes","no","march",5,9,1,"unsecured ",1,1,1,2257,9,31,5,278,2019-03-31,1573
+"10024514","18-30",30,"technician","single","tertiary",-98,"yes","no","april",5,1,1,"unsecured ",1,1,1,6895,9,30,5,306,2019-04-30,1543
+"10024515","41-60",51,"management","married","primary",-98,"yes","yes","may",2,8,1,"unsecured ",1,1,1,6895,9,31,2,114,2019-05-31,1512
+"10024516","41-60",52,"technician","single","secondary",-102,"yes","no","june",2,7,1,"unsecured ",1,1,1,7632,9,30,2,94,2019-06-30,1482
+"10024517","41-60",45,"technician","married","secondary",-98,"yes","yes","july",3,7,1,"mortgage",1,1,1,6895,9,31,3,208,2019-07-31,1451
+"10024518","41-60",41,"blue-collar","married","secondary",-99,"yes","yes","august",3,7,1,"mortgage",1,1,1,7632,9,31,3,169,2019-08-31,1420
+"10024519","18-30",27,"student","single","secondary",-90,"yes","no","september",6,23,1,"mortgage",1,1,1,9753,9,30,6,332,2019-09-30,1390
+"10024520","41-60",50,"blue-collar","married","secondary",-79,"yes","yes","october",4,7,1,"mortgage",1,1,1,8675,9,31,4,263,2019-10-31,1359
+"10024521","31-40",36,"blue-collar","married","primary",-100,"yes","no","november",6,7,1,"mortgage",1,1,1,9764,9,30,6,353,2019-11-30,1329
+"10024522","41-60",46,"blue-collar","married","primary",-95,"yes","yes","december",2,7,1,"mortgage",1,1,1,2457,9,31,2,108,2019-12-31,1298
+"10024523","41-60",44,"blue-collar","married","primary",-102,"yes","yes","january",7,7,1,"mortgage",1,1,1,3678,9,31,7,441,2019-01-31,1632
+"10024524","41-60",47,"blue-collar","married","secondary",-94,"yes","yes","february",1,8,1,"mortgage",1,1,1,9765,9,28,1,46,2019-02-28,1604
+"10024525","31-40",40,"blue-collar","married","secondary",-95,"yes","no","march",4,5,1,"mortgage",1,1,1,6895,9,31,4,266,2019-03-31,1573
+"10024526","31-40",36,"services","single","secondary",-97,"yes","no","april",4,6,1,"mortgage",1,1,1,7632,9,30,4,223,2019-04-30,1543
+"10024527","41-60",46,"blue-collar","married","secondary",-93,"yes","yes","may",2,13,1,"mortgage",1,1,1,9753,9,31,2,105,2019-05-31,1512
+"10024528","41-60",58,"technician","married","secondary",-89,"yes","yes","june",3,7,1,"mortgage",1,0,0,2257,0,30,3,165,2019-06-30,1482
+"10024529","18-30",30,"technician","divorced","tertiary",-103,"yes","no","july",6,7,1,"mortgage",1,0,0,12353,0,31,6,381,2019-07-31,1451
+"10024530","41-60",43,"blue-collar","married","secondary",-91,"yes","yes","august",4,7,1,"mortgage",1,0,0,6895,0,31,4,228,2019-08-31,1420
+"10024531","18-30",29,"services","single","secondary",-101,"yes","no","september",2,7,1,"auto ",1,0,0,7632,0,30,2,128,2019-09-30,1390
+"10024532","41-60",41,"management","married","tertiary",-98,"yes","yes","october",4.50311665182547,1,1,"auto ",1,1,1,9753,9,31,13,764,2019-10-31,1359
+"10024533","41-60",44,"entrepreneur","married","primary",-98,"yes","yes","november",2,3,1,"auto ",1,1,1,2257,9,30,2,113,2019-11-30,1329
+"10024534","41-60",44,"services","divorced","secondary",-94,"yes","no","december",7,1,1,"auto ",1,1,1,12353,9,31,7,396,2019-12-31,1298
+"10024535","41-60",59,"blue-collar","married","primary",-99,"yes","yes","january",2,3,1,"auto ",1,1,1,2356,9,31,2,133,2019-01-31,1632
+"10024536","31-40",39,"management","single","tertiary",-61,"yes","no","february",1,0,1,"auto ",1,1,1,7654,8,28,1,42,2019-02-28,1604
+"10024537","41-60",42,"management","married","secondary",-99,"no","yes","march",4,0,0,"no product",0,0,0,7854,0,31,4,234,2019-03-31,1573
+"10024538","31-40",31,"admin","married","secondary",-98,"no","no","april",5,1,0,"no product",0,0,0,6895,0,30,5,297,2019-04-30,1543
+"10024539","18-30",29,"","single","primary",-99,"yes","no","may",1,0,0,"no product",0,0,0,7632,0,31,1,50,2019-05-31,1512
+"10024540","31-40",39,"blue-collar","single","secondary",-99,"yes","no","june",4,2,0,"no product",0,0,0,9753,0,30,4,214,2019-06-30,1482
+"10024541","41-60",44,"blue-collar","married","primary",-94,"yes","yes","july",2,5,0,"no product",0,0,0,2257,0,31,2,110,2019-07-31,1451
+"10024542","41-60",49,"services","single","primary",-98,"yes","no","august",2,4,0,"no product",0,0,0,12353,0,31,2,99,2019-08-31,1420
+"10024543","31-40",39,"housemaid","married","secondary",-94,"yes","no","september",5,0,0,"no product",0,0,0,2356,0,30,5,274,2019-09-30,1390
+"10024544","18-30",27,"blue-collar","single","secondary",-99,"yes","no","october",3,0,0,"no product",0,0,0,7654,0,31,3,191,2019-10-31,1359
+"10024545","41-60",56,"management","married","primary",-100,"yes","yes","november",5,8,0,"no product",0,0,0,7854,0,30,5,305,2019-11-30,1329
+"10024546","41-60",43,"technician","married","tertiary",-90,"yes","yes","december",2,0,0,"no product",0,0,0,8954,0,31,2,134,2019-12-31,1298
+"10024547","31-40",37,"self-employed","married","primary",-99,"no","no","january",2,0,0,"no product",0,0,0,3678,0,31,2,112,2019-01-31,1632
+"10024548","41-60",54,"technician","single","secondary",-98,"yes","no","february",5,1,0,"no product",0,0,0,4853,0,28,5,283,2019-02-28,1604
+"10024549","31-40",38,"blue-collar","married","secondary",-99,"yes","no","march",6,1,0,"no product",0,0,0,8675,0,31,6,353,2019-03-31,1573
+"10024550","31-40",31,"blue-collar","married","primary",-96,"yes","no","april",4,9,0,"no product",0,0,0,9764,0,30,4,212,2019-04-30,1543
+"10024551","31-40",34,"blue-collar","married","secondary",-91,"yes","no","may",4,6,0,"no product",0,0,0,2457,0,31,4,225,2019-05-31,1512
+"10024552","31-40",35,"admin","married","primary",-97,"yes","no","june",5,12,0,"no product",0,0,0,3678,0,30,5,283,2019-06-30,1482
+"10024553","41-60",44,"blue-collar","single","tertiary",-71,"yes","no","july",4.50311665182547,19,0,"no product",0,0,0,9765,0,31,21,1273,2019-07-31,1451
+"10024554","18-30",30,"blue-collar","married","secondary",-95,"yes","no","august",4.50311665182547,6,0,"no product",0,0,0,7543,0,31,26,1574,2019-08-31,1420
+"10024555","41-60",51,"technician","married","secondary",-96,"yes","yes","september",2,6,0,"no product",0,0,0,6895,0,30,2,139,2019-09-30,1390
+"10024556","31-40",37,"blue-collar","married","primary",-95,"yes","no","october",4,7,0,"no product",0,0,0,7632,0,31,4,228,2019-10-31,1359
+"10024557","31-40",39,"blue-collar","married","tertiary",-100,"yes","yes","november",1,7,0,"no product",0,0,0,9753,0,30,1,62,2019-11-30,1329
+"10024558","31-40",33,"management","single","tertiary",-98,"yes","no","december",4,1,0,"no product",0,0,0,6895,0,31,4,256,2019-12-31,1298
+"10024559","31-40",37,"management","divorced","tertiary",-99,"yes","no","january",9,1,0,"no product",0,0,0,7632,0,31,9,564,2019-01-31,1632
+"10024560","41-60",46,"blue-collar","single","secondary",-98,"yes","no","february",4,7,0,"no product",0,0,0,9753,0,28,4,245,2019-02-28,1604
+"10024561","31-40",32,"admin","married","secondary",-82,"yes","no","march",3,19,0,"no product",0,0,0,0,0,31,3,161,2019-03-31,1573
+"10024562","41-60",43,"entrepreneur","married","primary",-92,"yes","yes","april",1,15,0,"no product",0,0,0,0,0,30,1,79,2019-04-30,1543
+"10024563","41-60",59,"housemaid","divorced","tertiary",-88,"yes","no","may",3,4,0,"no product",0,0,0,0,0,31,3,152,2019-05-31,1512
+"10024564","41-60",46,"admin","married","primary",-99,"yes","yes","june",10,1,0,"no product",0,0,0,0,0,30,10,591,2019-06-30,1482
+"10024565","41-60",47,"blue-collar","married","primary",-98,"yes","yes","july",2,6,0,"no product",0,0,0,0,0,31,2,113,2019-07-31,1451
+"10024566","31-40",31,"services","single","secondary",-90,"yes","no","august",3,7,0,"no product",0,0,0,0,0,31,3,193,2019-08-31,1420
+"10024567","18-30",30,"blue-collar","married","primary",-97,"yes","no","september",5,11,0,"no product",0,0,0,0,0,30,5,299,2019-09-30,1390
+"10024568","31-40",38,"blue-collar","married","primary",-76,"no","no","october",6,7,0,"no product",0,0,0,0,0,31,6,348,2019-10-31,1359
+"10024569","41-60",44,"blue-collar","single","secondary",-102,"yes","no","november",2,7,0,"no product",0,0,0,0,0,30,2,103,2019-11-30,1329
+"10024570","41-60",52,"technician","married","primary",-98,"yes","yes","december",4,6,0,"no product",0,0,0,0,0,31,4,253,2019-12-31,1298
+"10024571","18-30",29,"services","single","secondary",-92,"no","no","january",2,24,0,"no product",0,0,0,0,0,31,2,127,2019-01-31,1632
+"10024572","41-60",43,"admin","married","tertiary",-74,"yes","yes","february",4,12,0,"no product",0,0,0,0,0,28,4,244,2019-02-28,1604
+"10024573","41-60",47,"technician","married","primary",-97,"yes","yes","march",3,6,0,"no product",0,0,0,0,0,31,3,157,2019-03-31,1573
+"10024574","41-60",43,"blue-collar","married","primary",-93,"yes","yes","april",9,7,0,"no product",0,0,0,0,0,30,9,548,2019-04-30,1543
+"10024575","41-60",52,"blue-collar","divorced","primary",-100,"yes","no","may",2,7,0,"no product",0,0,0,0,0,31,2,114,2019-05-31,1512
+"10024576","31-40",32,"services","single","secondary",-98,"yes","no","june",2,7,0,"no product",0,0,0,0,0,30,2,126,2019-06-30,1482
+"10024577","31-40",40,"admin","single","secondary",-102,"yes","no","july",3,7,0,"no product",0,0,0,0,0,31,3,161,2019-07-31,1451
+"10024578","41-60",57,"technician","divorced","secondary",-64,"yes","no","august",6,11,0,"no product",0,0,0,0,0,31,6,333,2019-08-31,1420
+"10024579","18-30",30,"services","divorced","secondary",-98,"yes","no","september",3,8,0,"no product",0,0,0,0,0,30,3,155,2019-09-30,1390
+"10024580","41-60",48,"blue-collar","married","secondary",-83,"yes","yes","october",3,7,0,"no product",0,0,0,0,0,31,3,152,2019-10-31,1359
+"10024581","41-60",46,"blue-collar","married","secondary",-98,"yes","yes","november",2,2,0,"no product",0,0,0,0,0,30,2,145,2019-11-30,1329
+"10024582","41-60",59,"retired","divorced","primary",-97,"yes","no","december",1,5,0,"no product",0,0,0,0,0,31,1,66,2019-12-31,1298
+"10024583","41-60",50,"blue-collar","married","primary",-95,"yes","yes","january",2,5,0,"no product",0,0,0,0,0,31,2,123,2019-01-31,1632
+"10024584","41-60",50,"blue-collar","divorced","primary",-97,"yes","no","february",1,3,0,"no product",0,0,0,0,0,28,1,74,2019-02-28,1604
+"10024585","31-40",33,"blue-collar","divorced","secondary",-98,"yes","no","march",4,0,0,"no product",0,0,0,0,0,31,4,248,2019-03-31,1573
+"10024586","31-40",39,"technician","single","primary",-99,"yes","no","april",2,0,0,"no product",0,0,0,0,0,30,2,130,2019-04-30,1543
+"10024587","41-60",57,"retired","divorced","secondary",8,"yes","no","may",1,15,0,"no product",0,0,0,0,0,31,1,71,2019-05-31,1512
+"10024588","41-60",49,"blue-collar","married","primary",-99,"yes","yes","june",4.50311665182547,2,0,"no product",0,0,0,0,0,30,16,984,2019-06-30,1482
+"10024589","41-60",41,"blue-collar","married","primary",-96,"yes","yes","july",4,4,0,"no product",0,0,0,0,0,31,4,252,2019-07-31,1451

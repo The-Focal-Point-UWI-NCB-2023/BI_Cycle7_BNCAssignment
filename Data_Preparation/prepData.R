@@ -87,3 +87,7 @@ source(paste(path,"Loanvalue.R", sep=""))
 
 # NPS (Net Promoter Score)
 source(paste(path,"NPS.R", sep=""))
+
+
+write.csv(data,"cleanedData.csv", row.names = FALSE)
+cleaned.data <- read.csv(file='./cleanedData.csv', stringsAsFactors = TRUE)
