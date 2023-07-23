@@ -47,7 +47,7 @@ source(paste(path,"housing.R", sep=""))
 source(paste(path,"loan.R", sep=""))
 
 # Prep day
-source(paste(path,"day.R", sep=""))
+# source(paste(path,"day.R", sep=""))
 
 # Prep month
 source(paste(path,"month.R", sep=""))
