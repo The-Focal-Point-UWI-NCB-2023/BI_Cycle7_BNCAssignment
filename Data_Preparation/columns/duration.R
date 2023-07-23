@@ -34,6 +34,14 @@ plot(d_after,frame=FALSE, col = "Blue",main = 'Histogram of Duration (after clea
 
 avg_duration <- mean(data$duration)
 
+#Remove temp variables
+data$duration_temp <- NULL
+data$duration_before <- NULL
+duration.hist_before <- NULL
+duration.hist_after <- NULL
+d_before <- NULL
+d_after <- NULL
+
 
 
 
