@@ -1,4 +1,2 @@
-cData <- data
 # 624 NAs
-
-cData$NPS <- as.factor(cData$NPS)
+data$NPS <- ifelse(is.na(data$NPS), -1, data$NPS)
