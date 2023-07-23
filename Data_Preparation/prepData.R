@@ -56,7 +56,7 @@ source(paste(path,"month.R", sep=""))
 source(paste(path,"duration.R", sep=""))
 
 # Construct last_deposit column
-source(paste(path,"last_deposit.R", sep=""))
+# source(paste(path,"last_deposit.R", sep=""))
 
 # Normalize Balance
 #source(paste(path,"Normalization-Balance.R", sep=""))
