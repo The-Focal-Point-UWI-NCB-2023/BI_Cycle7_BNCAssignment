@@ -8,3 +8,8 @@ sum(data$marital == "")
 sum(is.na(data$marital))
 
 #No cleaning Required
+
+
+# Remove Empty Factor Levels
+data$marital <- as.character(data$marital)
+data$marital <- as.factor(data$marital)
