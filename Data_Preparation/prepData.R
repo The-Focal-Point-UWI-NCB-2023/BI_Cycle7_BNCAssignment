@@ -13,6 +13,12 @@ path <- "./Data_Preparation/columns/"
 # Read Data (Normalize one feature in the dataset. Justify your decision.)
 data <- read.csv(file='./dataset.csv', stringsAsFactors = TRUE)
 
+# Calculate number of NAs per row
+sum.na <- rowSums(is.na(data))
+
+# Remove all rows with more than 4 NAs
+data <- data[sum.na <= 5, ]
+
 # Prep job
 source(paste(path,"job.R", sep=""))
 
@@ -66,6 +72,8 @@ source(paste(path,"Normalization-Deposit.R", sep=""))
 
 # -----------------------
 # New Fields
+
+
 
 # Lead
 source(paste(path,"lead.R", sep=""))
