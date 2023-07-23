@@ -59,10 +59,10 @@ source(paste(path,"duration.R", sep=""))
 source(paste(path,"last_deposit.R", sep=""))
 
 # Normalize Balance
-source(paste(path,"Normalization-Balance.R", sep=""))
+#source(paste(path,"Normalization-Balance.R", sep=""))
 
 # Normalize Deposit
-source(paste(path,"Normalization-Deposit.R", sep=""))
+#source(paste(path,"Normalization-Deposit.R", sep=""))
 
 # boxplot(data$balance)
 # boxplotStats <- boxplot.stats(data$balance)
