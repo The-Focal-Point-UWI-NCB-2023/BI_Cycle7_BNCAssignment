@@ -7,18 +7,18 @@ sum(data$education == "") # 47 missing values
 #Counting Na values
 sum(is.na(data$education)) # No NA values
 
-avg_balance <- data %>%
+avg.balance <- data %>%
   filter(education != "") %>%
   group_by(education) %>%
-  summarize(avg_balance = mean(balance, na.rm = TRUE))
+  summarize(avg.balance = mean(balance, na.rm = TRUE))
 
 #attach(avg_balance)
 
 tempdf <- data %>%
   mutate(
-    tertiary_diff = abs(balance - avg_balance$avg_balance[3]),
-    secondary_diff = abs(balance - avg_balance$avg_balance[2]),
-    primary_diff = abs(balance - avg_balance$avg_balance[1])
+    tertiary.diff = abs(balance - avg.balance$avg.balance[3]),
+    secondary.diff = abs(balance - avg.balance$avg.balance[2]),
+    primary.diff = abs(balance - avg.balance$avg.balance[1])
   )
 
 tempdf <- tempdf %>%
@@ -27,10 +27,10 @@ tempdf <- tempdf %>%
     education = if_else(
       education == "",
       if_else(
-        tertiary_diff <= secondary_diff & tertiary_diff <= primary_diff,
+        tertiary.diff <= secondary.diff & tertiary.diff <= primary.diff,
         "tertiary",
         if_else(
-          secondary_diff <= primary_diff,
+          secondary.diff <= primary.diff,
           "secondary",
           "primary"
         )
@@ -52,7 +52,9 @@ sum(data$education == "tertiary")
 # Remove empty factor levels
 data$education <- droplevels(data$education)
 levels(data$job)
-  
+
+#str(data$education)
+summary(data$education)  
 
 
 
