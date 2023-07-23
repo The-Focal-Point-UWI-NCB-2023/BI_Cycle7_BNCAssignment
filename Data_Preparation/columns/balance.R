@@ -23,7 +23,6 @@ data <- data %>% mutate(ratio = (old.balance- new.balance) / old.balance,
                         percentage = percent(ratio),
                         new.deposit = ifelse(ratio == 0, deposit, deposit * (1-ratio)))
 
-data[is.na(data)] <- 0
 data$new.balance <- NULL
 data$old.balance <- NULL
 data$ratio <- NULL
@@ -33,6 +32,7 @@ data$deposit <- data$new.deposit
 data$new.deposit <- NULL
 avg.job.balance <- NULL
 data$balance <- ifelse(data$balance<=-500,-500, data$balance)
+data$deposit[is.na(data$deposit)] <- 0
 
 #count <- sum(data$balance > 668520)
 #print(paste("Number of rows where balance is higher than 668520:", count))
