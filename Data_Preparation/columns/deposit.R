@@ -14,7 +14,7 @@ boxplot(depositPreClean)
 avg.job.deposit <- aggregate(deposit ~ job, data, mean, na.rm = TRUE)
 data$avg.deposit <- avg.job.deposit$deposit[match(data$job, avg.job.deposit$job)]
 data$deposit <- ifelse(is.na(data$deposit), round(data$avg.deposit,1), round(data$deposit,1))
-data$deposit <- ifelse(data$deposit>190000, 190000, data$deposit)
+data$deposit <- ifelse(data$deposit>200, 200, data$deposit)
 
 #After Cleaning
 data$avg.deposit <- NULL
