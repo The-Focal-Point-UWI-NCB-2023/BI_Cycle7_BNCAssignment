@@ -40,10 +40,6 @@ rpart.plot(DTmodel,
            fallen.leaves = F, # Get tree looking structure
            cex = 0.6) # Font size
 
-
-predTest <- predict(DTmodel, test, type="class")
-summary(predTest)
-
 # Check Accuracy
 # Model Accuracy 
 predTest <- predict(DTmodel, test, type="class")
