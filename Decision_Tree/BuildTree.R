@@ -43,6 +43,13 @@ predTest <- predict(DTmodel, test, type="class")
 probTest <- predict(DTmodel, test, type="prob")
 actualTest <- test$lead
 
+# Adding variables
+test$actual <- actualTest
+test$pred <- predTest
+test$prob1 <- probTest[,2]
+test$prob0 <- probTest[,1]
+test$prob <- ifelse(test$prob0 > test$prob1, test$prob0, test$prob1)
+
 t1 <- table(Predicted_Value = predTest, Actual_Value = actualTest)
 t1
 
