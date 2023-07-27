@@ -58,4 +58,8 @@ TPR
 TNR <- t1[1]/(t1[1]+t1[3])
 TNR
 
-
+# ROC & Area under the curve
+ROC <- roc(actualTest, probTest[,2])
+plot(ROC,col="blue")
+AUC <- auc(ROC)
+AUC
