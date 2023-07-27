@@ -51,3 +51,11 @@ t1
 
 accuracy1 <- sum(diag(t1))/sum(t1)
 accuracy1
+
+TPR <- t1[4]/(t1[4]+t1[2])
+TPR
+
+TNR <- t1[1]/(t1[1]+t1[3])
+TNR
+
+
