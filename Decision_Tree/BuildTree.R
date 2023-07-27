@@ -7,7 +7,7 @@ library(pROC)
 
 # Load cleaned data
 data <- read.csv('./cleanedData.csv')
-View(data)
+#View(data)
 data$lead <- as.factor(data$lead)
 
 
@@ -19,15 +19,14 @@ test <- data[!sample,]
 
 ## Build Model
 DTmodel <- rpart(
-  lead ~ education + age + marital + job + deposit + balance,
-  method = "class", 
+  lead ~ age + job + marital + education + balance,
   data = train,
-  parms = list(split = "information"), 
-  control = rpart.control(
-    minsplit = 1, # Min records to split
-    minbucket = 20, # Min records at a node
-    maxdepth = 8 # Prep-runnning: Control tree size
-  )
+  method = "class",
+  parms = list(split="gini"), # Information gain
+  minsplit = 80, # Min records to split
+  minbucket = 40, # Min records at a node
+  maxdepth = 8,
+  cp = -1
 )
 
 DTmodel
@@ -41,23 +40,3 @@ rpart.plot(DTmodel,
 
 predTest <- predict(DTmodel, test, type="class")
 summary(predTest)
-
-##old code
-
-# Split into test and training data
-set.seed(1)
-sample <- sample.split(data$lead, SplitRatio = 0.7)
-
-training_data <- subset(data, sample == TRUE)
-test_data <- subset(data, sample == FALSE)
-
-# Checking that split ratio is preserved
-sampleN <- nrow(data[data$lead==0,])
-sampleY <- nrow(data[data$lead==1,])
-
-trainN <- nrow(training_data[training_data$lead==0,])
-trainY <- nrow(training_data[training_data$lead==1,])
-
-testN <- nrow(test_data[test_data$lead==0,])
-testY <- nrow(test_data[test_data$lead==1,])
-print(cat(sampleN/sampleY, trainN/trainY, testN/testY))
