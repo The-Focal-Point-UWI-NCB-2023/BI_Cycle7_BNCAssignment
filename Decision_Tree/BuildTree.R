@@ -9,6 +9,7 @@ library(pROC)
 data <- read.csv('./cleanedData.csv')
 #View(data)
 data$lead <- as.factor(data$lead)
+data$agerange <- as.factor(data$agerange)
 
 
 # Split into test and training data
@@ -19,15 +20,17 @@ test <- data[!sample,]
 
 ## Build Model
 DTmodel <- rpart(
-  lead ~ age + job + marital + education + balance,
+  lead ~ agerange + job + marital + education + balance + deposit,
   data = train,
   method = "class",
-  parms = list(split="gini"), # Information gain
-  minsplit = 80, # Min records to split
-  minbucket = 40, # Min records at a node
-  maxdepth = 8,
-  cp = -1
+  minsplit = 50, # Min records to split
+  minbucket = 30, # Min records at a node
+  maxdepth = 10,
+  cp = -1,
+  parms = list(split="information")
 )
+
+# 50, 30, 30 -> 68%
 
 DTmodel
 
@@ -40,3 +43,15 @@ rpart.plot(DTmodel,
 
 predTest <- predict(DTmodel, test, type="class")
 summary(predTest)
+
+# Check Accuracy
+# Model Accuracy 
+predTest <- predict(DTmodel, test, type="class")
+probTest <- predict(DTmodel, test, type="prob")
+actualTest <- test$lead
+
+t1 <- table(Predicted_Value = predTest, Actual_Value = actualTest)
+t1
+
+accuracy1 <- sum(diag(t1))/sum(t1)
+accuracy1
