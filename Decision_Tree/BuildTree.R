@@ -14,7 +14,7 @@ data$agerange <- as.factor(data$agerange)
 
 # Split into test and training data
 set.seed(1)
-sample <- sample.split(Y=data$lead, SplitRatio = 0.8)
+sample <- sample.split(Y=data, SplitRatio = 0.8)
 train <- data[sample,]
 test <- data[!sample,]
 
