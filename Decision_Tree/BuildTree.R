@@ -50,15 +50,18 @@ test$prob1 <- probTest[,2]
 test$prob0 <- probTest[,1]
 test$prob <- ifelse(test$prob0 > test$prob1, test$prob0, test$prob1)
 
+# Confusion Matrix
 cMatrix <- table(Predicted_Value = predTest, Actual_Value = actualTest)
 cMatrix
 
 Accuracy <- sum(diag(cMatrix))/sum(cMatrix)
 Accuracy
 
+# True Positive Rate
 TPR <- cMatrix[4]/(cMatrix[4]+cMatrix[2])
 TPR
 
+# True Negative Rate
 TNR <- cMatrix[1]/(cMatrix[1]+cMatrix[3])
 TNR
 
