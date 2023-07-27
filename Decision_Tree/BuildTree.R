@@ -50,16 +50,16 @@ test$prob1 <- probTest[,2]
 test$prob0 <- probTest[,1]
 test$prob <- ifelse(test$prob0 > test$prob1, test$prob0, test$prob1)
 
-t1 <- table(Predicted_Value = predTest, Actual_Value = actualTest)
-t1
+cMatrix <- table(Predicted_Value = predTest, Actual_Value = actualTest)
+cMatrix
 
-accuracy1 <- sum(diag(t1))/sum(t1)
-accuracy1
+Accuracy <- sum(diag(cMatrix))/sum(cMatrix)
+Accuracy
 
-TPR <- t1[4]/(t1[4]+t1[2])
+TPR <- cMatrix[4]/(cMatrix[4]+cMatrix[2])
 TPR
 
-TNR <- t1[1]/(t1[1]+t1[3])
+TNR <- cMatrix[1]/(cMatrix[1]+cMatrix[3])
 TNR
 
 # ROC & Area under the curve
