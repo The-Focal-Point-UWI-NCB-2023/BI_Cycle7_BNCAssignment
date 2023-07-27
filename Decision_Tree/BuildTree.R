@@ -6,10 +6,7 @@ library(caTools)
 library(pROC)
 
 # Load cleaned data
-data <- read.csv('./cleanedData.csv')
-#View(data)
-data$lead <- as.factor(data$lead)
-data$agerange <- as.factor(data$agerange)
+data <- read.csv('./cleanedData.csv', stringsAsFactors = T)
 
 
 # Split into test and training data
