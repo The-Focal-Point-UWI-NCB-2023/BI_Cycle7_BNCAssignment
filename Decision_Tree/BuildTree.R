@@ -1,3 +1,5 @@
+rm(list=ls())
+
 library(rpart)
 library(rpart.plot)
 library(caTools)
