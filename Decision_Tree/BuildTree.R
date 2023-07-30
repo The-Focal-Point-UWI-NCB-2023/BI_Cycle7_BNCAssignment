@@ -5,6 +5,8 @@ library(rpart.plot)
 library(caTools)
 library(pROC)
 library(ROSE)
+library(randomForest)
+
 
 # Load cleaned data
 data <- read.csv('./cleanedData.csv', stringsAsFactors = T)
@@ -43,6 +45,7 @@ DTmodel <- rpart(
   cp = -1,
   parms = list(split="information")
 )
+
 
 # 50, 30, 30 -> 68%
 
@@ -87,3 +90,15 @@ ROC <- roc(actualTest, probTest[,2])
 plot(ROC,col="blue")
 AUC <- auc(ROC)
 AUC
+
+
+#testing a new model
+data_train<- createFolds(data$lead, k=15)
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit,  method = "J48", data=train_adjusted,
+                tuneLength = 5,
+                trControl = trainControl(
+                  method="cv", indexOut=train))
+
+C45Fit
+C45Fit$finalModel
+
