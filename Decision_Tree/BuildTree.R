@@ -8,7 +8,9 @@ library(ROSE)
 library(randomForest)
 library(RWeka)
 library(caret)
-library(partykit)
+library(party)
+
+install.packages('party')
 
 # Load cleaned data
 data <- read.csv('./cleanedData.csv', stringsAsFactors = T)
@@ -94,15 +96,28 @@ AUC <- auc(ROC)
 AUC
 
 
+
 #testing a new model
-train<- createFolds(data$lead, k=15)
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted,
-                tuneLength = 5,
-                trControl = trainControl(
-                  method="cv", indexOut=train))
+train<- createFolds(data$lead, k=2)
+#C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='treebag', 
+#                tuneLength=5, trControl = trainControl(method="cv",number = 8)) acc:80
+
+
+#C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='C5.0', 
+               #tuneLength=5, trControl = trainControl(method="cv",number = 7))
+
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='C5.0Cost', 
+tuneLength=5, trControl = trainControl(method="cv",number = 5))
+
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='chaid', 
+                tuneLength=5, trControl = trainControl(method="cv",number = 5))
 
 C45Fit
-C45Fit$finalModel
+model <-C45Fit$finalModel
 C45Fit$modelType
 
-plot(C45Fit$finalModel,type = 'simple')
+plot(C45Fit)
+
+install.packages('rattle')
+library(rattle)
+fancyRpartPlot(C45Fit$finalModel)
