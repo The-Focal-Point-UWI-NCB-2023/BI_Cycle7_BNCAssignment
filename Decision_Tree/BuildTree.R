@@ -6,6 +6,9 @@ library(caTools)
 library(pROC)
 library(ROSE)
 library(randomForest)
+library(caret)
+library(RWeka)
+
 
 
 # Load cleaned data
@@ -27,10 +30,10 @@ table(train$lead)
 # over -> N = 1220
 # both -> N = 600
 train_adjusted <- ovun.sample(lead ~ ., 
-                          data=train, 
-                          method="over", 
-                          seed = 1, 
-                          N=1220)$data
+                              data=train, 
+                              method="over", 
+                              seed = 1, 
+                              N=1220)$data
 
 table(train_adjusted$lead)
 
