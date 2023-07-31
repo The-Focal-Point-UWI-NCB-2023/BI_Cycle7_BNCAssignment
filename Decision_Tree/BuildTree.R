@@ -109,7 +109,7 @@ train<- createFolds(data$lead, k=2)
 C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='C5.0Cost', 
 tuneLength=5, trControl = trainControl(method="cv",number = 5))
 
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='chaid', 
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted,
                 tuneLength=5, trControl = trainControl(method="cv",number = 5))
 
 C45Fit
