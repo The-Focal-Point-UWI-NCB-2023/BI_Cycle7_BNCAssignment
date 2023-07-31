@@ -6,7 +6,9 @@ library(caTools)
 library(pROC)
 library(ROSE)
 library(randomForest)
-
+library(RWeka)
+library(caret)
+library(partykit)
 
 # Load cleaned data
 data <- read.csv('./cleanedData.csv', stringsAsFactors = T)
@@ -93,12 +95,14 @@ AUC
 
 
 #testing a new model
-data_train<- createFolds(data$lead, k=15)
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit,  method = "J48", data=train_adjusted,
+train<- createFolds(data$lead, k=15)
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted,
                 tuneLength = 5,
                 trControl = trainControl(
                   method="cv", indexOut=train))
 
 C45Fit
 C45Fit$finalModel
+C45Fit$modelType
 
+plot(C45Fit$finalModel,type = 'simple')
