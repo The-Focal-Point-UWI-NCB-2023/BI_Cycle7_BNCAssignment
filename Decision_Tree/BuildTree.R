@@ -18,7 +18,7 @@ data$lead <- as.factor(data$lead)
 
 # Split into test and training data
 set.seed(1)
-sample <- sample.split(Y=data$lead, SplitRatio = 0.8)
+sample <- sample.split(Y=data$lead, SplitRatio = 0.9)
 data_train <- data[sample,]
 test <- data[!sample,]
 
@@ -100,18 +100,23 @@ AUC
 
 set.seed(1005566)#for reproducibility
 
+
 levels(data_train$lead)=c("Yes","No")# 1=Yes, 0=No
 
 train<- createFolds(data$lead,k=10)
 
 
 ##CART Models
-#rpart algorithm 
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='rpart', cp=0.04) #acc:68
 
 #rpart2 algorithm
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='rpart2', metric='Accuracy', preProcess='center',
-                tuneGrid=data.frame(maxdepth=14),tuneLength=5, trControl = trainControl(method='cv',number=5)) #68
+###best one so far
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='rpart2', metric='Accuracy', preProcess=c("center", "scale",'nzv','zv'),
+                tuneGrid=data.frame(maxdepth=10),tuneLength=3, trControl = trainControl(method='repeatedcv',number=3,repeats=4,sampling = 'smote')) #train: 62, test:71
+
+
+#rpart algorithm 
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='rpart') #acc:68
+
 
 #rpart2 algorithm
 #C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='rpart2', metric='Accuracy', preProcess='center',
@@ -123,7 +128,8 @@ C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit,
 #C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='treebag',
 #tuneLength=10, trControl = trainControl(method='cv',number=7)) #acc:89
 
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='treebag') #acc:89
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='treebag',metric='Accuracy',preProcess=c("center", "scale",'nzv','zv'),
+                tuneLength=5, trControl = trainControl(method='optimism_boot',number=3,sampling = 'up')) #acc:83-64
 
 
 ##C4.5 like tree model
