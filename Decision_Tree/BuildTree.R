@@ -10,7 +10,6 @@ library(RWeka)
 library(caret)
 library(party)
 
-install.packages('party')
 
 # Load cleaned data
 data <- read.csv('./cleanedData.csv', stringsAsFactors = T)
@@ -20,7 +19,7 @@ data$lead <- as.factor(data$lead)
 # Split into test and training data
 set.seed(1)
 sample <- sample.split(Y=data$lead, SplitRatio = 0.8)
-train <- data[sample,]
+data_train <- data[sample,]
 test <- data[!sample,]
 
 table(train$lead)
@@ -31,7 +30,7 @@ table(train$lead)
 # over -> N = 1220
 # both -> N = 600
 train_adjusted <- ovun.sample(lead ~ ., 
-                          data=train, 
+                          data=data_train, 
                           method="over", 
                           seed = 1, 
                           N=1220)$data
@@ -97,27 +96,75 @@ AUC
 
 
 
-#testing a new model
-train<- createFolds(data$lead, k=2)
-#C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='treebag', 
-#                tuneLength=5, trControl = trainControl(method="cv",number = 8)) acc:80
+####testing new models
+
+set.seed(1005566)#for reproducibility
+
+levels(data_train$lead)=c("Yes","No")# 1=Yes, 0=No
+
+train<- createFolds(data$lead,k=10)
 
 
-#C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='C5.0', 
-               #tuneLength=5, trControl = trainControl(method="cv",number = 7))
+##CART Models
+#rpart algorithm 
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='rpart', cp=0.04) #acc:68
 
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='C5.0Cost', 
-tuneLength=5, trControl = trainControl(method="cv",number = 5))
+#rpart2 algorithm
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='rpart2', metric='Accuracy', preProcess='center',
+                tuneGrid=data.frame(maxdepth=14),tuneLength=5, trControl = trainControl(method='cv',number=5)) #68
 
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted,
-                tuneLength=5, trControl = trainControl(method="cv",number = 5))
+#rpart2 algorithm
+#C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='rpart2', metric='Accuracy', preProcess='center',
+                #tuneGrid=data.frame(maxdepth=14),tuneLength=5, trControl = trainControl(method='cv',number=5)) #68
+
+
+##bagged CART
+#treebag algorithm
+#C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='treebag',
+#tuneLength=10, trControl = trainControl(method='cv',number=7)) #acc:89
+
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='treebag') #acc:89
+
+
+##C4.5 like tree model
+#J48 algorithm
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='J48', tuneGrid=data.frame(C=0.1,M=1),
+                tuneLength=10,trControl = trainControl(method='cv',number=7)) #acc:79
+
+
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='J48', tuneGrid=data.frame(C=0.01,M=3),
+                tuneLength=5,trControl = trainControl(method='repeatedcv',number=10)) #acc:68
+
+##C5.0 model
+#C5.0 algorithm
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='C5.0',trials=5, model='tree',winnow=FALSE,
+                tuneLength=2, trControl = trainControl(method='optimism_boot',number=3,classProbs = TRUE,sampling = 'up')) #acc:75
+
+
+##random forest 
+#random forest algorithm
+
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='rf',
+                tuneLength=7, trControl = trainControl(method='cv',number=7,classProbs = TRUE,sampling = 'up')) #acc:89
+
 
 C45Fit
-model <-C45Fit$finalModel
-C45Fit$modelType
+C45Fit$finalModel
 
-plot(C45Fit)
+# Check Accuracy
+# Model Accuracy 
+#levels(test$lead)=c("Yes","No")
+predTest <- predict(C45Fit, test)
 
-install.packages('rattle')
-library(rattle)
-fancyRpartPlot(C45Fit$finalModel)
+probTest <- predict(C45Fit, test, type="prob")
+actualTest <- test$lead
+
+# Adding variables
+test$actual <- actualTest
+test$pred <- predTest
+test$prob1 <- probTest[,2]
+test$prob0 <- probTest[,1]
+test$prob <- ifelse(test$prob0 > test$prob1, test$prob0, test$prob1)
+
+confusionMatrix(test$pred,test$actual)
+
