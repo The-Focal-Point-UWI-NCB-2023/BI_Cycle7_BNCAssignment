@@ -22,46 +22,23 @@ sample <- sample.split(Y=data$lead, SplitRatio = 0.9)
 data_train <- data[sample,]
 test <- data[!sample,]
 
-# Over/Under Sampling
-# To get balanced values
-# under -> N = 560
-# over -> N = 1220
-# both -> N = 600
-train_adjusted <- ovun.sample(lead ~ ., 
-                              data=data_train, 
-                              method="over", 
-                              seed = 1, 
-                              N=1220)$data
+set.seed(1)
 
-table(train_adjusted$lead)
+levels(data_train$lead)=c("Yes","No")# 1=Yes, 0=No
 
-## Build Model
-DTmodel <- rpart(
-  lead ~ agerange + job + marital + education + balance + deposit,
-  data = data_train,
-  method = "class",
-  minsplit = 50, # Min records to split
-  minbucket = 30, # Min records at a node
-  maxdepth = 10,
-  cp = -1,
-  parms = list(split="information")
-)
+train<- createFolds(data$lead,k=10)
 
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='rpart2', metric='Accuracy', preProcess=c("center", "scale",'nzv','zv'),
+                tuneGrid=data.frame(maxdepth=10),tuneLength=3, trControl = trainControl(method='repeatedcv',number=3,repeats=4,sampling = 'smote')) #train: 62, test:71
 
-# 50, 30, 30 -> 68%
-
-DTmodel
-
-rpart.plot(DTmodel, 
-           type = 5, # What is displayed at each node 
-           extra = 101, # Values displayed at the leaf node
-           fallen.leaves = F, # Get tree looking structure
-           cex = 0.6) # Font size
+C45Fit
 
 # Check Accuracy
 # Model Accuracy 
-predTest <- predict(DTmodel, test, type="class")
-probTest <- predict(DTmodel, test, type="prob")
+levels(test$lead)=c("Yes","No")
+predTest <- predict(C45Fit, test)
+
+probTest <- predict(C45Fit, test, type="prob")
 actualTest <- test$lead
 
 # Adding variables
@@ -71,23 +48,11 @@ test$prob1 <- probTest[,2]
 test$prob0 <- probTest[,1]
 test$prob <- ifelse(test$prob0 > test$prob1, test$prob0, test$prob1)
 
-# Confusion Matrix
-cMatrix <- table(Predicted_Value = predTest, Actual_Value = actualTest)
-cMatrix
-
-Accuracy <- sum(diag(cMatrix))/sum(cMatrix)
-Accuracy
-
-# True Positive Rate
-TPR <- cMatrix[4]/(cMatrix[4]+cMatrix[2])
-TPR
-
-# True Negative Rate
-TNR <- cMatrix[1]/(cMatrix[1]+cMatrix[3])
-TNR
+confusionMatrix(test$pred,test$actual)
 
 # ROC & Area under the curve
 ROC <- roc(actualTest, probTest[,2])
 plot(ROC,col="blue")
 AUC <- auc(ROC)
 AUC
+

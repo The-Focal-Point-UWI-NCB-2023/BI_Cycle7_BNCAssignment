@@ -30,10 +30,10 @@ table(train$lead)
 # over -> N = 1220
 # both -> N = 600
 train_adjusted <- ovun.sample(lead ~ ., 
-                          data=data_train, 
-                          method="over", 
-                          seed = 1, 
-                          N=1220)$data
+                              data=data_train, 
+                              method="over", 
+                              seed = 1, 
+                              N=1220)$data
 
 table(train_adjusted$lead)
 
@@ -98,6 +98,8 @@ AUC
 
 ####testing new models
 
+set.seed(1)
+
 set.seed(1005566)#for reproducibility
 
 
@@ -115,12 +117,14 @@ C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit,
 
 
 #rpart algorithm 
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='rpart') #acc:68
+train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='rpart', metric='Accuracy', preProcess=c("center", "scale",'nzv','zv')
+      ,tuneLength=5, trControl = trainControl(method='repeatedcv',number=3,repeats=4,sampling = 'smote'))
 
+#1
 
 #rpart2 algorithm
 #C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='rpart2', metric='Accuracy', preProcess='center',
-                #tuneGrid=data.frame(maxdepth=14),tuneLength=5, trControl = trainControl(method='cv',number=5)) #68
+#tuneGrid=data.frame(maxdepth=14),tuneLength=5, trControl = trainControl(method='cv',number=5)) #68
 
 
 ##bagged CART
@@ -128,23 +132,23 @@ C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit,
 #C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='treebag',
 #tuneLength=10, trControl = trainControl(method='cv',number=7)) #acc:89
 
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='treebag',metric='Accuracy',preProcess=c("center", "scale",'nzv','zv'),
-                tuneLength=5, trControl = trainControl(method='optimism_boot',number=3,sampling = 'up')) #acc:83-64
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='treebag',metric='Accuracy',preProcess=c("center",'nzv','zv'),
+                tuneLength=5,trControl = trainControl(method='cv')) #acc:55, roc: 58
 
 
 ##C4.5 like tree model
 #J48 algorithm
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='J48', tuneGrid=data.frame(C=0.1,M=1),
-                tuneLength=10,trControl = trainControl(method='cv',number=7)) #acc:79
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='J48',preProcess=c("center",'scale','nzv','zv'),
+                tuneLength=5,trControl = trainControl(method='optimism_boot',number=3,sampling = 'smote')) #acc:69
 
 
 C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='J48', tuneGrid=data.frame(C=0.01,M=3),
-                tuneLength=5,trControl = trainControl(method='repeatedcv',number=10)) #acc:68
+                tuneLength=5,trControl = trainControl(method='repeatedcv',number=10,repeats =3,sampling = 'smote' )) #acc:69, seed: 1, roc: 57
 
 ##C5.0 model
 #C5.0 algorithm
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='C5.0',trials=5, model='tree',winnow=FALSE,
-                tuneLength=2, trControl = trainControl(method='optimism_boot',number=3,classProbs = TRUE,sampling = 'up')) #acc:75
+C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='C5.0',
+                tuneLength=10, trControl = trainControl(method='repeatedcv',number=3,repeats=2, sampling='smote')) #acc:67,seed:1,roc:58.83
 
 
 ##random forest 
@@ -173,3 +177,10 @@ test$prob0 <- probTest[,1]
 test$prob <- ifelse(test$prob0 > test$prob1, test$prob0, test$prob1)
 
 confusionMatrix(test$pred,test$actual)
+
+# ROC & Area under the curve
+ROC <- roc(actualTest, probTest[,2])
+plot(ROC,col="blue")
+AUC <- auc(ROC)
+AUC
+
