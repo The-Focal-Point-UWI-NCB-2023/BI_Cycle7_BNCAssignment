@@ -173,4 +173,3 @@ test$prob0 <- probTest[,1]
 test$prob <- ifelse(test$prob0 > test$prob1, test$prob0, test$prob1)
 
 confusionMatrix(test$pred,test$actual)
-
