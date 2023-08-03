@@ -22,8 +22,6 @@ sample <- sample.split(Y=data$lead, SplitRatio = 0.9)
 data_train <- data[sample,]
 test <- data[!sample,]
 
-table(train$lead)
-
 # Over/Under Sampling
 # To get balanced values
 # under -> N = 560
@@ -33,18 +31,18 @@ train_adjusted <- ovun.sample(lead ~ .,
                               data=data_train, 
                               method="over", 
                               seed = 1, 
-                              N=1220)$data
+                              N=2000)$data
 
 table(train_adjusted$lead)
 
 ## Build Model
 DTmodel <- rpart(
   lead ~ agerange + job + marital + education + balance + deposit,
-  data = train_adjusted,
+  data = data_train,
   method = "class",
-  minsplit = 50, # Min records to split
-  minbucket = 30, # Min records at a node
-  maxdepth = 10,
+  minsplit = 12, # Min records to split
+  minbucket = 11, # Min records at a node
+  maxdepth =7,
   cp = -1,
   parms = list(split="information")
 )
@@ -94,7 +92,9 @@ plot(ROC,col="blue")
 AUC <- auc(ROC)
 AUC
 
+confusionMatrix(test$pred,test$actual)
 
+###########################################KINDLY IGNORE################################
 
 ####testing new models
 
@@ -107,6 +107,8 @@ levels(data_train$lead)=c("Yes","No")# 1=Yes, 0=No
 
 train<- createFolds(data$lead,k=10)
 
+
+##Alternatives
 
 ##CART Models
 
@@ -151,13 +153,6 @@ C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit,
                 tuneLength=10, trControl = trainControl(method='repeatedcv',number=3,repeats=2, sampling='smote')) #acc:67,seed:1,roc:58.83
 
 
-##random forest 
-#random forest algorithm
-
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=train_adjusted, method='rf',
-                tuneLength=7, trControl = trainControl(method='cv',number=7,classProbs = TRUE,sampling = 'up')) #acc:89
-
-
 C45Fit
 C45Fit$finalModel
 
@@ -183,4 +178,68 @@ ROC <- roc(actualTest, probTest[,2])
 plot(ROC,col="blue")
 AUC <- auc(ROC)
 AUC
+
+
+#----------------------------------------
+install.packages('C50')
+library(C50)
+
+pred <- c('agerange','job','marital','education','balance','deposit')
+
+set.seed(1)
+
+# Load cleaned data
+data <- read.csv('./cleanedData.csv', stringsAsFactors = T)
+data$lead <- as.factor(data$lead)
+
+
+# Split into test and training data
+set.seed(1)
+
+sample <- sample.split(Y=data$lead, SplitRatio = 0.9)
+train <- data[sample,]
+test <- data[!sample,]
+
+table(train$lead)
+
+# Over/Under Sampling
+# To get balanced values
+# under -> N = 560
+# over -> N = 1220
+# both -> N = 600
+train<- ovun.sample(lead ~ ., 
+                              data=train, 
+                              method="over", 
+                              seed = 1, 
+                              N=1050)$data
+
+mod <-C5.0(x=train[,pred],y=train$lead,trials=5,control = C5.0Control(CF=0.7, minCases = 35))
+mod
+summary(mod)
+
+C5imp(mod, metric = "splits")
+
+plot(mod,trial=1, subtree=NULL, type='simple')
+predTest <- predict(mod, test,trials=3)
+probTest <- predict(mod, test, type="prob",trials=3)
+actualTest <- test$lead
+
+# Adding variables
+test$actual <- actualTest
+test$pred <- predTest
+test$prob1 <- probTest[,2]
+test$prob0 <- probTest[,1]
+test$prob <- ifelse(test$prob0 > test$prob1, test$prob0, test$prob1)
+
+confusionMatrix(test$pred,test$actual)
+
+
+# ROC & Area under the curve
+ROC <- roc(actualTest, probTest[,2])
+plot(ROC,col="blue")
+
+
+AUC <- auc(ROC)
+AUC
+
 

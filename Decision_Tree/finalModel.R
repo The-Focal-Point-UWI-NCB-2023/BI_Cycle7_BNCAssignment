@@ -22,23 +22,46 @@ sample <- sample.split(Y=data$lead, SplitRatio = 0.9)
 data_train <- data[sample,]
 test <- data[!sample,]
 
-set.seed(1)
+# Over/Under Sampling
+# To get balanced values
+# under -> N = 560
+# over -> N = 1220
+# both -> N = 600
+train_adjusted <- ovun.sample(lead ~ ., 
+                              data=data_train, 
+                              method="over", 
+                              seed = 1, 
+                              N=2000)$data
 
-levels(data_train$lead)=c("Yes","No")# 1=Yes, 0=No
+table(train_adjusted$lead)
 
-train<- createFolds(data$lead,k=10)
+## Build Model
+DTmodel <- rpart(
+  lead ~ agerange + job + marital + education + balance + deposit,
+  data = data_train,
+  method = "class",
+  minsplit = 12, # Min records to split
+  minbucket = 11, # Min records at a node
+  maxdepth =7,
+  cp = -1,
+  parms = list(split="information")
+)
 
-C45Fit <- train(lead ~ agerange + job + marital + education + balance + deposit, data=data_train, method='rpart2', metric='Accuracy', preProcess=c("center", "scale",'nzv','zv'),
-                tuneGrid=data.frame(maxdepth=10),tuneLength=3, trControl = trainControl(method='repeatedcv',number=3,repeats=4,sampling = 'smote')) #train: 62, test:71
 
-C45Fit
+# 50, 30, 30 -> 68%
+
+DTmodel
+
+rpart.plot(DTmodel, 
+           type = 5, # What is displayed at each node 
+           extra = 101, # Values displayed at the leaf node
+           fallen.leaves = F, # Get tree looking structure
+           cex = 0.6) # Font size
 
 # Check Accuracy
 # Model Accuracy 
-levels(test$lead)=c("Yes","No")
-predTest <- predict(C45Fit, test)
-
-probTest <- predict(C45Fit, test, type="prob")
+predTest <- predict(DTmodel, test, type="class")
+probTest <- predict(DTmodel, test, type="prob")
 actualTest <- test$lead
 
 # Adding variables
@@ -48,11 +71,5 @@ test$prob1 <- probTest[,2]
 test$prob0 <- probTest[,1]
 test$prob <- ifelse(test$prob0 > test$prob1, test$prob0, test$prob1)
 
+
 confusionMatrix(test$pred,test$actual)
-
-# ROC & Area under the curve
-ROC <- roc(actualTest, probTest[,2])
-plot(ROC,col="blue")
-AUC <- auc(ROC)
-AUC
-
